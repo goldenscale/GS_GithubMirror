@@ -4,6 +4,7 @@
 
 ## Contents
 
+  - [AppleScript](#applescript)
   - [Assembly](#assembly)
   - [Batchfile](#batchfile)
   - [C](#c)
@@ -42,14 +43,20 @@
   - [TypeScript](#typescript)
   - [VBA](#vba)
   - [VHDL](#vhdl)
+  - [Vala](#vala)
   - [Verilog](#verilog)
   - [Vue](#vue)
   - [XSLT](#xslt)
   - [YARA](#yara)
 
+## AppleScript 
+
+- [Soorma07/OS-X-Bluetooth-Pairing-Value-To-Windows-Value](https://github.com/Soorma07/OS-X-Bluetooth-Pairing-Value-To-Windows-Value) - A useful script to simultaneously pair a bluetooth device to your Mac in OS X and Boot Camp Windows
+
 ## Assembly 
 
 - [Cpasjuste/pemu](https://github.com/Cpasjuste/pemu) - 
+- [mytechnotalent/Reverse-Engineering](https://github.com/mytechnotalent/Reverse-Engineering) - A FREE comprehensive reverse engineering tutorial covering x86, x64, 32-bit ARM & 64-bit ARM architectures.
 - [hasherezade/pe_to_shellcode](https://github.com/hasherezade/pe_to_shellcode) - Converts PE into a shellcode
 - [hasherezade/malware_training_vol1](https://github.com/hasherezade/malware_training_vol1) - Materials for Windows Malware Analysis training (volume 1)
 - [aadomn/aes](https://github.com/aadomn/aes) - Fast constant-time AES implementations on 32-bit architectures
@@ -66,6 +73,19 @@
 
 ## C 
 
+- [ntop/nDPI](https://github.com/ntop/nDPI) - Open Source Deep Packet Inspection Software Toolkit
+- [ntop/PF_RING](https://github.com/ntop/PF_RING) - High-speed packet processing framework
+- [emscripten-core/emscripten](https://github.com/emscripten-core/emscripten) - Emscripten: An LLVM-to-WebAssembly Compiler
+- [xen-project/xen](https://github.com/xen-project/xen) - Mirror of the Xen Repository (PRs not accepted see: http://wiki.xenproject.org/wiki/Submitting_Xen_Project_Patches)
+- [tklengyel/drakvuf-doppelganging](https://github.com/tklengyel/drakvuf-doppelganging) - Shellcode used for Doppelganging with DRAKVUF
+- [tklengyel/libvmi](https://github.com/tklengyel/libvmi) - 
+- [yongzhena/sm2-stm32](https://github.com/yongzhena/sm2-stm32) - 国密算法 for 单片机stm32, 静态内存分配
+- [Arkq/SM2349](https://github.com/Arkq/SM2349) - GM/T serial standards implementations
+- [westerndigitalcorporation/sweet-b](https://github.com/westerndigitalcorporation/sweet-b) - Sweet B is a safe, compact, embeddable library for elliptic curve cryptography.
+- [ANSSI-FR/libecc](https://github.com/ANSSI-FR/libecc) - Library for elliptic curves cryptography
+- [Nuclei-Software/nuclei-sdk](https://github.com/Nuclei-Software/nuclei-sdk) - Nuclei RISC-V Software Development Kit
+- [rime/ibus-rime](https://github.com/rime/ibus-rime) - 【中州韻】Rime for Linux/IBus
+- [debauchee/barrier](https://github.com/debauchee/barrier) - Open-source KVM software
 - [jgru/vmi-gui-reconstruction](https://github.com/jgru/vmi-gui-reconstruction) - Proof-of-concept code to reconstruct the GUI of a Xen guest running Windows
 - [CERT-Polska/drakvuf](https://github.com/CERT-Polska/drakvuf) - DRAKVUF Black-box Binary Analysis
 - [nektra/Deviare2](https://github.com/nektra/Deviare2) - Deviare API Hook
@@ -88,7 +108,6 @@
 - [intel/kernel-fuzzer-for-xen-project](https://github.com/intel/kernel-fuzzer-for-xen-project) - Kernel Fuzzer for Xen Project (KF/x) - Hypervisor-based fuzzing using Xen VM forking, VMI & AFL
 - [ispras/swat](https://github.com/ispras/swat) - SWAT - System-Wide Analysis Toolkit
 - [lgeek/dynamorio_pin_escape](https://github.com/lgeek/dynamorio_pin_escape) - 
-- [mytechnotalent/Reverse-Engineering](https://github.com/mytechnotalent/Reverse-Engineering) - A FREE comprehensive reverse engineering tutorial covering x86, x64, 32-bit ARM & 64-bit ARM architectures.
 - [wargio/r2dec-js](https://github.com/wargio/r2dec-js) - radare2 plugin - converts asm to pseudo-C code.
 - [radareorg/radare2-book](https://github.com/radareorg/radare2-book) - Radare2 official book
 - [radareorg/radare2](https://github.com/radareorg/radare2) - UNIX-like reverse engineering framework and command-line toolset
@@ -98,6 +117,7 @@
 - [1ce0ear/DllLoaderUnpacker](https://github.com/1ce0ear/DllLoaderUnpacker) - 
 - [hasherezade/process_ghosting](https://github.com/hasherezade/process_ghosting) - Process Ghosting - a PE injection technique, similar to Process Doppelgänging, but using a delete-pending file instead of a transacted file
 - [hasherezade/demos](https://github.com/hasherezade/demos) - Demos of various injection techniques found in malware
+- [hasherezade/mal_unpack](https://github.com/hasherezade/mal_unpack) - Dynamic unpacker based on PE-sieve
 - [hfiref0x/WDExtract](https://github.com/hfiref0x/WDExtract) - Extract Windows Defender database from vdm files and unpack it
 - [VenTaz/Themidie](https://github.com/VenTaz/Themidie) - x64dbg plugin to bypass Themida 3.x Anti-Debugger / VM / Monitoring programs checks (x64)
 - [Visgean/Zeus](https://github.com/Visgean/Zeus) - NOT MY CODE! Zeus trojan horse - leaked in 2011, I am not the author. This repository is for study purposes only, do not message me about your lame hacking attempts.
@@ -108,7 +128,6 @@
 - [nevermosby/linux-bpf-learning](https://github.com/nevermosby/linux-bpf-learning) - learn how to use BPF/eBPF
 - [Orange-OpenSource/bmc-cache](https://github.com/Orange-OpenSource/bmc-cache) - In-kernel cache based on eBPF.
 - [microsoft/ebpf-for-windows](https://github.com/microsoft/ebpf-for-windows) - eBPF implementation that runs on top of Windows
-- [aquasecurity/tracee](https://github.com/aquasecurity/tracee) - Linux Runtime Security and Forensics using eBPF
 - [chompie1337/Linux_LPE_eBPF_CVE-2021-3490](https://github.com/chompie1337/Linux_LPE_eBPF_CVE-2021-3490) - 
 - [DPDK/dpdk](https://github.com/DPDK/dpdk) - Data Plane Development Kit
 - [Sysinternals/SysmonForLinux](https://github.com/Sysinternals/SysmonForLinux) - 
@@ -140,7 +159,7 @@
 - [DynamoRIO/drk](https://github.com/DynamoRIO/drk) - Dynamic instrumentation of the Linux kernel
 - [aengelke/instrew](https://github.com/aengelke/instrew) - A high performance LLVM-based dynamic binary instrumentation framework
 - [zhechkoz/PwIN](https://github.com/zhechkoz/PwIN) - Security Evaluation of Dynamic Binary Instrumentation Engines
-- [unicorn-engine/unicorn](https://github.com/unicorn-engine/unicorn) - Unicorn CPU emulator framework (ARM, AArch64, M68K, Mips, Sparc, X86)
+- [unicorn-engine/unicorn](https://github.com/unicorn-engine/unicorn) - Unicorn CPU emulator framework (ARM, AArch64, M68K, Mips, Sparc, PowerPC, RiscV, X86)
 - [frida/frida-gum](https://github.com/frida/frida-gum) - Cross-platform instrumentation and introspection library written in C
 - [dyninst/dyninst](https://github.com/dyninst/dyninst) - DyninstAPI: Tools for binary instrumentation, analysis, and modification.
 - [S2E/s2e-old](https://github.com/S2E/s2e-old) - This is the archived S2E 1.0 repo. We do not maintain it anymore.
@@ -178,7 +197,7 @@
 - [wbenny/injdrv](https://github.com/wbenny/injdrv) - proof-of-concept Windows Driver for injecting DLL into user-mode processes using APC
 - [Cisco-Talos/MBRFilter](https://github.com/Cisco-Talos/MBRFilter) - Cisco Talos MBR Filter Driver
 - [Cisco-Talos/pyrebox](https://github.com/Cisco-Talos/pyrebox) - Python scriptable Reverse Engineering Sandbox, a Virtual Machine instrumentation and inspection framework based on QEMU
-- [a0rtega/pafish](https://github.com/a0rtega/pafish) - Pafish is a demonstration tool that employs several techniques to detect sandboxes and analysis environments in the same way as malware families do.
+- [a0rtega/pafish](https://github.com/a0rtega/pafish) - Pafish is a testing tool that uses different techniques to detect virtual machines and malware analysis environments in the same way that malware families do
 - [containers/bubblewrap](https://github.com/containers/bubblewrap) - Unprivileged sandboxing tool
 - [netblue30/firejail](https://github.com/netblue30/firejail) - Linux namespaces and seccomp-bpf sandbox
 - [sandboxie-plus/Sandboxie](https://github.com/sandboxie-plus/Sandboxie) - Sandboxie - Open Source
@@ -197,7 +216,7 @@
 - [jidongxiao/suse](https://github.com/jidongxiao/suse) - Secure User Space Encryption (SUSE)
 - [mjosaarinen/lwaes_isa](https://github.com/mjosaarinen/lwaes_isa) - [HISTORICAL] A Lightweight (RISC-V) ISA Extension for AES and SM4
 - [T-head-Semi/riscv-aosp](https://github.com/T-head-Semi/riscv-aosp) - Patches & Script for AOSP to run on Xuantie RISC-V CPU
-- [OAID/Tengine](https://github.com/OAID/Tengine) - Tengine is a lite, high performance, modular inference engine for embedded device
+- [BrunoLevy/learn-fpga](https://github.com/BrunoLevy/learn-fpga) - Learning FPGA, yosys, nextpnr, and RISC-V
 - [openwall/john](https://github.com/openwall/john) - John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs
 - [raymondrc/riscv-isa-extension-for-SM4](https://github.com/raymondrc/riscv-isa-extension-for-SM4) - RISC-V instruction set extensions for SM4 block cipher
 - [linux-sunxi/linux-sunxi](https://github.com/linux-sunxi/linux-sunxi) - Linux source for Allwinner/Boxchip F20 (sun3i), A10 (sun4i), A12/A13/A10S (sun5i) and A20 (sun7i) SoCs
@@ -205,7 +224,6 @@
 - [clawsoftware/clawPDF](https://github.com/clawsoftware/clawPDF) - Open Source virtual PDF printer for Windows // Print to PDF, PDF/A, PDF/X, PNG, JPEG, TIF and text
 - [sumatrapdfreader/sumatrapdf](https://github.com/sumatrapdfreader/sumatrapdf) - SumatraPDF reader
 - [armink/EasyFlash](https://github.com/armink/EasyFlash) - Lightweight IoT device information storage solution: KV/IAP/LOG. | 轻量级物联网设备信息存储方案：参数存储、在线升级及日志存储 ，全新一代版本请移步至 https://github.com/armink/FlashDB
-- [chipsec/chipsec](https://github.com/chipsec/chipsec) - Platform Security Assessment Framework
 - [systemd/casync](https://github.com/systemd/casync) - Content-Addressable Data Synchronization Tool
 - [mjosaarinen/sm4ni](https://github.com/mjosaarinen/sm4ni) - Demonstration that AES-NI instructions can be used to implement the Chinese Encryption Standard SM4
 - [maanrachid/PFE-SGX](https://github.com/maanrachid/PFE-SGX) - An implementation for Private Function Evaluation using SGX Intel technology
@@ -218,7 +236,7 @@
 - [ossec/ossec-hids](https://github.com/ossec/ossec-hids) - OSSEC is an Open Source Host-based Intrusion Detection System that performs log analysis, file integrity checking, policy monitoring, rootkit detection, real-time alerting and active response.
 - [wazuh/wazuh](https://github.com/wazuh/wazuh) - Wazuh - The Open Source Security Platform
 - [PDFium/PDFium](https://github.com/PDFium/PDFium) - 
-- [espressif/esp-idf](https://github.com/espressif/esp-idf) - Espressif IoT Development Framework. Official development framework for ESP32.
+- [espressif/esp-idf](https://github.com/espressif/esp-idf) - Espressif IoT Development Framework. Official development framework for Espressif SoCs.
 - [tencentyun/qcloud-iot-esp-wifi](https://github.com/tencentyun/qcloud-iot-esp-wifi) - 
 - [alibaba/AliOS-Things](https://github.com/alibaba/AliOS-Things) - AliOS Things latest version: https://github.com/alibaba/AliOS-Things/tree/rel_3.3.0 Please go to  https://aliosthings.iot.aliyun.com to get your minimal code.
 - [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) - Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.
@@ -269,6 +287,7 @@
 
 ## C# # 
 
+- [microsoft/Microsoft-Performance-Tools-Linux-Android](https://github.com/microsoft/Microsoft-Performance-Tools-Linux-Android) - Linux and Android Performance Tools built using the Microsoft Performance Toolkit. Cross-platform .NET Core + WPA GUI
 - [ShaneK2/inVtero.net](https://github.com/ShaneK2/inVtero.net) - inVtero.net: A high speed (Gbps) Forensics, Memory integrity & assurance.  Includes offensive & defensive memory capabilities.  Find/Extract processes, hypervisors (including nested) in memory dumps using microarchitechture independent Virtual Machiene Introspection techniques
 - [bigbaldy1128/DotNetDetour](https://github.com/bigbaldy1128/DotNetDetour) - DotNetDetour is a software package for monitoring and instrumenting API calls
 - [Aetsu/SLib](https://github.com/Aetsu/SLib) - SLib is a sandbox evasion library that implements some of the checks from https://evasions.checkpoint.com in C#
@@ -277,10 +296,10 @@
 - [ryangriggs/PDFEncrypt](https://github.com/ryangriggs/PDFEncrypt) - A C# application to encrypt existing PDF documents
 - [stchan/PdfScribe](https://github.com/stchan/PdfScribe) - A PDF virtual printer for 64-bit Windows 7 / 2008R2 or later.
 - [HangfireIO/Hangfire](https://github.com/HangfireIO/Hangfire) - An easy way to perform background job processing in your .NET and .NET Core applications. No Windows Service or separate process required
-- [dotnet-architecture/eShopOnContainers](https://github.com/dotnet-architecture/eShopOnContainers) - Cross-platform .NET sample microservices and container based application that runs on Linux Windows and macOS. Powered by .NET 5, Docker Containers and Azure Kubernetes Services. Supports Visual Studio, VS for Mac and CLI based environments with Docker CLI, dotnet CLI, VS Code or any other code editor.
+- [dotnet-architecture/eShopOnContainers](https://github.com/dotnet-architecture/eShopOnContainers) - Cross-platform .NET sample microservices and container based application that runs on Linux Windows and macOS. Powered by .NET 6, Docker Containers and Azure Kubernetes Services. Supports Visual Studio, VS for Mac and CLI based environments with Docker CLI, dotnet CLI, VS Code or any other code editor.
 - [EduardoPires/EquinoxProject](https://github.com/EduardoPires/EquinoxProject) - Full ASP.NET Core 5 application with DDD, CQRS and Event Sourcing concepts
 - [dotnetcore/Util](https://github.com/dotnetcore/Util) - Util是一个.net core平台下的应用框架，旨在提升小型团队的开发输出能力，由常用公共操作类(工具类)、分层架构基类、Ui组件，第三方组件封装，第三方业务接口封装，配套代码生成模板，权限等组成。
-- [dotnet-architecture/eShopOnWeb](https://github.com/dotnet-architecture/eShopOnWeb) - Sample ASP.NET Core 5.0 reference application, powered by Microsoft, demonstrating a layered application architecture with monolithic deployment model. Download the eBook PDF from docs folder.
+- [dotnet-architecture/eShopOnWeb](https://github.com/dotnet-architecture/eShopOnWeb) - Sample ASP.NET Core 6.0 reference application, powered by Microsoft, demonstrating a layered application architecture with monolithic deployment model. Download the eBook PDF from docs folder.
 - [ElectronNET/Electron.NET](https://github.com/ElectronNET/Electron.NET) - :electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).
 - [jnagykuhlen/CompactMPC](https://github.com/jnagykuhlen/CompactMPC) - A lightweight library for secure multi-party computation (MPC) based on the GMW protocol, fully written in C#.
 - [Rintagi/Low-Code-Development-Platform](https://github.com/Rintagi/Low-Code-Development-Platform) - Rintagi is the world's first open source low-code application platform with limitless extension and rejuvenation built and maintained by Robocoder Corporation. Since 1999, Robocoder Corporation has used Rintagi to develop and maintain mission-critical database applications for reputable companies, spanning multiple industries.
@@ -296,11 +315,12 @@
 
 ## C++ 
 
+- [rime/weasel](https://github.com/rime/weasel) - 【小狼毫】Rime for Windows
 - [Presburger/qmc-decoder](https://github.com/Presburger/qmc-decoder) - Fastest & best convert qmc 2 mp3 | flac tools
 - [season-lab/sok-dbi-security](https://github.com/season-lab/sok-dbi-security) - Library to hide DBI artifacts when using Intel Pin. Code from the ASIA CCS 2019 paper "SoK: Using Dynamic Binary Instrumentation for Security (And How You May Get Caught Red Handed)"
 - [nektra/Deviare-InProc](https://github.com/nektra/Deviare-InProc) - Deviare In Process Instrumentation Engine
 - [season-lab/bluepill](https://github.com/season-lab/bluepill) - BluePill: Neutralizing Anti-Analysis Behavior in Malware Dissection (Black Hat Europe 2019, TIFS 2020)
-- [dcdelia/sniper](https://github.com/dcdelia/sniper) - Designing Robust API Monitoring Solutions
+- [dcdelia/sniper](https://github.com/dcdelia/sniper) - Designing Robust API Monitoring Solutions (IEEE TDSC)
 - [necst/arancino](https://github.com/necst/arancino) - Arancino is a dynamic protection framework that defends Intel Pin against anti-instrumentation attacks.
 - [libvmtrace/libvmtrace](https://github.com/libvmtrace/libvmtrace) - Virtual machine introspection library based on libvmi
 - [bitdefender/river](https://github.com/bitdefender/river) - Dynamic binary translator for x86 binaries
@@ -321,7 +341,6 @@
 - [aaaddress1/RunPE-In-Memory](https://github.com/aaaddress1/RunPE-In-Memory) - Run a Exe File (PE Module) in memory (like an Application Loader)
 - [BreakingMalware/Selfie](https://github.com/BreakingMalware/Selfie) - A Tool to Unpack Self-Modifying Code using DynamoRIO
 - [nickcano/RelocBonus](https://github.com/nickcano/RelocBonus) - An obfuscation tool for Windows which instruments the Windows Loader into acting as an unpacking engine.
-- [hasherezade/mal_unpack](https://github.com/hasherezade/mal_unpack) - Dynamic unpacker based on PE-sieve
 - [dscharrer/innoextract](https://github.com/dscharrer/innoextract) - A tool to unpack installers created by Inno Setup
 - [horsicq/DIE-engine](https://github.com/horsicq/DIE-engine) - DIE engine
 - [NtQuery/Scylla](https://github.com/NtQuery/Scylla) - Imports Reconstructor
@@ -373,6 +392,7 @@
 - [wbenny/hvpp](https://github.com/wbenny/hvpp) - hvpp is a lightweight Intel x64/VT-x hypervisor written in C++ focused primarily on virtualization of already running operating system
 - [KomputeProject/kompute](https://github.com/KomputeProject/kompute) - General purpose GPU compute framework for cross vendor graphics cards (AMD, Qualcomm, NVIDIA & friends). Blazing fast, mobile-enabled, asynchronous and optimized for advanced GPU data processing usecases. Backed by the Linux Foundation.
 - [Xilinx/HLS](https://github.com/Xilinx/HLS) - Vitis HLS LLVM source code and examples
+- [OAID/Tengine](https://github.com/OAID/Tengine) - Tengine is a lite, high performance, modular inference engine for embedded device
 - [fpgasystems/fpga-network-stack](https://github.com/fpgasystems/fpga-network-stack) - Scalable Network Stack for FPGAs (TCP/IP, RoCEv2)
 - [sylefeb/Silice](https://github.com/sylefeb/Silice) - Silice is an open source language that simplifies prototyping and writing algorithms on FPGA architectures.
 - [sony/flutter-embedded-linux](https://github.com/sony/flutter-embedded-linux) - Embedded Linux embedding for Flutter
@@ -425,8 +445,8 @@
 
 - [dumbape/HIMS](https://github.com/dumbape/HIMS) - Hospital Information Management System create using Node Js
 - [tushariscoolster/HospitalManagementSystem](https://github.com/tushariscoolster/HospitalManagementSystem) - Hospital management System python
+- [sumitkumar1503/hospitalmanagement](https://github.com/sumitkumar1503/hospitalmanagement) - Hospital Management System || Python Django
 - [xupsh/pp4fpgas-cn](https://github.com/xupsh/pp4fpgas-cn) - 中文版 Parallel Programming for FPGAs
-- [simple-login/app](https://github.com/simple-login/app) - The SimpleLogin back-end
 - [primefaces/sakai-react](https://github.com/primefaces/sakai-react) - Free React Admin Template
 - [primefaces/primeng](https://github.com/primefaces/primeng) - The Most Complete Angular UI Component Library
 
@@ -439,20 +459,22 @@
 
 ## Go 
 
-- [oam-dev/kubevela](https://github.com/oam-dev/kubevela) - The Modern Application Delivery Platform.
+- [tklengyel/dwarf2json](https://github.com/tklengyel/dwarf2json) - convert ELF/DWARF symbol and type information into vol3's intermediate JSON
+- [oam-dev/kubevela](https://github.com/oam-dev/kubevela) - The Modern Application Platform.
 - [superedge/superedge](https://github.com/superedge/superedge) - An edge-native container management system for edge computing
 - [harvester/harvester](https://github.com/harvester/harvester) - Open source hyperconverged infrastructure (HCI) software
 - [rancher/rke](https://github.com/rancher/rke) - Rancher Kubernetes Engine (RKE), an extremely simple, lightning fast Kubernetes distribution that runs entirely within containers.
 - [rancher/k3os](https://github.com/rancher/k3os) - Purpose-built OS for Kubernetes, fully managed by Kubernetes.
 - [rancher/rancher](https://github.com/rancher/rancher) - Complete container management platform
 - [skydive-project/skydive](https://github.com/skydive-project/skydive) - An open source real-time network topology and protocols analyzer
+- [aquasecurity/tracee](https://github.com/aquasecurity/tracee) - Linux Runtime Security and Forensics using eBPF
 - [aquasecurity/trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues
 - [vmware-tanzu/community-edition](https://github.com/vmware-tanzu/community-edition) - VMware Tanzu Community Edition is a full-featured, easy to manage Kubernetes platform for learners and users on your local workstation or your favorite cloud. Tanzu Community Edition enables the creation of application platforms: infrastructure, tooling, and services providing location to run applications and enable positive developer experiences.
 - [cilium/hubble](https://github.com/cilium/hubble) - Hubble - Network, Service & Security Observability for Kubernetes using eBPF
 - [cilium/ebpf](https://github.com/cilium/ebpf) - eBPF Library for Go
 - [l3af-project/l3afd](https://github.com/l3af-project/l3afd) - L3AFD kernel function control plane
 - [deepfence/SecretScanner](https://github.com/deepfence/SecretScanner) - Find secrets and passwords in container images and file systems
-- [deepfence/ThreatMapper](https://github.com/deepfence/ThreatMapper) - Identify vulnerabilities in running containers, images, hosts and repositories
+- [deepfence/ThreatMapper](https://github.com/deepfence/ThreatMapper) - Identify vulnerabilities and attack paths in running containers, images, hosts and repositories.
 - [cilium/cilium](https://github.com/cilium/cilium) - eBPF-based Networking, Security, and Observability
 - [triggermesh/triggermesh](https://github.com/triggermesh/triggermesh) - Open source event-driven integration platform powered by Kubernetes and Knative. TriggerMesh allows you to declaratively define event flows between sources and targets, with content-based filtering, splitting and processing using functions.
 - [activecm/rita](https://github.com/activecm/rita) - Real Intelligence Threat Analytics (RITA) is a framework for detecting command and control communication through network traffic analysis.
@@ -503,7 +525,6 @@
 
 - [MozillaSecurity/FuzzManager](https://github.com/MozillaSecurity/FuzzManager) - A fuzzing management tools collection
 - [hmislk/hmis](https://github.com/hmislk/hmis) - This is an Open Source Java EE based Hospital Information Management System
-- [sumitkumar1503/hospitalmanagement](https://github.com/sumitkumar1503/hospitalmanagement) - Hospital Management System || Python Django
 - [clong/DetectionLab](https://github.com/clong/DetectionLab) - Automate the creation of a lab environment complete with security tooling and logging best practices
 - [ontio/ontology-fpga](https://github.com/ontio/ontology-fpga) - 
 - [larsbrinkhoff/awesome-cpus](https://github.com/larsbrinkhoff/awesome-cpus) - All CPU and MCU documentation in one place
@@ -529,7 +550,7 @@
 - [YuJian95/hospital](https://github.com/YuJian95/hospital) - 医院预约挂号微信小程序（Spring Boot、Vue、Uni-app）
 - [openmrs/openmrs-core](https://github.com/openmrs/openmrs-core) - OpenMRS API and web application code
 - [TANGKUO/HIS](https://github.com/TANGKUO/HIS) - HIS英文全称 hospital information system（医院信息系统），系统主要功能按照数据流量、流向及处理过程分为临床诊疗、药品管理、财务管理、患者管理。诊疗活动由各工作站配合完成，并将临床信息进行整理、处理、汇总、统计、分析等。本系统包括以下工作站：门诊医生工作站、药房医生工作站、医技医生工作站、收费员工作站、对帐员工作站、管理员工作站。
-- [ZainZhao/HIS](https://github.com/ZainZhao/HIS) - HIS英文全称 hospital information system（医院信息系统http://59.110.234.89:9999/swagger-ui.html ），医疗信息就诊系统，系统主要功能按照数据流量、流向及处理过程分为临床诊疗、药品管理、财务管理、患者管理。诊疗活动由各工作站配合完成，并将临床信息进行整理、处理、汇总、统计、分析等。本系统包括以下工作站：门诊医生工作站、药房医生工作站、医技医生工作站、收费员工作站、对帐员工作站、管理员工作站。需求为东软提供的云医院。
+- [ZainZhao/HIS](https://github.com/ZainZhao/HIS) - HIS英文全称 hospital information system（医疗信息就诊系统），系统主要功能按照数据流量、流向及处理过程分为临床诊疗、药品管理、财务管理、患者管理。诊疗活动由各工作站配合完成，并将临床信息进行整理、处理、汇总、统计、分析等。本系统包括以下工作站：门诊医生工作站、药房医生工作站、医技医生工作站、收费员工作站、对帐员工作站、管理员工作站。需求为东软提供的云医院。
 - [luoyanwu/easysign](https://github.com/luoyanwu/easysign) - 国密算法基于bc库使用，cms/pkcs#7格式封装，pdf盖章等
 - [microg/GmsCore](https://github.com/microg/GmsCore) - Free implementation of Play Services
 - [itext/itext7](https://github.com/itext/itext7) - iText 7 for Java represents the next level of SDKs for developers that want to take advantage of the benefits PDF can bring. Equipped with a better document engine, high and low-level programming capabilities and the ability to create, edit and enhance PDF documents, iText 7 can be a boon to nearly every workflow.
@@ -622,7 +643,6 @@
 - [smallbets/userbase](https://github.com/smallbets/userbase) - Create secure and private web apps using only static JavaScript, HTML, and CSS.
 - [photo/frontend](https://github.com/photo/frontend) - The official @github repository of the Trovebox frontend software. A photo sharing and photo management web interface for data stored "in the cloud" (i.e. Amazon S3, Rackspace CloudFiles, Google Storage).
 - [mxstbr/login-flow](https://github.com/mxstbr/login-flow) - :key: A login/register flow built with React&Redux
-- [facebook/relay](https://github.com/facebook/relay) - Relay is a JavaScript framework for building data-driven React applications.
 - [zadam/trilium](https://github.com/zadam/trilium) - Build your personal knowledge base with Trilium Notes
 - [FoxUSA/OpenNote](https://github.com/FoxUSA/OpenNote) - OpenNote was built to be an open web-based alternative to Microsoft OneNote (T) and EverNote.
 - [keeweb/keeweb](https://github.com/keeweb/keeweb) - Free cross-platform password manager compatible with KeePass
@@ -663,7 +683,6 @@
 - [foliojs/pdfkit](https://github.com/foliojs/pdfkit) - A JavaScript PDF generation library for Node and the browser
 - [diegomura/react-pdf](https://github.com/diegomura/react-pdf) - 📄  Create PDF files using React
 - [RelaxedJS/ReLaXed](https://github.com/RelaxedJS/ReLaXed) - Create PDF documents using web technologies
-- [outline/outline](https://github.com/outline/outline) - The fastest wiki and knowledge base for growing teams. Beautiful, feature rich, and markdown compatible.
 - [benoitvallon/react-native-nw-react-calculator](https://github.com/benoitvallon/react-native-nw-react-calculator) - Mobile, desktop and website Apps with the same code
 - [alibaba/anyproxy](https://github.com/alibaba/anyproxy) - A fully configurable http/https proxy in NodeJS
 - [parse-community/parse-server](https://github.com/parse-community/parse-server) - API server module for Node/Express
@@ -712,10 +731,12 @@
 
 ## OCaml 
 
+- [xapi-project/xen-api](https://github.com/xapi-project/xen-api) - The Xapi Project's XenAPI Server
 - [airbus-seclab/bincat](https://github.com/airbus-seclab/bincat) - Binary code static analyser, with IDA integration. Performs value and taint analysis, type reconstruction, use-after-free and double-free detection
 
 ## Objective-C 
 
+- [headkaze/Hackintool](https://github.com/headkaze/Hackintool) - The Swiss army knife of vanilla Hackintoshing
 - [xhzengAIB/MessageDisplayKit](https://github.com/xhzengAIB/MessageDisplayKit) - An IM App like WeChat App has to send text, pictures, audio, video, location messaging, managing local address book, share a circle of friends, drifting friends, shake a fun and more interesting features.
 
 ## Others 
@@ -822,6 +843,10 @@
 
 ## Python 
 
+- [stamparm/identYwaf](https://github.com/stamparm/identYwaf) - Blind WAF identification tool
+- [xcp-ng/xcp](https://github.com/xcp-ng/xcp) - Entry point for issues and wiki. Also contains some scripts and sources.
+- [tklengyel/volatility3](https://github.com/tklengyel/volatility3) - Volatility 3.0 development
+- [google/clusterfuzz](https://github.com/google/clusterfuzz) - Scalable fuzzing infrastructure.
 - [volatilityfoundation/volatility3](https://github.com/volatilityfoundation/volatility3) - Volatility 3.0 development
 - [Tencent/HaboMalHunter](https://github.com/Tencent/HaboMalHunter) - HaboMalHunter is a sub-project of Habo Malware Analysis System (https://habo.qq.com), which can be used for automated malware analysis and security assessment on the Linux system.
 - [google/rekall](https://github.com/google/rekall) - Rekall Memory Forensic Framework
@@ -847,7 +872,7 @@
 - [GNS3/gns3-server](https://github.com/GNS3/gns3-server) - GNS3 server
 - [GNS3/gns3-gui](https://github.com/GNS3/gns3-gui) - GNS3 Graphical Network Simulator
 - [openbmc/openbmc](https://github.com/openbmc/openbmc) - OpenBMC Distribution
-- [grapl-security/grapl](https://github.com/grapl-security/grapl) - Graph platform for Detection and  Response
+- [grapl-security/grapl](https://github.com/grapl-security/grapl) - Graph platform for Detection and Response
 - [google/nogotofail](https://github.com/google/nogotofail) - An on-path blackbox network traffic security testing tool
 - [sqlmapproject/sqlmap](https://github.com/sqlmapproject/sqlmap) - Automatic SQL injection and database takeover tool
 - [stamparm/maltrail](https://github.com/stamparm/maltrail) - Malicious traffic detection system
@@ -857,7 +882,7 @@
 - [IntelLabs/kAFL](https://github.com/IntelLabs/kAFL) - A fuzzer for full VM kernel/driver targets
 - [firmianay/IoT-vulhub](https://github.com/firmianay/IoT-vulhub) - IoT 固件漏洞复现环境
 - [nongiach/arm_now](https://github.com/nongiach/arm_now) - arm_now is a qemu powered tool that allows instant setup of virtual machines on arm cpu, mips, powerpc, nios2, x86 and more, for reverse, exploit, fuzzing and programming purpose.
-- [kholia/OSX-KVM](https://github.com/kholia/OSX-KVM) - Run macOS on QEMU/KVM. With OpenCore + Big Sur + Monterey support now! Only commercial (paid) support is available now to avoid spammy issues.
+- [kholia/OSX-KVM](https://github.com/kholia/OSX-KVM) - Run macOS on QEMU/KVM. With OpenCore + Big Sur + Monterey support now! Only commercial (paid) support is available now to avoid spammy issues. No Mac system is required.
 - [huang-zhen/Talos](https://github.com/huang-zhen/Talos) - Security Workaround for Rapid Response (SWRR) rapidly mitigates software vulnerabilities by preventing vulnerable code from being executed. Talos is a software tool that automatically generates and instruments SWRRs into target applications using static program analysis.
 - [0x4D31/honeyLambda](https://github.com/0x4D31/honeyLambda) - honeyλ - a simple, serverless application designed to create and monitor fake HTTP endpoints (i.e. URL honeytokens) automatically, on top of AWS Lambda and Amazon API Gateway
 - [torokernel/qprofiler](https://github.com/torokernel/qprofiler) - This repo contains the code of qprofiler which is a tool to profile a guest running on qemu without the need of instrumentation
@@ -889,7 +914,7 @@
 - [Rurik/Noriben](https://github.com/Rurik/Noriben) - Noriben - Portable, Simple, Malware Analysis Sandbox
 - [imcaspar/gpt2-ml](https://github.com/imcaspar/gpt2-ml) - GPT2 for Multiple Languages, including pretrained models. GPT2 多语言支持, 15亿参数中文预训练模型
 - [Morizeyao/GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese) - Chinese version of GPT2 training code, using BERT tokenizer.
-- [huggingface/transformers](https://github.com/huggingface/transformers) - 🤗 Transformers: State-of-the-art Natural Language Processing for Pytorch, TensorFlow, and JAX.
+- [huggingface/transformers](https://github.com/huggingface/transformers) - 🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.
 - [python-openxml/python-docx](https://github.com/python-openxml/python-docx) - Create and modify Word documents with Python
 - [achillean/shodan-python](https://github.com/achillean/shodan-python) - The official Python library for Shodan
 - [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) - 🔎 Hunt down social media accounts by username across social networks
@@ -909,6 +934,7 @@
 - [django-oscar/django-oscar](https://github.com/django-oscar/django-oscar) - Domain-driven e-commerce for Django
 - [saleor/saleor](https://github.com/saleor/saleor) - A modular, high performance, headless e-commerce platform built with Python, GraphQL, Django, and React.
 - [Eloston/ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium) - Google Chromium, sans integration with Google
+- [chipsec/chipsec](https://github.com/chipsec/chipsec) - Platform Security Assessment Framework
 - [athenarc/smpc-analytics](https://github.com/athenarc/smpc-analytics) - 📊 Privacy Preserving Medical Data Analytics using Secure Multi Party Computation. An End-To-End Use Case. A. Giannopoulos, D. Mouris M.Sc. thesis at the University of Athens, Greece.
 - [ojroques/garbled-circuit](https://github.com/ojroques/garbled-circuit) - A two-party secure function evaluation using Yao's garbled circuit protocol
 - [FederatedAI/FATE](https://github.com/FederatedAI/FATE) - An Industrial Grade Federated Learning Framework
@@ -918,7 +944,8 @@
 - [multiparty/conclave](https://github.com/multiparty/conclave) - Query compiler for secure multi-party computation.
 - [lschoe/mpyc](https://github.com/lschoe/mpyc) - MPyC for Secure Multiparty Computation in Python
 - [jbittel/django-mama-cas](https://github.com/jbittel/django-mama-cas) - A Django Central Authentication Service (CAS) single sign-on server
-- [ivre/ivre](https://github.com/ivre/ivre) - Network recon framework, published by @cea-sec & @ANSSI-FR
+- [simple-login/app](https://github.com/simple-login/app) - The SimpleLogin back-end
+- [ivre/ivre](https://github.com/ivre/ivre) - Network recon framework, published by @cea-sec & @ANSSI-FR. Build your own, self-hosted and fully-controlled alternatives to Shodan / ZoomEye / Censys and GreyNoise, run your Passive DNS service, collect and analyse network intelligence from your sensors, and much more!
 - [saltstack/salt](https://github.com/saltstack/salt) - Software to automate the management and configuration of any infrastructure or application at scale. Get access to the Salt software package repository here:
 - [secdev/scapy](https://github.com/secdev/scapy) - Scapy: the Python-based interactive packet manipulation program & library. Supports Python 2 & Python 3.
 - [w3h/isf](https://github.com/w3h/isf) - ISF(Industrial Security Exploitation Framework) is a exploitation framework based on Python.
@@ -962,6 +989,7 @@
 - [cloud-hypervisor/cloud-hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor) - A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.
 - [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) - Secure and fast microVMs for serverless computing.
 - [bruno-anjos/PseudoTex](https://github.com/bruno-anjos/PseudoTex) - PseudoTex is a transpiler that translates pseudocode into its LaTex representation
+- [facebook/relay](https://github.com/facebook/relay) - Relay is a JavaScript framework for building data-driven React applications.
 
 ## SCSS 
 
@@ -969,7 +997,8 @@
 
 ## Shell 
 
-- [OWASP/owasp-mstg](https://github.com/OWASP/owasp-mstg) - The Mobile Security Testing Guide (MSTG) is a comprehensive manual for mobile app security development, testing and reverse engineering.
+- [KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian) - 86五笔极点码表 for 鼠须管(macOs)、小狼毫(Windows)、中州韵(Ubuntu)
+- [OWASP/owasp-mstg](https://github.com/OWASP/owasp-mstg) - The Mobile Security Testing Guide (MSTG) is a comprehensive manual for mobile app security testing and reverse engineering. It describes the technical processes for verifying the controls listed in the OWASP Mobile Application Security Verification Standard (MASVS).
 - [l3af-project/l3af-arch](https://github.com/l3af-project/l3af-arch) - L3AF Architecture Documentation and Discussion
 - [google/oss-fuzz](https://github.com/google/oss-fuzz) - OSS-Fuzz - continuous fuzzing for open source software.
 - [stayliv3/embedded-device-lab](https://github.com/stayliv3/embedded-device-lab) - embedded-device-lab是一个利用qemu模拟真实世界中物联网漏洞的测试环境。由于物联网架构的特殊性，调试分析漏洞通常需要使用qemu模拟执行不同架构的可执行文件。而各种搭建环境，交叉编译是一件费事费力，令人忧伤的工作。  embedded-device-lab利用docker-compose，将各种漏洞调试环境一键化。简单使用两条命令，就可以直接使用gdb或者IDA动态分析相关漏洞。
@@ -980,7 +1009,7 @@
 - [doomedraven/Tools](https://github.com/doomedraven/Tools) - Combination of different utilities, have fun!
 - [kaorimatz/packer-templates](https://github.com/kaorimatz/packer-templates) - Packer templates for Vagrant base boxes
 - [fsquillace/junest](https://github.com/fsquillace/junest) - The lightweight Arch Linux based distro that runs upon any Linux distros without root access
-- [wimpysworld/quickemu](https://github.com/wimpysworld/quickemu) - Quickly create and run optimised Windows, macOS and Linux desktop virtual machines.
+- [quickemu-project/quickemu](https://github.com/quickemu-project/quickemu) - Quickly create and run optimised Windows, macOS and Linux desktop virtual machines.
 - [foxlet/macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM) - Tools to set up a quick macOS VM in QEMU, accelerated by KVM.
 - [pigmonkey/firewarden](https://github.com/pigmonkey/firewarden) - Open a file via the specified application within a private Firejail sandbox.
 - [violentlydave/mkhtaccess_red](https://github.com/violentlydave/mkhtaccess_red) - Auto-generate an HTaccess for payload delivery -- automatically pulls ips/nets/etc from known sandbox companies/sources that have been seen before, and redirects them to a benign payload.
@@ -989,6 +1018,7 @@
 - [influxdata/sandbox](https://github.com/influxdata/sandbox) - A sandbox for the full TICK stack
 - [Cisco-Talos/vboxhardening](https://github.com/Cisco-Talos/vboxhardening) - 
 - [mviereck/x11docker](https://github.com/mviereck/x11docker) - Run GUI applications and desktops in docker and podman containers. Focus on security.
+- [HXSecurity/DongTai](https://github.com/HXSecurity/DongTai) - DongTai is an interactive application security testing(IAST) product that supports the detection of OWASP WEB TOP 10 vulnerabilities, multi-request related vulnerabilities (including logic vulnerabilities, unauthorized access vulnerabilities, etc.), third-party component vulnerabilities, etc.
 - [hwdsl2/setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn) - Scripts to build your own IPsec VPN server, with IPsec/L2TP, Cisco IPsec and IKEv2
 - [bblanchon/pdfium-binaries](https://github.com/bblanchon/pdfium-binaries) - 📰 Binary distribution of PDFium
 - [ant-thomas/zsgx1hacks](https://github.com/ant-thomas/zsgx1hacks) - Hacks for ZS-GX1 IP Camera and various Goke GK7102 based IP Cameras
@@ -1039,7 +1069,7 @@
 - [apollographql/apollo-server](https://github.com/apollographql/apollo-server) - 🌍  Spec-compliant and production ready JavaScript GraphQL server that lets you develop in a schema-first way. Built for Express, Connect, Hapi, Koa, and more.
 - [graphql/graphiql](https://github.com/graphql/graphiql) - GraphiQL & the GraphQL LSP Reference Ecosystem for building browser & IDE tools.
 - [apollographql/apollo-client](https://github.com/apollographql/apollo-client) - :rocket:  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.
-- [kriasoft/relay-starter-kit](https://github.com/kriasoft/relay-starter-kit) - 💥  Yarn based monorepo template (seed project) pre-configured with GraphQL API, PostgreSQL, React, Relay, and Material UI.
+- [kriasoft/relay-starter-kit](https://github.com/kriasoft/relay-starter-kit) - 💥  Monorepo template (seed project) pre-configured with GraphQL API, PostgreSQL, React, Relay, and Material UI.
 - [storybookjs/storybook](https://github.com/storybookjs/storybook) - 📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!
 - [syncfusion/ej2-react-samples](https://github.com/syncfusion/ej2-react-samples) - Essential JS 2 demo samples for React.  http://ej2.syncfusion.com/react/demos
 - [syncfusion/ej2-react-ui-components](https://github.com/syncfusion/ej2-react-ui-components) - Syncfusion React UI components library offer more than 50+ cross-browser, responsive, and lightweight react UI controls for building modern web applications.
@@ -1049,10 +1079,11 @@
 - [ionic-team/ionic-framework](https://github.com/ionic-team/ionic-framework) - A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript.
 - [marmelab/react-admin](https://github.com/marmelab/react-admin) - A frontend Framework for building B2B applications running in the browser on top of REST/GraphQL APIs, using ES6, React and Material Design
 - [burtonator/polar-bookshelf](https://github.com/burtonator/polar-bookshelf) - Polar is a personal knowledge repository for PDF and web content supporting incremental reading and document annotation.
+- [outline/outline](https://github.com/outline/outline) - The fastest wiki and knowledge base for growing teams. Beautiful, feature rich, and markdown compatible.
 - [kriasoft/react-starter-kit](https://github.com/kriasoft/react-starter-kit) - React Starter Kit — front-end starter kit using React, Relay, GraphQL, and JAM stack architecture
 - [alibaba/GGEditor](https://github.com/alibaba/GGEditor) - A visual graph editor based on G6 and React
 - [alibaba/BizCharts](https://github.com/alibaba/BizCharts) - Powerful data visualization library based on G2 and React.
-- [alibaba/ice](https://github.com/alibaba/ice) - 🚀 The Progressive Framework Based On React（基于 React 的渐进式研发框架）
+- [alibaba/ice](https://github.com/alibaba/ice) - 🚀 The Progressive App Framework Based On React（基于 React 的渐进式应用框架）
 - [chimurai/http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - :zap: The one-liner node.js http-proxy middleware for connect, express and browser-sync
 - [telerik/kendo-react-finance-portfolio](https://github.com/telerik/kendo-react-finance-portfolio) - React Stock Watchlist App
 - [CopyTranslator/CopyTranslator](https://github.com/CopyTranslator/CopyTranslator) - Foreign language reading and translation assistant based on copy and translate.
@@ -1063,11 +1094,24 @@
 
 ## VHDL 
 
+- [cassuto/SM4-FPGA](https://github.com/cassuto/SM4-FPGA) - SM4 is a block encryption algorithm
 - [VLSI-EDA/PoC](https://github.com/VLSI-EDA/PoC) - IP Core Library - Published and maintained by the Chair for VLSI Design, Diagnostics and Architecture, Faculty of Computer Science, Technische Universität Dresden, Germany
 - [progranism/Open-Source-FPGA-Bitcoin-Miner](https://github.com/progranism/Open-Source-FPGA-Bitcoin-Miner) - A completely open source implementation of a Bitcoin Miner for Altera and Xilinx FPGAs. This project hopes to promote the free and open development of FPGA based mining solutions and secure the future of the Bitcoin project as a whole. A binary release is currently available for the Terasic DE2-115 Development Board, and there are compile-able projects for numerous boards.
 
+## Vala 
+
+- [muriloventuroso/easyssh](https://github.com/muriloventuroso/easyssh) - The SSH connection manager to make your life easier.
+
 ## Verilog 
 
+- [cassuto/nano-cpu32k](https://github.com/cassuto/nano-cpu32k) - Superscalar out-of-order RISC core (with Cache& MMU) and SoC, supporting GNU toolchain & Linux 4.20 kernel, having been verified on Xilinx Kintex-7 FPGA.
+- [secworks/trng](https://github.com/secworks/trng) - True Random Number Generator core implemented in Verilog.
+- [secworks/aes](https://github.com/secworks/aes) - Verilog implementation of the symmetric block cipher AES (Advanced Encryption Standard) as specified in NIST FIPS 197. This implementation supports 128 and 256 bit keys.
+- [secworks/ed25519](https://github.com/secworks/ed25519) - ed25519 public key signature implemented in Verilog.
+- [ljgibbslf/SM2_core](https://github.com/ljgibbslf/SM2_core) - opensource crypto IP core
+- [T-head-Semi/opene902](https://github.com/T-head-Semi/opene902) - OpenXuantie - OpenE902 Core
+- [T-head-Semi/opene906](https://github.com/T-head-Semi/opene906) - OpenXuantie - OpenE906 Core
+- [T-head-Semi/openc906](https://github.com/T-head-Semi/openc906) - OpenXuantie - OpenC906 Core
 - [T-head-Semi/openc910](https://github.com/T-head-Semi/openc910) - OpenXuantie - OpenC910 Core
 - [riscv-mcu/e203_hbirdv2](https://github.com/riscv-mcu/e203_hbirdv2) - The Ultra-Low Power RISC-V Core
 - [fire-sand/ECC-Verilog](https://github.com/fire-sand/ECC-Verilog) - ECC implementation in Verilog
@@ -1077,7 +1121,6 @@
 - [T-head-Semi/wujian100_open](https://github.com/T-head-Semi/wujian100_open) - IC design and development should be faster，simpler and more reliable
 - [IA-C-Lab-Fudan/KWS-SoC](https://github.com/IA-C-Lab-Fudan/KWS-SoC) - This is an SoC design dedicated to Keyword Spotting (KWS) based on a neural-network accelerator and the wujian100 platform.
 - [seldridge/verilog](https://github.com/seldridge/verilog) - Repository for basic (and not so basic) Verilog blocks with high re-use potential
-- [BrunoLevy/learn-fpga](https://github.com/BrunoLevy/learn-fpga) - Learning FPGA, yosys, nextpnr, and RISC-V
 - [Obijuan/open-fpga-verilog-tutorial](https://github.com/Obijuan/open-fpga-verilog-tutorial) - Learn how to design digital systems and synthesize them into an FPGA using only opensource tools
 - [aolofsson/oh](https://github.com/aolofsson/oh) - Verilog library for ASIC and FPGA designers
 - [analogdevicesinc/hdl](https://github.com/analogdevicesinc/hdl) - HDL libraries and projects
