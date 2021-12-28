@@ -4,16 +4,19 @@
 
 ## Contents
 
+  - [ActionScript](#actionscript)
   - [AppleScript](#applescript)
   - [Assembly](#assembly)
   - [Batchfile](#batchfile)
   - [C](#c)
   - [C#](#c#)
   - [C++](#c++)
+  - [CMake](#cmake)
   - [CSS](#css)
   - [Common Lisp](#common-lisp)
   - [Coq](#coq)
   - [Go](#go)
+  - [HCL](#hcl)
   - [HTML](#html)
   - [Haskell](#haskell)
   - [Java](#java)
@@ -28,13 +31,17 @@
   - [Objective-C](#objective-c)
   - [Others](#others)
   - [PHP](#php)
+  - [POV-Ray SDL](#pov-ray-sdl)
   - [Pascal](#pascal)
   - [Perl](#perl)
   - [PowerShell](#powershell)
   - [Python](#python)
+  - [QMake](#qmake)
+  - [Rich Text Format](#rich-text-format)
   - [Ruby](#ruby)
   - [Rust](#rust)
   - [SCSS](#scss)
+  - [Scala](#scala)
   - [Shell](#shell)
   - [Swift](#swift)
   - [SystemVerilog](#systemverilog)
@@ -42,12 +49,18 @@
   - [TeX](#tex)
   - [TypeScript](#typescript)
   - [VBA](#vba)
+  - [VBScript](#vbscript)
   - [VHDL](#vhdl)
   - [Vala](#vala)
   - [Verilog](#verilog)
+  - [Visual Basic](#visual-basic)
   - [Vue](#vue)
   - [XSLT](#xslt)
   - [YARA](#yara)
+
+## ActionScript 
+
+- [InQuest/malware-samples](https://github.com/InQuest/malware-samples) - A collection of malware samples and relevant dissection information, most probably referenced from http://blog.inquest.net
 
 ## AppleScript 
 
@@ -55,6 +68,8 @@
 
 ## Assembly 
 
+- [hasherezade/bearparser_tests](https://github.com/hasherezade/bearparser_tests) - External tests for bearparser
+- [vxunderground/MalwareSourceCode](https://github.com/vxunderground/MalwareSourceCode) - Collection of malware source code for a variety of platforms in an array of different programming languages.
 - [Cpasjuste/pemu](https://github.com/Cpasjuste/pemu) - 
 - [mytechnotalent/Reverse-Engineering](https://github.com/mytechnotalent/Reverse-Engineering) - A FREE comprehensive reverse engineering tutorial covering x86, x64, 32-bit ARM & 64-bit ARM architectures.
 - [hasherezade/pe_to_shellcode](https://github.com/hasherezade/pe_to_shellcode) - Converts PE into a shellcode
@@ -66,6 +81,10 @@
 
 ## Batchfile 
 
+- [ion-storm/sysmon-config](https://github.com/ion-storm/sysmon-config) - Advanced Sysmon configuration, Installer & Auto Updater with high-quality event tracing
+- [diogo-fernan/ir-rescue](https://github.com/diogo-fernan/ir-rescue) - A Windows Batch script and a Unix Bash script to comprehensively collect host forensic data during incident response.
+- [swagkarna/Defeat-Defender-V1.2](https://github.com/swagkarna/Defeat-Defender-V1.2) - Powerful batch script to dismantle complete windows defender protection and even bypass tamper protection ..Disable Windows-Defender Permanently....Hack windows. POC
+- [kkkgo/LTSC-Add-MicrosoftStore](https://github.com/kkkgo/LTSC-Add-MicrosoftStore) - Add Windows Store for LTSC
 - [jakobadam/packer-qemu-templates](https://github.com/jakobadam/packer-qemu-templates) - Packer qemu templates
 - [Phoenix1747/fake-sandbox](https://github.com/Phoenix1747/fake-sandbox) - 👁‍🗨 This script will simulate fake processes of analysis sandbox/VM software that some malware will try to avoid.
 - [NextronSystems/APTSimulator](https://github.com/NextronSystems/APTSimulator) - A toolset to make a system look as if it was the victim of an APT attack
@@ -73,7 +92,102 @@
 
 ## C 
 
-- [ntop/nDPI](https://github.com/ntop/nDPI) - Open Source Deep Packet Inspection Software Toolkit
+- [tekwizz123/demos](https://github.com/tekwizz123/demos) - Forked from Akayan. Windows Kernel Exploitation. Static & dynamic analysis, exploits & vuln reasearch. Mitigations bypass's, genric bug-class's.
+- [flxflx/weasel](https://github.com/flxflx/weasel) - Public repository of the dynamic binary analysis framework WEASEL. WEASEL's main purpose is the identification and elimination of backdoors in server applications.
+- [LouisBrunner/valgrind-macos](https://github.com/LouisBrunner/valgrind-macos) - A valgrind mirror with latest macOS support
+- [wmkhoo/taintgrind](https://github.com/wmkhoo/taintgrind) - A taint-tracking plugin for the Valgrind memory checking tool
+- [codespecs/fjalar](https://github.com/codespecs/fjalar) - A dynamic analysis framework for C and C++ programs
+- [Milo-D/libvmcu-Virtual-MCU-Library](https://github.com/Milo-D/libvmcu-Virtual-MCU-Library) - A Library for Static and Dynamic Analysis of AVR binaries.
+- [SiriDB/siridb-server](https://github.com/SiriDB/siridb-server) - SiriDB is a highly-scalable, robust and super fast time series database. Build from the ground up SiriDB uses a unique mechanism to operate without a global index and allows server resources to be added on the fly. SiriDB's unique query language includes dynamic grouping of time series for easy analysis over large amounts of time series.
+- [DynamoRIO/drmemory](https://github.com/DynamoRIO/drmemory) - Memory Debugger for Windows, Linux, Mac, and Android
+- [cado-security/DFIR_Resources_REvil_Kaseya](https://github.com/cado-security/DFIR_Resources_REvil_Kaseya) - Resources for DFIR Professionals Responding to the REvil Ransomware Kaseya Supply Chain Attack
+- [PKRoma/ProcessHacker](https://github.com/PKRoma/ProcessHacker) - A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware—mirror of https://github.com/processhacker2/processhacker.git
+- [hfiref0x/KDU](https://github.com/hfiref0x/KDU) - Kernel Driver Utility
+- [bats3c/Ghost-In-The-Logs](https://github.com/bats3c/Ghost-In-The-Logs) - Evade sysmon and windows event logging
+- [aaaddress1/wowInjector](https://github.com/aaaddress1/wowInjector) - PoC: Exploit 32-bit Thread Snapshot of WOW64 to Take Over $RIP & Inject & Bypass Antivirus HIPS  (HITB 2021)
+- [aaaddress1/PR0CESS](https://github.com/aaaddress1/PR0CESS) - some gadgets about windows process and ready to use :)
+- [aaaddress1/Skrull](https://github.com/aaaddress1/Skrull) - Skrull is a malware DRM, that prevents Automatic Sample Submission by AV/EDR and Signature Scanning from Kernel. It generates launchers that can run malware on the victim using the Process Ghosting technique. Also, launchers are totally anti-copy and naturally broken when got submitted.
+- [elfmaster/libelfmaster](https://github.com/elfmaster/libelfmaster) - Secure ELF parsing/loading library for forensics reconstruction of malware, and robust reverse engineering tools
+- [OALabs/BlobRunner](https://github.com/OALabs/BlobRunner) - Quickly debug shellcode extracted during malware analysis
+- [rieck/malheur](https://github.com/rieck/malheur) - A Tool for Automatic Analysis of Malware Behavior
+- [hasherezade/loaderine](https://github.com/hasherezade/loaderine) - A demo implementation of a well-known technique used by some malware to evade userland hooking, using my library: libpeconv.
+- [hasherezade/flareon2019](https://github.com/hasherezade/flareon2019) - Flare-On solutions
+- [hasherezade/chimera_pe](https://github.com/hasherezade/chimera_pe) - ChimeraPE (a PE injector type - alternative to: RunPE, ReflectiveLoader, etc) - a template for manual loading of EXE, loading imports payload-side
+- [processhacker/phnt](https://github.com/processhacker/phnt) - Native API header files for the Process Hacker project.
+- [hasherezade/hidden_bee_tools](https://github.com/hasherezade/hidden_bee_tools) - Parser for a custom executable format from Hidden Bee malware (first stage)
+- [hasherezade/module_overloading](https://github.com/hasherezade/module_overloading) - A more stealthy variant of "DLL hollowing"
+- [hasherezade/process_chameleon](https://github.com/hasherezade/process_chameleon) - A process overwriting its own PEB to make an illusion that it has been loaded from a different path.
+- [odzhan/injection](https://github.com/odzhan/injection) - Windows process injection methods
+- [hasherezade/process_doppelganging](https://github.com/hasherezade/process_doppelganging) - My implementation of enSilo's Process Doppelganging (PE injection technique)
+- [danstowell/kdpee](https://github.com/danstowell/kdpee) - k-d partitioning entropy estimator:  A fast estimator for the entropy of multidimensional data distributions. Written in C, can be used from C/C++, Python, Matlab or Octave.
+- [ELIFE-ASU/Inform](https://github.com/ELIFE-ASU/Inform) - A cross platform C library for information analysis of dynamical systems
+- [Cyan4973/FiniteStateEntropy](https://github.com/Cyan4973/FiniteStateEntropy) - New generation entropy codecs : Finite State Entropy and Huff0
+- [vxunderground/VXUG-Papers](https://github.com/vxunderground/VXUG-Papers) - Research code & papers from members of vx-underground.
+- [mohuihui/antispy](https://github.com/mohuihui/antispy) - AntiSpy is a free but powerful anti virus and rootkits toolkit.It offers you the ability with the highest privileges that can detect,analyze and restore various kernel modifications and hooks.With its assistance,you can easily spot and neutralize malwares hidden from normal detectors.
+- [m0nad/Diamorphine](https://github.com/m0nad/Diamorphine) - LKM rootkit for Linux Kernels 2.6.x/3.x/4.x/5.x (x86/x86_64 and ARM64)
+- [vxunderground/VX-API](https://github.com/vxunderground/VX-API) - Collection of various WINAPI tricks / features used or abused by Malware
+- [glmcdona/Process-Dump](https://github.com/glmcdona/Process-Dump) - Windows tool for dumping malware PE files from memory back to disk for analysis.
+- [VirusTotal/yara](https://github.com/VirusTotal/yara) - The pattern matching swiss knife
+- [screetsec/TheFatRat](https://github.com/screetsec/TheFatRat) - Thefatrat a massive exploiting tool : Easy tool to generate backdoor and easy tool to post exploitation attack like browser attack and etc . This tool compiles a malware with popular payload and then the compiled malware can be execute on windows, android, mac . The malware that created with this tool also have an ability to bypass most AV software protection .
+- [cristeigabriel/memscan](https://github.com/cristeigabriel/memscan) - Feature-rich C99 library for memory scanning purposes, designed for Windows running machines, meant to work on both 32-bit and 64-bit portable executables. Has a modern C++ wrapper.
+- [zodiacon/PEExplorerV2](https://github.com/zodiacon/PEExplorerV2) - Portable Executable Explorer version 2
+- [hasherezade/transacted_hollowing](https://github.com/hasherezade/transacted_hollowing) - Transacted Hollowing - a PE injection technique, hybrid between ProcessHollowing and ProcessDoppelgänging
+- [0x00Jeff/BetterGetProcAddress](https://github.com/0x00Jeff/BetterGetProcAddress) - POC of a better implementation of GetProcAddress for ntdll using binary search
+- [processhacker/plugins-extra](https://github.com/processhacker/plugins-extra) - These are highly unstable, buggy, incomplete plugins that are not included with Process Hacker by default.
+- [bpotvin/nt-usn](https://github.com/bpotvin/nt-usn) - display usn change journal info.
+- [rsa9000/ntfsheurecovery](https://github.com/rsa9000/ntfsheurecovery) - NT File System (NTFS) recovery tool
+- [AdamWhiteHat/Judge-Jury-and-Executable](https://github.com/AdamWhiteHat/Judge-Jury-and-Executable) - A file system forensics analysis scanner and threat hunting tool. Scans file systems at the MFT  and OS level and stores data in SQL, SQLite or CSV. Threats and data can be probed harnessing the power and syntax of SQL.
+- [bzmework/FastSearch](https://github.com/bzmework/FastSearch) - FastSearch是一个快速文件搜索系统，它的原理是通过读取NTFS文件系统中的USN日志文件，快速地读取磁盘中的所有文件，并通过文件名称快速查找。
+- [teozoia/Caronte](https://github.com/teozoia/Caronte) - Caronte, Windows filter driver for software behavior analysis.
+- [bekdepo/wininotify](https://github.com/bekdepo/wininotify) - A library/utility to give features like inotify(of Linux) like capability in windows through a filter driver
+- [dmsharipov/driverFilter](https://github.com/dmsharipov/driverFilter) - A filter driver for Windows 7/8/8.1/10 that allows you to restrict the access rights of processes to objects in the file system.
+- [D7EAD/Windump](https://github.com/D7EAD/Windump) - A Windows tcpdump-esc utility used for monitoring traffic following a specified traffic filter.
+- [basil00/Divert](https://github.com/basil00/Divert) - WinDivert: Windows Packet Divert
+- [walklang/RestFilter](https://github.com/walklang/RestFilter) - RestFilter: a windows filesystem driver mini-filter.
+- [martona/mhook](https://github.com/martona/mhook) - A Windows API hooking library
+- [apriorit/mhook](https://github.com/apriorit/mhook) - A Windows API hooking library
+- [apriorit/backup_filter_driver_sample](https://github.com/apriorit/backup_filter_driver_sample) - 
+- [mtth-bfft/win32k-mitigation](https://github.com/mtth-bfft/win32k-mitigation) - A test project to try the new win32k.sys system call filtering mitigation in Windows 10
+- [raja-jamwal/Spysym](https://github.com/raja-jamwal/Spysym) - Mini filter filesystem driver to prevent kernel level execution of executable code and files from the removable devices
+- [a4501150/LambseaDriver](https://github.com/a4501150/LambseaDriver) - windows kernel-mode driver, provide memory reading & writing, mini-filters, obCallbacks
+- [Penguinang/WinFSFilter](https://github.com/Penguinang/WinFSFilter) - A simple FS filter,which can intercept IO operation and decide whether execute it,by which you can protect your data against change.
+- [JokerMars/MiniEngine](https://github.com/JokerMars/MiniEngine) - Final Transparent encrypted version
+- [JokerMars/DirFilter](https://github.com/JokerMars/DirFilter) - To encrypt the file transparently
+- [pixos/palmtrie](https://github.com/pixos/palmtrie) - Palmtrie: A Ternary Key Matching Algorithm for IP Packet Filtering Rules
+- [Kyromyr/D2DropFilter](https://github.com/Kyromyr/D2DropFilter) - 
+- [GuillaumeGas/MiniFilterDriver](https://github.com/GuillaumeGas/MiniFilterDriver) - Simple minifilter driver
+- [CynicalApe/FSFilterDriver-QuickEditApp](https://github.com/CynicalApe/FSFilterDriver-QuickEditApp) - KDMF File System Filter Driver && Quick Edit APP
+- [abysdom/bus-filter-framework](https://github.com/abysdom/bus-filter-framework) - A framework for KMDF-based upper filter drivers to behave as bus filters. You don't need to write WDM drivers any more!
+- [gfleury/ProtegeDados_ProjetoFinal](https://github.com/gfleury/ProtegeDados_ProjetoFinal) - Microsoft Windows real time file integrity monitoring and filtering using minifilter technology, this is was my university final project
+- [giuliafrascaria/ebpf-data-filter](https://github.com/giuliafrascaria/ebpf-data-filter) - 
+- [slavaim/WDM-Storage-Filter](https://github.com/slavaim/WDM-Storage-Filter) - A WDM Windows driver to issue IO to storage devices with asynchronous multithreaded processing
+- [Chuyu-Team/woflib](https://github.com/Chuyu-Team/woflib) - An open source library for operating the Windows Overlay Filter driver.
+- [luigi1809/webfilter-ng](https://github.com/luigi1809/webfilter-ng) - Transparent HTTP/HTTPS/TLS web filter
+- [Iamgublin/NDIS6.30-NetMonitor](https://github.com/Iamgublin/NDIS6.30-NetMonitor) - NDIS6.30 Filter Library
+- [Netronome/libkefir](https://github.com/Netronome/libkefir) - Convert network filtering rules from various formats into BPF programs
+- [slavaim/Windows-System-Wide-Filter](https://github.com/slavaim/Windows-System-Wide-Filter) - Windows WDM driver filters to filter IO to devices and file systems
+- [vedantk/quotient-filter](https://github.com/vedantk/quotient-filter) - a quotient filter written in C
+- [bakercp/ofxIO](https://github.com/bakercp/ofxIO) - A collection of I/O core utils including a directory watcher, file filters and ordering, compression and more.
+- [xiao70/X70FSD](https://github.com/xiao70/X70FSD) - Windows file system filter drivers(minifilter) to encrypt, compress, or otherwise modify file-based data require some of the most complex kernel software developed for Windows.
+- [JaredWright/WFPStarterKit](https://github.com/JaredWright/WFPStarterKit) - An example driver for Windows that shows how to set-up some basic components of the Windows Filtering Platform
+- [Lochnair/xt_tls](https://github.com/Lochnair/xt_tls) - Filter TLS traffic with IPtables
+- [kiyo-masui/bitshuffle](https://github.com/kiyo-masui/bitshuffle) - Filter for improving compression of typed binary data.
+- [ryanries/PassFiltEx](https://github.com/ryanries/PassFiltEx) - PassFiltEx. An Active Directory Password Filter.
+- [google/kafel](https://github.com/google/kafel) - A language and library for specifying syscall filtering policies.
+- [jvirkki/libbloom](https://github.com/jvirkki/libbloom) - A simple and small bloom filter implementation in plain C.
+- [begeekmyfriend/CuckooFilter](https://github.com/begeekmyfriend/CuckooFilter) - Substitute for bloom filter.
+- [stanford-futuredata/sparser](https://github.com/stanford-futuredata/sparser) - Sparser: Raw Filtering for Faster Analytics over Raw Data
+- [jpr5/ngrep](https://github.com/jpr5/ngrep) - ngrep is like GNU grep applied to the network layer. It's a PCAP-based tool that allows you to specify an extended regular or hexadecimal expression to match against data payloads of packets. It understands many kinds of protocols, including IPv4/6, TCP, UDP, ICMPv4/6, IGMP and Raw, across a wide variety of interface types, and understands BPF filter logic in the same fashion as more common packet sniffing tools, such as tcpdump and snoop.
+- [apriorit/file-system-filter](https://github.com/apriorit/file-system-filter) - Windows file system filter driver - illustration of the technology
+- [henrypp/simplewall](https://github.com/henrypp/simplewall) - Simple tool to configure Windows Filtering Platform (WFP) which can configure network activity on your computer.
+- [rspamd/rspamd](https://github.com/rspamd/rspamd) - Rapid spam filtering system.
+- [iovisor/ubpf](https://github.com/iovisor/ubpf) - Userspace eBPF VM
+- [mit-pdos/xv6-riscv](https://github.com/mit-pdos/xv6-riscv) - Xv6 for RISC-V
+- [one30/BS_SM4](https://github.com/one30/BS_SM4) - 
+- [YWsGithub/s-box](https://github.com/YWsGithub/s-box) - AES and SM4 s-box in C
+- [ikantech/gm](https://github.com/ikantech/gm) - 不依赖第三方库实现国密SM2、SM3、SM4算法
+- [guanzhi/GmSSL](https://github.com/guanzhi/GmSSL) - 支持国密SM2/SM3/SM4/SM9/ZUC/SSL的OpenSSL分支
+- [sebastien-riou/masked-bit-sliced-aes-128](https://github.com/sebastien-riou/masked-bit-sliced-aes-128) - masked, bit-sliced AES-128 demo code
 - [ntop/PF_RING](https://github.com/ntop/PF_RING) - High-speed packet processing framework
 - [emscripten-core/emscripten](https://github.com/emscripten-core/emscripten) - Emscripten: An LLVM-to-WebAssembly Compiler
 - [xen-project/xen](https://github.com/xen-project/xen) - Mirror of the Xen Repository (PRs not accepted see: http://wiki.xenproject.org/wiki/Submitting_Xen_Project_Patches)
@@ -111,7 +225,6 @@
 - [wargio/r2dec-js](https://github.com/wargio/r2dec-js) - radare2 plugin - converts asm to pseudo-C code.
 - [radareorg/radare2-book](https://github.com/radareorg/radare2-book) - Radare2 official book
 - [radareorg/radare2](https://github.com/radareorg/radare2) - UNIX-like reverse engineering framework and command-line toolset
-- [lzto/pex](https://github.com/lzto/pex) - [USENIX SECURITY'19] PeX: A Permission Check Analysis Framework for Linux Kernel
 - [trailofbits/polytracker](https://github.com/trailofbits/polytracker) - An LLVM-based instrumentation tool for universal taint tracking, dataflow analysis, and tracing.
 - [mrexodia/driver_unpacking](https://github.com/mrexodia/driver_unpacking) - Source code for the "Kernel driver unpacking with x64dbg" blog post.
 - [1ce0ear/DllLoaderUnpacker](https://github.com/1ce0ear/DllLoaderUnpacker) - 
@@ -287,6 +400,23 @@
 
 ## C# # 
 
+- [ncatlin/rgat](https://github.com/ncatlin/rgat) - An instruction trace visualisation tool for dynamic program analysis
+- [n0dec/MalwLess](https://github.com/n0dec/MalwLess) - Test Blue Team detections without running any attack.
+- [aaaddress1/my-Little-Ransomware](https://github.com/aaaddress1/my-Little-Ransomware) - easy ransomware module base on csharp.
+- [quasar/Quasar](https://github.com/quasar/Quasar) - Remote Administration Tool for Windows
+- [securesean/DecryptAutoLogon](https://github.com/securesean/DecryptAutoLogon) - Command line tool to extract/decrypt the password that was stored in the LSA by SysInternals AutoLogon
+- [lsauer/entropy](https://github.com/lsauer/entropy) - ent is a small, fast command line utility, plotting various entropy related metrics of files or pipe/stdin streams
+- [GhostPack/Lockless](https://github.com/GhostPack/Lockless) - Lockless allows for the copying of locked files.
+- [GhostPack/SafetyKatz](https://github.com/GhostPack/SafetyKatz) - SafetyKatz is a combination of slightly modified version of @gentilkiwi's Mimikatz project and @subtee's .NET PE Loader
+- [GhostPack/Seatbelt](https://github.com/GhostPack/Seatbelt) - Seatbelt is a C# project that performs a number of security oriented host-survey "safety checks" relevant from both offensive and defensive security perspectives.
+- [malware-dev/MDK-SE](https://github.com/malware-dev/MDK-SE) - Malware's Development Kit for SE
+- [the1812/Malware-Patch](https://github.com/the1812/Malware-Patch) - 阻止中国流氓软件的管理员授权. / Prevent UAC authorization of Chinese malware.
+- [outflanknl/EvilClippy](https://github.com/outflanknl/EvilClippy) - A cross-platform assistant for creating malicious MS Office documents. Can hide VBA macros, stomp VBA code (via P-Code) and confuse macro analysis tools. Runs on Linux, OSX and Windows.
+- [DKorablin/PEReader](https://github.com/DKorablin/PEReader) - Portable Executable (+), Common Language Infrastructure format reader
+- [zodiacon/PEExplorer](https://github.com/zodiacon/PEExplorer) - Portable Executable Explorer
+- [microsoft/binskim](https://github.com/microsoft/binskim) - A binary static analysis tool that provides security and correctness results for Windows Portable Executable and *nix ELF binary formats
+- [secana/PeNet](https://github.com/secana/PeNet) - Portable Executable (PE) library written in .Net
+- [yuzhengyang/Everything](https://github.com/yuzhengyang/Everything) - 探索Everything背后的技术（USN和MFT）
 - [microsoft/Microsoft-Performance-Tools-Linux-Android](https://github.com/microsoft/Microsoft-Performance-Tools-Linux-Android) - Linux and Android Performance Tools built using the Microsoft Performance Toolkit. Cross-platform .NET Core + WPA GUI
 - [ShaneK2/inVtero.net](https://github.com/ShaneK2/inVtero.net) - inVtero.net: A high speed (Gbps) Forensics, Memory integrity & assurance.  Includes offensive & defensive memory capabilities.  Find/Extract processes, hypervisors (including nested) in memory dumps using microarchitechture independent Virtual Machiene Introspection techniques
 - [bigbaldy1128/DotNetDetour](https://github.com/bigbaldy1128/DotNetDetour) - DotNetDetour is a software package for monitoring and instrumenting API calls
@@ -315,12 +445,117 @@
 
 ## C++ 
 
+- [atxsinn3r/amsiscanner](https://github.com/atxsinn3r/amsiscanner) - A C/C++ implementation of Microsoft's Antimalware Scan Interface
+- [forrest-orr/moneta](https://github.com/forrest-orr/moneta) - Moneta is a live usermode memory analysis tool for Windows with the capability to detect malware IOCs
+- [NtRaiseHardError/Antimalware-Research](https://github.com/NtRaiseHardError/Antimalware-Research) - Research on Anti-malware and other related security solutions
+- [ThomasThelen/Anti-Debugging](https://github.com/ThomasThelen/Anti-Debugging) - A collection of c++ programs that demonstrate common ways to detect the presence of an attached debugger.
+- [mgeeky/PE-library](https://github.com/mgeeky/PE-library) - Lightweight Portable Executable parsing library and a demo peParser application.
+- [mgeeky/ThreadStackSpoofer](https://github.com/mgeeky/ThreadStackSpoofer) - Thread Stack Spoofing - PoC for an advanced In-Memory evasion technique allowing to better hide injected shellcode's memory allocation from scanners and analysts.
+- [mgeeky/ShellcodeFluctuation](https://github.com/mgeeky/ShellcodeFluctuation) - An advanced in-memory evasion technique fluctuating shellcode's memory protection between RW/NoAccess & RX and then encrypting/decrypting its contents
+- [mgeeky/HEVD_Kernel_Exploit](https://github.com/mgeeky/HEVD_Kernel_Exploit) - Exploits pack for the Windows Kernel mode driver HackSysExtremeVulnerableDriver written for educational purposes.
+- [mgeeky/UnhookMe](https://github.com/mgeeky/UnhookMe) - UnhookMe is an universal Windows API resolver & unhooker addressing problem of invoking unmonitored system calls from within of your Red Teams malware
+- [kaiserfarrell/malware](https://github.com/kaiserfarrell/malware) - virus collection source code
+- [pathtofile/Sealighter](https://github.com/pathtofile/Sealighter) - Sysmon-Like research tool for ETW
+- [microsoft/krabsetw](https://github.com/microsoft/krabsetw) - KrabsETW provides a modern C++ wrapper and a .NET wrapper around the low-level ETW trace consumption functions.
+- [wecooperate/iMonitor](https://github.com/wecooperate/iMonitor) - iMonitor（冰镜 - 终端行为分析系统）
+- [wecooperate/iMonitorSDK](https://github.com/wecooperate/iMonitorSDK) - 系统监控开发套件（sysmon、promon、edr、终端安全、主机安全、零信任、上网行为管理）
+- [basketwill/Sysmon_reverse](https://github.com/basketwill/Sysmon_reverse) - 
+- [marcosd4h/sysmonx](https://github.com/marcosd4h/sysmonx) - SysmonX - An Augmented Drop-In Replacement of Sysmon
+- [everdox/InfinityHook](https://github.com/everdox/InfinityHook) - Hook system calls, context switches, page faults and more.
+- [D4stiny/HandleMaster](https://github.com/D4stiny/HandleMaster) - Changes handle's access rights using DKOM with a vulnerable driver
+- [D4stiny/spectre](https://github.com/D4stiny/spectre) - A Windows kernel-mode rootkit that abuses legitimate communication channels to control a machine.
+- [D4stiny/ForkPlayground](https://github.com/D4stiny/ForkPlayground) - An implementation and proof-of-concept of Process Forking.
+- [jacob-baines/elfparser](https://github.com/jacob-baines/elfparser) - Cross Platform ELF analysis
+- [aaaddress1/wowGrail](https://github.com/aaaddress1/wowGrail) - PoC: Rebuild A New Path Back to the Heaven's Gate (HITB 2021)
+- [yuawn/MediaTek-Fuzzing-Workshop](https://github.com/yuawn/MediaTek-Fuzzing-Workshop) - MediaTek Fuzzing Workshop in HITCON 2021
+- [aaaddress1/Windows-APT-Warfare](https://github.com/aaaddress1/Windows-APT-Warfare) - 著作《Windows APT Warfare：惡意程式前線戰術指南》各章節技術實作之原始碼內容
+- [ionescu007/Simpleator](https://github.com/ionescu007/Simpleator) - Simpleator ("Simple-ator") is an innovative Windows-centric x64 user-mode application emulator that leverages several new features that were added in Windows 10 Spring Update (1803), also called "Redstone 4", with additional improvements that were made in Windows 10 October Update (1809), aka "Redstone 5".
+- [jafarlihi/serpentine](https://github.com/jafarlihi/serpentine) - C++/Win32/Boost Windows RAT (Remote Administration Tool) with a multiplatform Java/Spring RESTful C2 server and Go, C++/Qt5 frontends
+- [CheckPointSW/InviZzzible](https://github.com/CheckPointSW/InviZzzible) - InviZzzible is a tool for assessment of your virtual environments in an easy and reliable way. It contains the most recent and up to date detection and evasion techniques as well as fixes for them.
+- [Aekras1a/Updated-Carbanak-Source-with-Plugins](https://github.com/Aekras1a/Updated-Carbanak-Source-with-Plugins) - https://twitter.com/itsreallynick/status/1120410950430089224
+- [Cr4sh/MicroBackdoor](https://github.com/Cr4sh/MicroBackdoor) - Small and convenient C2 tool for Windows targets
+- [D4stiny/PeaceMaker](https://github.com/D4stiny/PeaceMaker) - PeaceMaker Threat Detection is a Windows kernel-based application that detects advanced techniques used by malware.
+- [BreakingMalware/PowerLoaderEx](https://github.com/BreakingMalware/PowerLoaderEx) - PowerLoaderEx - Advanced Code Injection Technique for x32 / x64
+- [hasherezade/petya_green](https://github.com/hasherezade/petya_green) - Application for random attack on Green Petya's key
+- [hasherezade/decryptors_archive](https://github.com/hasherezade/decryptors_archive) - Archive of ransomware decryptors
+- [hasherezade/libpeconv_demo](https://github.com/hasherezade/libpeconv_demo) - Demo projects and utilities made with the help of libPeConv
+- [ValveSoftware/Proton](https://github.com/ValveSoftware/Proton) - Compatibility tool for Steam Play based on Wine and additional components
+- [MaxXor/keygenme-v7](https://github.com/MaxXor/keygenme-v7) - Source code of my KeygenMe V7 challenge
+- [hasherezade/wke_exercises](https://github.com/hasherezade/wke_exercises) - My solutions for HackSys Extreme Vulnerable Driver
+- [securesean/Shim-Process-Scanner](https://github.com/securesean/Shim-Process-Scanner) - Windows x64 Process Scanner to detect application compatability shims
+- [hasherezade/libpeconv_wrappers](https://github.com/hasherezade/libpeconv_wrappers) - A ready-made template for a new project based on libPeConv library
+- [hasherezade/challs](https://github.com/hasherezade/challs) - My solutions for random crackmes and other challenges
+- [hasherezade/IAT_patcher_samples](https://github.com/hasherezade/IAT_patcher_samples) - Sample libraries to be used with IAT Patcher
+- [hasherezade/mastercoder2014](https://github.com/hasherezade/mastercoder2014) - My solutions
+- [microsoft/wil](https://github.com/microsoft/wil) - Windows Implementation Library
+- [jxy-s/herpaderping](https://github.com/jxy-s/herpaderping) - Process Herpaderping proof of concept, tool, and technical deep dive. Process Herpaderping bypasses security products by obscuring the intentions of a process.
+- [hasherezade/tag_converter](https://github.com/hasherezade/tag_converter) - 
+- [hasherezade/exe_to_dll](https://github.com/hasherezade/exe_to_dll) - Converts a EXE into DLL
+- [hasherezade/dll_to_exe](https://github.com/hasherezade/dll_to_exe) - Converts a DLL into EXE
+- [hasherezade/beardisasm](https://github.com/hasherezade/beardisasm) - A wrapper for capstone for bearparser
+- [hasherezade/ViDi](https://github.com/hasherezade/ViDi) - ViDi Visual Disassembler (experimental)
+- [hasherezade/IAT_patcher](https://github.com/hasherezade/IAT_patcher) - Persistent IAT hooking application - based on bearparser
+- [hasherezade/paramkit_tpl](https://github.com/hasherezade/paramkit_tpl) - A template for a project using ParamKit
+- [hasherezade/pe_utils](https://github.com/hasherezade/pe_utils) - A set of small utilities, helpers for PIN tracers
+- [hasherezade/libpeconv_tpl](https://github.com/hasherezade/libpeconv_tpl) - A ready-made template for a project based on libpeconv.
+- [hasherezade/libpeconv_and_detours_tpl](https://github.com/hasherezade/libpeconv_and_detours_tpl) - A template for projects using both libPeConv and MS Detours
+- [hasherezade/funky_malware_formats](https://github.com/hasherezade/funky_malware_formats) - Parsers for custom malware formats ("Funky malware formats")
+- [hasherezade/petya_key](https://github.com/hasherezade/petya_key) - A decoder for Petya victim keys, using the Janus' masterkey.
+- [hasherezade/antianalysis_demos](https://github.com/hasherezade/antianalysis_demos) - Set of antianalysis techniques found in malware
+- [hasherezade/dll_injector](https://github.com/hasherezade/dll_injector) - A simple commandline injector using classic DLL injection
+- [hasherezade/persistence_demos](https://github.com/hasherezade/persistence_demos) - Demos of various (also non standard) persistence methods used by malware
+- [hasherezade/mal_unpack_drv](https://github.com/hasherezade/mal_unpack_drv) - MalUnpack companion driver
+- [hasherezade/libpeconv](https://github.com/hasherezade/libpeconv) - A library to load, manipulate, dump PE files. See also: https://github.com/hasherezade/libpeconv_tpl
+- [hasherezade/paramkit](https://github.com/hasherezade/paramkit) - A small library helping to parse commandline parameters (for C/C++)
+- [wolf32d/permutation_entropy](https://github.com/wolf32d/permutation_entropy) - Fast evaluation of permutation entropy of a time series. A Python (NumPy) wrapper is included.
+- [ulikoehler/entropy-analysis-tools](https://github.com/ulikoehler/entropy-analysis-tools) - 
+- [Albuso0/entropy](https://github.com/Albuso0/entropy) - Entropy estimator
+- [plasma-umass/entroprise](https://github.com/plasma-umass/entroprise) - measure entropy of memory allocators
+- [madvn/infotheory](https://github.com/madvn/infotheory) - C++/Python Information theoretic analyses tools
+- [usnistgov/SP800-90B_EntropyAssessment](https://github.com/usnistgov/SP800-90B_EntropyAssessment) - The SP800-90B_EntropyAssessment C++package implements the min-entropy assessment methods included in Special Publication 800-90B.
+- [lzhang10/maxent](https://github.com/lzhang10/maxent) - Maximum Entropy Modeling Toolkit for Python and C++
+- [horsicq/XPEViewer](https://github.com/horsicq/XPEViewer) - PE file viewer/editor for Windows, Linux and MacOS.
+- [richkmeli/Richkware](https://github.com/richkmeli/Richkware) - Framework for building Windows malware, written in C++
+- [mstfknn/malware-sample-library](https://github.com/mstfknn/malware-sample-library) - Malware sample library.
+- [AHXR/ghost](https://github.com/AHXR/ghost) - :ghost: RAT (Remote Access Trojan) - Silent Botnet - Full Remote Command-Line Access - Download & Execute Programs - Spread Virus' & Malware
+- [swwwolf/wdbgark](https://github.com/swwwolf/wdbgark) - WinDBG Anti-RootKit Extension
+- [MinhasKamal/TrojanCockroach](https://github.com/MinhasKamal/TrojanCockroach) - A Stealthy Trojan Spyware
+- [rek7/mXtract](https://github.com/rek7/mXtract) - mXtract - Memory Extractor & Analyzer
+- [RamadhanAmizudin/malware](https://github.com/RamadhanAmizudin/malware) - Malware Samples. Uploaded to GitHub for those want to analyse the code. Code mostly from: http://www.malwaretech.com
+- [m0n0ph1/Process-Hollowing](https://github.com/m0n0ph1/Process-Hollowing) - Great explanation of Process Hollowing (a Technique often used in Malware)
+- [UBoat-Botnet/UBoat](https://github.com/UBoat-Botnet/UBoat) - HTTP Botnet
+- [JustasMasiulis/nt_wrapper](https://github.com/JustasMasiulis/nt_wrapper) - A wrapper library around native windows sytem APIs
+- [JustasMasiulis/lazy_importer](https://github.com/JustasMasiulis/lazy_importer) - library for importing functions from dlls in a hidden, reverse engineer unfriendly way
+- [evandowning/windbg-trace](https://github.com/evandowning/windbg-trace) - Use WinDBG to trace the Windows API calls of any Portable Executable file
+- [feel-the-dz3n/pelauncher](https://github.com/feel-the-dz3n/pelauncher) - Portable Executable launcher for Windows NT bypassing loader
+- [pstolarz/dumpext](https://github.com/pstolarz/dumpext) - WinDbg debugger extension library providing various tools to analyse, dump and fix (restore) Microsoft Portable Executable files for both 32 (PE) and 64-bit (PE+) platforms.
+- [lief-project/LIEF](https://github.com/lief-project/LIEF) - LIEF - Library to Instrument Executable Formats
+- [SurrealSky/PETOOLS](https://github.com/SurrealSky/PETOOLS) - PE文件解析和加壳工具
+- [mkucenski/libNTFSUsnJrnl](https://github.com/mkucenski/libNTFSUsnJrnl) - Library for parsing Windows Change Journal records (aka USN Journal).
+- [thewhiteninja/ntfstool](https://github.com/thewhiteninja/ntfstool) - Forensics tool for NTFS (parser, mft, bitlocker, deleted files)
+- [FangWHao/A-Good-Local-File-Searcher](https://github.com/FangWHao/A-Good-Local-File-Searcher) - 用C++实现的基于NTFS下MFT和USN-Journal检索与类正则表达式-NFA-DFA字符串匹配的本地文件查找系统
+- [farfella/ntfs-cpu-search](https://github.com/farfella/ntfs-cpu-search) - From 2011: Quickly search for files in NTFS volumes parsing the Master File Table (MFT). A decent amount of how NTFS and MFT work was painstakingly reverse-engineered since it's undocumented.
+- [owwlo/Search.It](https://github.com/owwlo/Search.It) - A ultra fast file searching tool. Generate index with MFT on NTFS.
+- [sunglinf404/SearchDeleteFile](https://github.com/sunglinf404/SearchDeleteFile) - ntfs文件系统的数据恢复
+- [TautvydasZilys/FileSystemSearch](https://github.com/TautvydasZilys/FileSystemSearch) - 
+- [c1y2m3/FileSearch](https://github.com/c1y2m3/FileSearch) - C++枚举磁盘列表、遍历指定盘搜索特定类型文件包括反射DLL版本。
+- [ChrisS85/FastFileSearch](https://github.com/ChrisS85/FastFileSearch) - Extremely fast file search using the NTFS USN journal
+- [biesigrr/pe-loader](https://github.com/biesigrr/pe-loader) - Loads a portable executable into a target process and handles everything that would normally be done by the Windows PE loader. Allows to use PEs from memory
+- [JeremyWildsmith/PELoader](https://github.com/JeremyWildsmith/PELoader) - 
+- [Chaoses-Ib/IbEverythingExt](https://github.com/Chaoses-Ib/IbEverythingExt) - Everything 拼音搜索、快速选择扩展
+- [LeiHao0/Fake-Everything](https://github.com/LeiHao0/Fake-Everything) - Everything的原理猜想与实现
+- [CobaltFusion/DebugViewPP](https://github.com/CobaltFusion/DebugViewPP) - DebugView++, collects, views, filters your application logs, and highlights information that is important to you!
+- [a4501150/LambseaExternal](https://github.com/a4501150/LambseaExternal) - Players' Unknown Battleground Vulnerabilities Test PoC
+- [cpu-chromium/WoF](https://github.com/cpu-chromium/WoF) - Windows overlay FS explorations
+- [openframeworks/openFrameworks](https://github.com/openframeworks/openFrameworks) - openFrameworks is a community-developed cross platform toolkit for creative coding in C++.
+- [vbpf/ebpf-verifier](https://github.com/vbpf/ebpf-verifier) - A new eBPF verifier, using abstract interpretation
+- [sebastien-riou/aes-brute-force](https://github.com/sebastien-riou/aes-brute-force) - Using Intel AES-NI and c++ threads to search an AES128 key (well, part of it)
 - [rime/weasel](https://github.com/rime/weasel) - 【小狼毫】Rime for Windows
 - [Presburger/qmc-decoder](https://github.com/Presburger/qmc-decoder) - Fastest & best convert qmc 2 mp3 | flac tools
 - [season-lab/sok-dbi-security](https://github.com/season-lab/sok-dbi-security) - Library to hide DBI artifacts when using Intel Pin. Code from the ASIA CCS 2019 paper "SoK: Using Dynamic Binary Instrumentation for Security (And How You May Get Caught Red Handed)"
 - [nektra/Deviare-InProc](https://github.com/nektra/Deviare-InProc) - Deviare In Process Instrumentation Engine
-- [season-lab/bluepill](https://github.com/season-lab/bluepill) - BluePill: Neutralizing Anti-Analysis Behavior in Malware Dissection (Black Hat Europe 2019, TIFS 2020)
-- [dcdelia/sniper](https://github.com/dcdelia/sniper) - Designing Robust API Monitoring Solutions (IEEE TDSC)
+- [season-lab/bluepill](https://github.com/season-lab/bluepill) - BluePill: Neutralizing Anti-Analysis Behavior in Malware Dissection (Black Hat Europe 2019, IEEE TIFS 2020)
+- [dcdelia/sniper](https://github.com/dcdelia/sniper) - Robust API monitoring system presented in the paper "Designing Robust API Monitoring Solutions" (IEEE TDSC)
 - [necst/arancino](https://github.com/necst/arancino) - Arancino is a dynamic protection framework that defends Intel Pin against anti-instrumentation attacks.
 - [libvmtrace/libvmtrace](https://github.com/libvmtrace/libvmtrace) - Virtual machine introspection library based on libvmi
 - [bitdefender/river](https://github.com/bitdefender/river) - Dynamic binary translator for x86 binaries
@@ -330,6 +565,7 @@
 - [rizinorg/cutter](https://github.com/rizinorg/cutter) - Free and Open Source Reverse Engineering Platform powered by rizin
 - [hteso/iaito](https://github.com/hteso/iaito) - This project has been moved to:
 - [escse/ProtocolTaint](https://github.com/escse/ProtocolTaint) - Protocol Bytes Boundary by Taint Analysis
+- [lzto/pex](https://github.com/lzto/pex) - [USENIX SECURITY'19] PeX: A Permission Check Analysis Framework for Linux Kernel
 - [sslab-gatech/deadline](https://github.com/sslab-gatech/deadline) - 
 - [RiS3-Lab/kubo](https://github.com/RiS3-Lab/kubo) - Use on-demand control- data- flow slicing combined with taint analysis and symbolic execution to produce scalable and precise UB detection for Linux kernel.
 - [ucsb-seclab/dr_checker](https://github.com/ucsb-seclab/dr_checker) - DR.CHECKER : A Soundy Vulnerability Detection Tool for Linux Kernel Drivers
@@ -441,8 +677,13 @@
 - [simonowen/fdrawcmd](https://github.com/simonowen/fdrawcmd) - fdrawcmd.sys is a Windows filter driver that exposes command-level access to the on-board floppy disk controller.
 - [TigerVNC/tigervnc](https://github.com/TigerVNC/tigervnc) - High performance, multi-platform VNC client and server
 
+## CMake 
+
+- [hasherezade/detours_cmake_tpl](https://github.com/hasherezade/detours_cmake_tpl) - A CMake template for projects using MS Detours
+
 ## CSS 
 
+- [trustedsec/SysmonCommunityGuide](https://github.com/trustedsec/SysmonCommunityGuide) - TrustedSec Sysinternals Sysmon Community Guide
 - [dumbape/HIMS](https://github.com/dumbape/HIMS) - Hospital Information Management System create using Node Js
 - [tushariscoolster/HospitalManagementSystem](https://github.com/tushariscoolster/HospitalManagementSystem) - Hospital management System python
 - [sumitkumar1503/hospitalmanagement](https://github.com/sumitkumar1503/hospitalmanagement) - Hospital Management System || Python Django
@@ -459,6 +700,19 @@
 
 ## Go 
 
+- [lunixbochs/usercorn](https://github.com/lunixbochs/usercorn) - dynamic binary analysis via platform emulation
+- [bettercap/bettercap](https://github.com/bettercap/bettercap) - The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and MITM attacks.
+- [0xrawsec/gene](https://github.com/0xrawsec/gene) - Signature Engine for Windows Event Logs
+- [0xrawsec/whids](https://github.com/0xrawsec/whids) - Open Source EDR for Windows
+- [carbonblack/binee](https://github.com/carbonblack/binee) - Binee: binary emulation environment
+- [SaturnsVoid/GoBot2](https://github.com/SaturnsVoid/GoBot2) - Second Version of The GoBot Botnet, But more advanced.
+- [redcode-labs/Coldfire](https://github.com/redcode-labs/Coldfire) - Golang malware development library
+- [gen0cide/gscript](https://github.com/gen0cide/gscript) - framework to rapidly implement custom droppers for all three major operating systems
+- [mauri870/ransomware](https://github.com/mauri870/ransomware) - A POC Windows crypto-ransomware (Academic). Now Ransom:Win32/MauriCrypt.MK!MTB
+- [redcode-labs/Neurax](https://github.com/redcode-labs/Neurax) - A framework for constructing self-spreading binaries
+- [looterz/grimd](https://github.com/looterz/grimd) - :zap: fast dns proxy that can run anywhere, built to black-hole internet advertisements and malware servers
+- [maliceio/malice](https://github.com/maliceio/malice) - VirusTotal Wanna Be - Now with 100% more Hipster
+- [y4v8/filewatcher](https://github.com/y4v8/filewatcher) - Filewatcher that uses the USN change journal.
 - [tklengyel/dwarf2json](https://github.com/tklengyel/dwarf2json) - convert ELF/DWARF symbol and type information into vol3's intermediate JSON
 - [oam-dev/kubevela](https://github.com/oam-dev/kubevela) - The Modern Application Platform.
 - [superedge/superedge](https://github.com/superedge/superedge) - An edge-native container management system for edge computing
@@ -474,7 +728,7 @@
 - [cilium/ebpf](https://github.com/cilium/ebpf) - eBPF Library for Go
 - [l3af-project/l3afd](https://github.com/l3af-project/l3afd) - L3AFD kernel function control plane
 - [deepfence/SecretScanner](https://github.com/deepfence/SecretScanner) - Find secrets and passwords in container images and file systems
-- [deepfence/ThreatMapper](https://github.com/deepfence/ThreatMapper) - Identify vulnerabilities and attack paths in running containers, images, hosts and repositories.
+- [deepfence/ThreatMapper](https://github.com/deepfence/ThreatMapper) - 🔥 🔥   Open source cloud native security observability platform. Linux, K8s, AWS Fargate and more. 🔥 🔥
 - [cilium/cilium](https://github.com/cilium/cilium) - eBPF-based Networking, Security, and Observability
 - [triggermesh/triggermesh](https://github.com/triggermesh/triggermesh) - Open source event-driven integration platform powered by Kubernetes and Knative. TriggerMesh allows you to declaratively define event flows between sources and targets, with content-based filtering, splitting and processing using functions.
 - [activecm/rita](https://github.com/activecm/rita) - Real Intelligence Threat Analytics (RITA) is a framework for detecting command and control communication through network traffic analysis.
@@ -521,8 +775,16 @@
 - [mattermost/mattermost-server](https://github.com/mattermost/mattermost-server) - Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.
 - [pdfcpu/pdfcpu](https://github.com/pdfcpu/pdfcpu) - A PDF processor written in Go.
 
+## HCL 
+
+- [BlueTeamLabs/sentinel-attack](https://github.com/BlueTeamLabs/sentinel-attack) - Tools to rapidly deploy a threat hunting capability on Azure Sentinel that leverages Sysmon and MITRE ATT&CK
+
 ## HTML 
 
+- [badmojr/1Hosts](https://github.com/badmojr/1Hosts) - DNS filter-/blocklists for privacy. security. & clean browsing!
+- [ckane/CS7038-Malware-Analysis](https://github.com/ckane/CS7038-Malware-Analysis) - Course Repository for University of Cincinnati Malware Analysis Class (CS[567]038)
+- [jstrosch/malware-samples](https://github.com/jstrosch/malware-samples) - Malware samples, analysis exercises and other interesting resources.
+- [OpenRCE/Malware-Analysis-Training](https://github.com/OpenRCE/Malware-Analysis-Training) - Retired beginner/intermediate malware analysis training materials from @pedramamini and @erocarrera.
 - [MozillaSecurity/FuzzManager](https://github.com/MozillaSecurity/FuzzManager) - A fuzzing management tools collection
 - [hmislk/hmis](https://github.com/hmislk/hmis) - This is an Open Source Java EE based Hospital Information Management System
 - [clong/DetectionLab](https://github.com/clong/DetectionLab) - Automate the creation of a lab environment complete with security tooling and logging best practices
@@ -543,6 +805,10 @@
 
 ## Java 
 
+- [ac-pm/Inspeckage](https://github.com/ac-pm/Inspeckage) - Android Package Inspector - dynamic analysis with api hooks, start unexported activities and more. (Xposed Module)
+- [ahlashkari/CICFlowMeter](https://github.com/ahlashkari/CICFlowMeter) - CICFlowmeter-V4.0 (formerly known as ISCXFlowMeter) is an Ethernet traffic Bi-flow generator and analyzer for anomaly detection that has been used in many Cybersecurity datsets such as Android Adware-General Malware dataset (CICAAGM2017), IPS/IDS dataset (CICIDS2017), Android Malware dataset (CICAndMal2017) and Distributed Denial of Service (CICDDoS2019).
+- [D4stiny/jWARE](https://github.com/D4stiny/jWARE) - Ransomware base in Java for all operating systems
+- [strazzere/anti-emulator](https://github.com/strazzere/anti-emulator) - Android Anti-Emulator
 - [hiparker/opsli-boot](https://github.com/hiparker/opsli-boot) - OPSLI 快速开发平台基于springboot、vue、element-ui ，项目采用前后端分离架构，热插拔式业务模块与插件扩展性高 ,代码简洁，功能丰富，开箱即用
 - [SJBSoft/Hospital-Management-System](https://github.com/SJBSoft/Hospital-Management-System) - Java mini project Hospital Management System with sql database
 - [SteveGan/NeusoftCloudHospital](https://github.com/SteveGan/NeusoftCloudHospital) - 东软云医院。爱与健康，连接你我。🏥
@@ -578,6 +844,8 @@
 
 ## JavaScript 
 
+- [JPCERTCC/SysmonSearch](https://github.com/JPCERTCC/SysmonSearch) - Investigate suspicious activity by visualizing Sysmon's event log
+- [hasherezade/passcrambler](https://github.com/hasherezade/passcrambler) - https://hasherezade.github.io/passcrambler/
 - [vatesfr/xen-orchestra](https://github.com/vatesfr/xen-orchestra) - The complete web solution to manage and backup XCP-ng and Citrix Hypervisor.
 - [nowsecure/r2frida](https://github.com/nowsecure/r2frida) - Radare2 and Frida better together.
 - [horsicq/Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) - Program for determining types of files for Windows, Linux and MacOS.
@@ -704,6 +972,7 @@
 
 ## Jupyter Notebook 
 
+- [dchad/malware-detection](https://github.com/dchad/malware-detection) - Malware Detection and Classification Using Machine Learning
 - [Xilinx/PYNQ](https://github.com/Xilinx/PYNQ) - Python Productivity for ZYNQ
 - [xupsh/pp4fpgas-cn-hls](https://github.com/xupsh/pp4fpgas-cn-hls) - HLS Project of pp4fpgas - https://github.com/xupsh/pp4fpgas-cn
 - [The-Art-of-Hacking/h4cker](https://github.com/The-Art-of-Hacking/h4cker) - This repository is primarily maintained by Omar Santos and includes thousands of resources related to ethical hacking  / penetration testing, digital forensics and incident response (DFIR), vulnerability research, exploit development, reverse engineering, and more.
@@ -718,6 +987,7 @@
 
 ## Lua 
 
+- [udbg/udbg](https://github.com/udbg/udbg) - dynamic binary analysis tools
 - [ntop/ntopng](https://github.com/ntop/ntopng) - Web-based Traffic and Security Network Traffic Monitoring
 - [michal-h21/make4ht](https://github.com/michal-h21/make4ht) - Build system for tex4ht
 - [automayt/ICS-pcap](https://github.com/automayt/ICS-pcap) - A collection of ICS/SCADA PCAPs
@@ -741,6 +1011,38 @@
 
 ## Others 
 
+- [alphaSeclab/DBI-Stuff](https://github.com/alphaSeclab/DBI-Stuff) - Resources About Dynamic Binary Instrumentation and Dynamic Binary Analysis
+- [cyber-research/APTMalware](https://github.com/cyber-research/APTMalware) - APT Malware Dataset Containing over 3,500 State-Sponsored Malware Samples
+- [mgeeky/procmon-filters](https://github.com/mgeeky/procmon-filters) - SysInternals' Process Monitor filters repository - collected from various places and made up by myself. To be used for quick Behavioral analysis of testing specimens. Inspired and based on Lenny Zeltser's collection.
+- [Neo23x0/sysmon-version-history](https://github.com/Neo23x0/sysmon-version-history) - An Inofficial Sysmon Version History (Change Log)
+- [sametsazak/sysmon](https://github.com/sametsazak/sysmon) - Sysmon and wazuh integration with Sigma sysmon rules [updated]
+- [jsecurity101/Windows-API-To-Sysmon-Events](https://github.com/jsecurity101/Windows-API-To-Sysmon-Events) - A repository that maps API calls to Sysmon Event ID's.
+- [olafhartong/sysmon-cheatsheet](https://github.com/olafhartong/sysmon-cheatsheet) - All sysmon event types and their fields explained
+- [MHaggis/sysmon-dfir](https://github.com/MHaggis/sysmon-dfir) - Sources, configuration and how to detect evil things utilizing Microsoft Sysmon.
+- [SwiftOnSecurity/sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config) - Sysmon configuration file template with default high-quality event tracing
+- [nshalabi/SysmonTools](https://github.com/nshalabi/SysmonTools) - Utilities for Sysmon
+- [DavidDikker/endgame](https://github.com/DavidDikker/endgame) - An AWS Pentesting tool that lets you use one-liner commands to backdoor an AWS account's resources with a rogue AWS account - or share the resources with the entire internet 😈
+- [pandazheng/Threat-Intelligence-Analyst](https://github.com/pandazheng/Threat-Intelligence-Analyst) - 威胁情报，恶意样本分析，开源Malware代码收集
+- [0x4143/malware-gems](https://github.com/0x4143/malware-gems) - A not so awesome list of malware gems for aspiring malware analysts
+- [hasherezade/keygenme-v7](https://github.com/hasherezade/keygenme-v7) - Source code of my KeygenMe V7 challenge
+- [hasherezade/herpaderping](https://github.com/hasherezade/herpaderping) - Process Herpaderping proof of concept, tool, and technical deep dive. Process Herpaderping bypasses security products by obscuring the intentions of a process.
+- [y11en/FOLIAGE](https://github.com/y11en/FOLIAGE) - Experiment on reproducing Obfuscate & Sleep
+- [hasherezade/pe_recovery_tools](https://github.com/hasherezade/pe_recovery_tools) - A placeholder repository
+- [hasherezade/injection](https://github.com/hasherezade/injection) - Windows process injection methods
+- [hasherezade/pesieve_tests](https://github.com/hasherezade/pesieve_tests) - External tests for PE-sieve
+- [hasherezade/pe-bear-releases](https://github.com/hasherezade/pe-bear-releases) - PE-bear (builds only)
+- [chenerlich/FCL](https://github.com/chenerlich/FCL) - FCL (Fileless Command Lines) - Known command lines of fileless malicious executions
+- [shramos/Awesome-Cybersecurity-Datasets](https://github.com/shramos/Awesome-Cybersecurity-Datasets) - A curated list of amazingly awesome Cybersecurity datasets
+- [swagkarna/pdfcrack](https://github.com/swagkarna/pdfcrack) - An Advanced tool to Crack Any Password Protected PDF file. A very user friendly script especially for noob hackers.
+- [fabrimagic72/malware-samples](https://github.com/fabrimagic72/malware-samples) - A collection of malware samples caught by several honeypots i manage
+- [mattnotmax/cyberchef-recipes](https://github.com/mattnotmax/cyberchef-recipes) - A list of cyber-chef recipes and curated links
+- [Lifka/hacking-resources](https://github.com/Lifka/hacking-resources) - Hacking resources and cheat sheets. References, tools, scripts, tutorials, and other resources that help offensive and defensive security professionals.
+- [notracking/hosts-blocklists](https://github.com/notracking/hosts-blocklists) - Automatically updated, moderated and optimized lists for blocking ads, trackers, malware and other garbage
+- [qilingframework/rtfd.io](https://github.com/qilingframework/rtfd.io) - Qiling Framework Documentation
+- [RPISEC/Malware](https://github.com/RPISEC/Malware) - Course materials for Malware Analysis by RPISEC
+- [nomi-sec/PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub) - 📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.
+- [rshipp/awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) - Defund the Police.
+- [petoolse/petools](https://github.com/petoolse/petools) - PE Tools - Portable executable (PE) manipulation toolkit
 - [umarfarook882/drakvuf_console_beta](https://github.com/umarfarook882/drakvuf_console_beta) - Automate Malware Analysis using Drakvuf and Extract IOC from drakvuf log using Drakvuf Console (Log Analysis Toolkit) build on electronjs
 - [jgru/ansible-drakvuf](https://github.com/jgru/ansible-drakvuf) - Ansible role to install the black-box binary analysis DRAKVUF
 - [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) - A collection of various awesome lists for hackers, pentesters and security researchers
@@ -807,6 +1109,10 @@
 - [poona/APIMiner](https://github.com/poona/APIMiner) - API Logger for Windows Executables
 - [fuzzdb-project/fuzzdb](https://github.com/fuzzdb-project/fuzzdb) - Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery.
 
+## POV-Ray SDL 
+
+- [ntop/nDPI](https://github.com/ntop/nDPI) - Open Source Deep Packet Inspection Software Toolkit
+
 ## Pascal 
 
 - [NeftaliDelphi/GLibWMI](https://github.com/NeftaliDelphi/GLibWMI) - GLibWMI is a Delphi library of components, focused on the Administration of Windows Systems. They are based on Windows WMI (Windows Management Instrumentation). GLibWMI es una librería/biblioteca de componentes para Delphi, enfocados a la Administración de Sistemas Windows. Están basados en la WMI de Windows (Windows Management Instrumentation).
@@ -828,6 +1134,16 @@
 
 ## PowerShell 
 
+- [peasead/windows-10-sandbox-to-elastic](https://github.com/peasead/windows-10-sandbox-to-elastic) - Rapidly building a Windows 10 system to use for dynamic malware analysis (sandbox), sending data to Elastic Cloud.
+- [mgeeky/cobalt-arsenal](https://github.com/mgeeky/cobalt-arsenal) - My collection of battle-tested Aggressor Scripts for Cobalt Strike 4.0+
+- [mgeeky/Penetration-Testing-Tools](https://github.com/mgeeky/Penetration-Testing-Tools) - A collection of more than 160+ tools, scripts, cheatsheets and other loots that I have developed over years for Red Teaming/Pentesting/IT Security audits purposes. Most of them came handy on at least one of my real-world engagements.
+- [microsoft/MSTIC-Sysmon](https://github.com/microsoft/MSTIC-Sysmon) - Anything Sysmon related from the MSTIC R&D team
+- [mattifestation/BHUSA2018_Sysmon](https://github.com/mattifestation/BHUSA2018_Sysmon) - All materials from our Black Hat 2018 "Subverting Sysmon" talk
+- [AustralianCyberSecurityCentre/windows_event_logging](https://github.com/AustralianCyberSecurityCentre/windows_event_logging) - Windows Event Forwarding subscriptions, configuration files and scripts that assist with implementing ACSC's protect publication, Technical Guidance for Windows Event Logging.
+- [ion-storm/sysmon-edr](https://github.com/ion-storm/sysmon-edr) - 
+- [olafhartong/sysmon-modular](https://github.com/olafhartong/sysmon-modular) - A repository of sysmon configuration modules
+- [HarmJ0y/PowerUp](https://github.com/HarmJ0y/PowerUp) - This version of PowerUp is now unsupported. See https://github.com/Veil-Framework/PowerTools/tree/master/PowerUp for the most current version.
+- [itm4n/PrivescCheck](https://github.com/itm4n/PrivescCheck) - Privilege Escalation Enumeration Script for Windows
 - [k8gege/K8tools](https://github.com/k8gege/K8tools) - K8工具合集(内网渗透/提权工具/远程溢出/漏洞利用/扫描工具/密码破解/免杀工具/Exploit/APT/0day/Shellcode/Payload/priviledge/BypassUAC/OverFlow/WebShell/PenTest) Web GetShell Exploit(Struts2/Zimbra/Weblogic/Tomcat/Apache/Jboss/DotNetNuke/zabbix)
 - [microsoft/winget-pkgs](https://github.com/microsoft/winget-pkgs) - The Microsoft community Windows Package Manager manifest repository
 - [BloodHoundAD/BloodHound](https://github.com/BloodHoundAD/BloodHound) - Six Degrees of Domain Admin
@@ -843,6 +1159,90 @@
 
 ## Python 
 
+- [evilsocket/opensnitch](https://github.com/evilsocket/opensnitch) - OpenSnitch is a GNU/Linux port of the Little Snitch application firewall
+- [evilsocket/ergo-pe-av](https://github.com/evilsocket/ergo-pe-av) - 🧠 🦠 An artificial neural network and API to detect Windows malware, based on Ergo and LIEF.
+- [CERT-Polska/karton](https://github.com/CERT-Polska/karton) - Distributed malware processing framework based on Python, Redis and MinIO.
+- [joxeankoret/pigaios](https://github.com/joxeankoret/pigaios) - A tool for matching and diffing source codes directly against binaries.
+- [joxeankoret/diaphora](https://github.com/joxeankoret/diaphora) - Diaphora, the most advanced Free and Open Source program diffing tool.
+- [joxeankoret/cosa-nostra](https://github.com/joxeankoret/cosa-nostra) - Cosa Nostra, a FOSS graph based malware clusterization toolkit.
+- [mkorman90/VolatilityBot](https://github.com/mkorman90/VolatilityBot) - VolatilityBot – An automated memory analyzer for malware samples and memory dumps
+- [pylyf/NetWorm](https://github.com/pylyf/NetWorm) - Python network worm that spreads on the local network and gives the attacker control of these machines.
+- [A3sal0n/FalconGate](https://github.com/A3sal0n/FalconGate) - A smart gateway to stop hackers and Malware attacks
+- [Dump-GUY/Malware-analysis-and-Reverse-engineering](https://github.com/Dump-GUY/Malware-analysis-and-Reverse-engineering) - Some of my publicly available Malware analysis and Reverse engineering.
+- [jymcheong/SysmonResources](https://github.com/jymcheong/SysmonResources) - Consolidation of various resources related to Microsoft Sysmon & sample data/log
+- [mkorman90/sysmon-config-bypass-finder](https://github.com/mkorman90/sysmon-config-bypass-finder) - Detect possible sysmon logging bypasses given a specific configuration
+- [lucky-luk3/Grafiki](https://github.com/lucky-luk3/Grafiki) - Threat Hunting tool about Sysmon and graphs
+- [yarox24/attack_monitor](https://github.com/yarox24/attack_monitor) - Endpoint detection & Malware analysis software
+- [KrispyCamel4u/SysMonTask](https://github.com/KrispyCamel4u/SysMonTask) - Linux system monitor with the compactness and usefulness of windows task manager to allow higher control and monitoring.
+- [OTRF/ThreatHunter-Playbook](https://github.com/OTRF/ThreatHunter-Playbook) - A Threat hunter's playbook to aid the development of techniques and hypothesis for hunting campaigns.
+- [justfoxing/ghidra_bridge](https://github.com/justfoxing/ghidra_bridge) - Python 3 bridge to Ghidra's Python scripting
+- [skelsec/minidump](https://github.com/skelsec/minidump) - Python library to parse and read Microsoft minidump file format
+- [blackberry/pe_tree](https://github.com/blackberry/pe_tree) - Python module for viewing Portable Executable (PE) files in a tree-view using pefile and PyQt5. Can also be used with IDA Pro and Rekall to dump in-memory PE files and reconstruct imports.
+- [scottrogowski/code2flow](https://github.com/scottrogowski/code2flow) - Pretty good call graphs for dynamic languages
+- [angr/angr](https://github.com/angr/angr) - A powerful and user-friendly binary analysis platform!
+- [Phype/telnet-iot-honeypot](https://github.com/Phype/telnet-iot-honeypot) - Python telnet honeypot for catching botnet binaries
+- [aaaddress1/shellDev.py](https://github.com/aaaddress1/shellDev.py) - tool for building windows shellcode in C by MinGW
+- [G1ft3dC0d3/MsfMania](https://github.com/G1ft3dC0d3/MsfMania) - Python AV Evasion Tools
+- [naveednajam/Little-Snitch---Rule-Groups](https://github.com/naveednajam/Little-Snitch---Rule-Groups) - This repo provide rule groups for Little Snitch based on unified host list to block ads, malware, fake news and porn
+- [eset/malware-research](https://github.com/eset/malware-research) - Code written as part of our various malware investigations
+- [phage-nz/ph0neutria](https://github.com/phage-nz/ph0neutria) - ph0neutria is a malware zoo builder that sources samples straight from the wild. Everything is stored in Viper for ease of access and manageability.
+- [ANSSI-FR/polichombr](https://github.com/ANSSI-FR/polichombr) - Collaborative malware analysis framework
+- [diogo-fernan/malsub](https://github.com/diogo-fernan/malsub) - A Python RESTful API framework for online malware analysis and threat intelligence services.
+- [deadPix3l/CryptSky](https://github.com/deadPix3l/CryptSky) - A simple, fully python ransomware PoC
+- [malicialab/avclass](https://github.com/malicialab/avclass) - AVClass malware labeling tool
+- [monnappa22/Limon](https://github.com/monnappa22/Limon) - Limon is a sandbox developed as a research project written in python, which automatically collects, analyzes, and reports on the run time indicators of Linux malware. It allows one to inspect Linux malware before execution, during execution, and after execution (post-mortem analysis) by performing static, dynamic and memory analysis using open source tools
+- [JPCERTCC/MalConfScan](https://github.com/JPCERTCC/MalConfScan) - Volatility plugin for extracts configuration data of known malware
+- [BreakingMalware/AVulnerabilityChecker](https://github.com/BreakingMalware/AVulnerabilityChecker) - Tool to check if your computer is likely to be vulnerable to exploitable constant Read-Write-Execute (RWX) addresses (AVs vulnerability)
+- [hasherezade/shellconv](https://github.com/hasherezade/shellconv) - Small tool for disassembling shellcode (using objdump)
+- [hasherezade/malware_analysis](https://github.com/hasherezade/malware_analysis) - Various snippets created during malware analysis
+- [hasherezade/crypto_utils](https://github.com/hasherezade/crypto_utils) - Set of my small utils related to cryptography, encoding, decoding etc
+- [hasherezade/password_scrambler](https://github.com/hasherezade/password_scrambler) - Password scrambler - small util to make your easy passwords complicated!
+- [hasherezade/ida_ifl](https://github.com/hasherezade/ida_ifl) - IFL - Interactive Functions List (plugin for IDA Pro)
+- [danielplohmann/apiscout](https://github.com/danielplohmann/apiscout) - This project aims at simplifying Windows API import recovery on arbitrary memory dumps
+- [nikdon/pyEntropy](https://github.com/nikdon/pyEntropy) - Entropy for Python
+- [raphaelvallat/antropy](https://github.com/raphaelvallat/antropy) - AntroPy: entropy and complexity of (EEG) time-series in Python
+- [Plazmaz/leaky-repo](https://github.com/Plazmaz/leaky-repo) - Benchmarking repo for secrets scanning
+- [sithis993/Crypter](https://github.com/sithis993/Crypter) - Crypter - Python3 based builder and ransomware compiled to Windows executable using PyInstaller
+- [felixweyne/imaginaryC2](https://github.com/felixweyne/imaginaryC2) - Imaginary C2 is a python tool which aims to help in the behavioral (network) analysis of malware. Imaginary C2 hosts a HTTP server which captures HTTP requests towards selectively chosen domains/IPs. Additionally, the tool aims to make it easy to replay captured Command-and-Control responses/served payloads.
+- [secrary/SSMA](https://github.com/secrary/SSMA) - SSMA - Simple Static Malware Analyzer [This project is not maintained anymore by me]
+- [JPCERTCC/aa-tools](https://github.com/JPCERTCC/aa-tools) - Artifact analysis tools by JPCERT/CC Analysis Center
+- [tarcisio-marinho/RSB-Framework](https://github.com/tarcisio-marinho/RSB-Framework) - Windows/Linux - ReverseShellBackdoor Framework
+- [tarcisio-marinho/GonnaCry](https://github.com/tarcisio-marinho/GonnaCry) - A Linux Ransomware
+- [baderj/domain_generation_algorithms](https://github.com/baderj/domain_generation_algorithms) - Some results of my DGA reversing efforts
+- [misterch0c/malSploitBase](https://github.com/misterch0c/malSploitBase) - Malware exploits
+- [rek7/fireELF](https://github.com/rek7/fireELF) - fireELF - Fileless Linux Malware Framework
+- [Ch0pin/EternalBlue](https://github.com/Ch0pin/EternalBlue) - Handy script to automate the attack
+- [Ch0pin/medusa](https://github.com/Ch0pin/medusa) - Binary instrumentation framework based on FRIDA
+- [mandiant/stringsifter](https://github.com/mandiant/stringsifter) - A machine learning tool that ranks strings based on their relevance for malware analysis.
+- [endgameinc/gym-malware](https://github.com/endgameinc/gym-malware) - 
+- [mitre/multiscanner](https://github.com/mitre/multiscanner) - Modular file scanning/analysis framework
+- [swagkarna/Hande-Stealer](https://github.com/swagkarna/Hande-Stealer) - Powerful Discord Stealer written in python
+- [virt-manager/virt-manager](https://github.com/virt-manager/virt-manager) - Desktop tool for managing virtual machines via libvirt
+- [iphelix/dnschef](https://github.com/iphelix/dnschef) - DNSChef - DNS proxy for Penetration Testers and Malware Analysts
+- [stormshadow07/HackTheWorld](https://github.com/stormshadow07/HackTheWorld) - An Python Script For Generating Payloads that Bypasses All Antivirus so far .
+- [certtools/intelmq](https://github.com/certtools/intelmq) - IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol.
+- [certsocietegenerale/FIR](https://github.com/certsocietegenerale/FIR) - Fast Incident Response
+- [certsocietegenerale/fame](https://github.com/certsocietegenerale/fame) - FAME Automates Malware Evaluation
+- [eliasgranderubio/dagda](https://github.com/eliasgranderubio/dagda) - a tool to perform static analysis of known vulnerabilities, trojans, viruses, malware & other malicious threats in docker images/containers and to monitor the docker daemon and running docker containers for detecting anomalous activities
+- [Neo23x0/yarGen](https://github.com/Neo23x0/yarGen) - yarGen is a generator for YARA rules
+- [tomchop/malcom](https://github.com/tomchop/malcom) - Malcom - Malware Communications Analyzer
+- [Endermanch/MalwareDatabase](https://github.com/Endermanch/MalwareDatabase) - This repository is one of a few malware collections on the GitHub.
+- [D4Vinci/Dr0p1t-Framework](https://github.com/D4Vinci/Dr0p1t-Framework) - A framework that create an advanced stealthy dropper that bypass most AVs and have a lot of tricks
+- [airbnb/binaryalert](https://github.com/airbnb/binaryalert) - BinaryAlert: Serverless, Real-time & Retroactive Malware Detection.
+- [aptnotes/tools](https://github.com/aptnotes/tools) - Tools to interact with APTnotes reporting/index.
+- [alexandreborges/malwoverview](https://github.com/alexandreborges/malwoverview) - Malwoverview is a first response tool used for threat hunting and offers intel information from Virus Total, Hybrid Analysis, URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, ThreatCrowd, Valhalla, Malware Bazaar, ThreatFox, Triage and it is able to scan Android devices against VT and HA.
+- [jekil/awesome-hacking](https://github.com/jekil/awesome-hacking) - Awesome hacking is an awesome collection of hacking tools.
+- [qilingframework/qiling](https://github.com/qilingframework/qiling) - Qiling Advanced Binary Emulation Framework
+- [androguard/androguard](https://github.com/androguard/androguard) - Reverse engineering, Malware and goodware analysis of Android applications ... and more (ninja !)
+- [bee-san/pyWhat](https://github.com/bee-san/pyWhat) - 🐸   Identify anything. pyWhat easily lets you identify emails, IP addresses, and more. Feed it a .pcap file or some text and it'll tell you what it is! 🧙‍♀️
+- [MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) - Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.
+- [wifiphisher/wifiphisher](https://github.com/wifiphisher/wifiphisher) - The Rogue Access Point Framework
+- [StevenBlack/hosts](https://github.com/StevenBlack/hosts) - 🔒 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.
+- [Tina-Rezaei/A-learning-model-to-detect-maliciousness-of-portable-executable-using-integrated-feature-set](https://github.com/Tina-Rezaei/A-learning-model-to-detect-maliciousness-of-portable-executable-using-integrated-feature-set) - 
+- [toughie88/malware-detection-machine-learning-approach](https://github.com/toughie88/malware-detection-machine-learning-approach) - python program to detect Portable_Executable files as either malicious or legitimate by trying out 5 different classification algorithms and choosing the best one for prediction by comparing their results.
+- [sashs/filebytes](https://github.com/sashs/filebytes) - Library to read and edit files in the following formats: Executable and Linking Format (ELF), Portable Executable (PE), MachO and OAT (Android Runtime)
+- [erocarrera/pefile](https://github.com/erocarrera/pefile) - pefile is a Python module to read and work with PE (Portable Executable) files
+- [NTFSparse/ntfs_parse](https://github.com/NTFSparse/ntfs_parse) - NTFS parser, plus linking capabilites between MFT LogFile and UsnJrnl
 - [stamparm/identYwaf](https://github.com/stamparm/identYwaf) - Blind WAF identification tool
 - [xcp-ng/xcp](https://github.com/xcp-ng/xcp) - Entry point for issues and wiki. Also contains some scripts and sources.
 - [tklengyel/volatility3](https://github.com/tklengyel/volatility3) - Volatility 3.0 development
@@ -897,7 +1297,7 @@
 - [GoSecure/malboxes](https://github.com/GoSecure/malboxes) - Builds malware analysis Windows VMs so that you don't have to.
 - [volatilityfoundation/volatility](https://github.com/volatilityfoundation/volatility) - An advanced memory forensics framework
 - [mandiant/flare-floss](https://github.com/mandiant/flare-floss) - FLARE Obfuscated String Solver - Automatically extract obfuscated strings from malware.
-- [persianhydra/Xeexe-TopAntivirusEvasion](https://github.com/persianhydra/Xeexe-TopAntivirusEvasion) - Undetectable & Xor encrypting with custom KEY (FUD Metasploit Rat) bypass Top Antivirus like BitDefender,Malwarebytes,Avast,ESET-NOD32,AVG,... & Automatically Add ICON and MANIFEST to excitable
+- [META-HYDRA/Pancakeswap-BSC-Sniper-Bot-web3-ANDROID-WINDOWS-MAC-LINUX-V2](https://github.com/META-HYDRA/Pancakeswap-BSC-Sniper-Bot-web3-ANDROID-WINDOWS-MAC-LINUX-V2) - Web3 Pancakeswap Sniper & honeypot detector Take Profit/StopLose bot written in python3, For  WINDOWS & ANDROID & MAC & LINUX
 - [mitre/caldera](https://github.com/mitre/caldera) - Automated Adversary Emulation Platform
 - [NHPT/FireEyeGoldCrystal](https://github.com/NHPT/FireEyeGoldCrystal) - 一个GitHub监控和信息收集工具，支持监控和收集CVE、免杀、漏洞利用等内置关键字和自定义关键字。
 - [riga/law](https://github.com/riga/law) - Build large-scale task workflows: luigi + job submission + remote targets + environment sandboxing using Docker/Singularity
@@ -976,6 +1376,14 @@
 - [bslatkin/mirrorrr](https://github.com/bslatkin/mirrorrr) - Web proxy for App Engine
 - [elliottzheng/CopyTranslator](https://github.com/elliottzheng/CopyTranslator) - The Project had moved to  elsewhere. Please go to|项目已迁移至别处，请到
 
+## QMake 
+
+- [horsicq/xntsv](https://github.com/horsicq/xntsv) - XNTSV program for detailed viewing of system structures  for Windows.
+
+## Rich Text Format 
+
+- [decalage2/oletools](https://github.com/decalage2/oletools) - oletools - python tools to analyze MS OLE2 files (Structured Storage, Compound File Binary Format) and MS Office documents, for malware analysis, forensics and debugging.
+
 ## Ruby 
 
 - [hashicorp/vagrant](https://github.com/hashicorp/vagrant) - Vagrant is a tool for building and distributing development environments.
@@ -984,6 +1392,8 @@
 
 ## Rust 
 
+- [evilsocket/medusa](https://github.com/evilsocket/medusa) - A fast and secure multi protocol honeypot.
+- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - Yet another remote desktop software
 - [Wenzel/libmicrovmi](https://github.com/Wenzel/libmicrovmi) - A cross-platform unified Virtual Machine Introspection API library
 - [analysis-tools-dev/dynamic-analysis](https://github.com/analysis-tools-dev/dynamic-analysis) - ⚙️ A curated list of dynamic analysis tools for all programming languages, binaries, and more.
 - [cloud-hypervisor/cloud-hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor) - A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.
@@ -995,8 +1405,19 @@
 
 - [drycc/workflow](https://github.com/drycc/workflow) - The developer and operations friendly Kubernetes toolbox
 
+## Scala 
+
+- [OpenXiangShan/XiangShan](https://github.com/OpenXiangShan/XiangShan) - Open-source high-performance RISC-V processor
+
 ## Shell 
 
+- [firmadyne/firmadyne](https://github.com/firmadyne/firmadyne) - Platform for emulation and dynamic analysis of Linux-based firmware
+- [AdroitAdorKhan/EnergizedProtection](https://github.com/AdroitAdorKhan/EnergizedProtection) - A merged collection of hosts from reputable sources. #StayEnergized!
+- [activecm/BeaKer](https://github.com/activecm/BeaKer) - Beacon Kibana Executable Report. Aggregates Sysmon Network Events With Elasticsearch and Kibana
+- [horsicq/build_tools](https://github.com/horsicq/build_tools) - 
+- [Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist](https://github.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist) - The Ultimate Unified Hosts file for protecting your network, computer, smartphones and Wi-Fi devices against millions of bad web sites. Protect your children and family from gaining access to bad web sites and protect your devices and pc from being infected with Malware or Ransomware.
+- [rfxn/linux-malware-detect](https://github.com/rfxn/linux-malware-detect) - Linux Malware Detection (LMD)
+- [EnergizedProtection/block](https://github.com/EnergizedProtection/block) - Let's make an annoyance free, better open internet, altogether!
 - [KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian) - 86五笔极点码表 for 鼠须管(macOs)、小狼毫(Windows)、中州韵(Ubuntu)
 - [OWASP/owasp-mstg](https://github.com/OWASP/owasp-mstg) - The Mobile Security Testing Guide (MSTG) is a comprehensive manual for mobile app security testing and reverse engineering. It describes the technical processes for verifying the controls listed in the OWASP Mobile Application Security Verification Standard (MASVS).
 - [l3af-project/l3af-arch](https://github.com/l3af-project/l3af-arch) - L3AF Architecture Documentation and Discussion
@@ -1008,7 +1429,7 @@
 - [ipaqmaster/vfio](https://github.com/ipaqmaster/vfio) - A script for easy pci and usb passthrough along with disks, iso's and other useful flags for quick tinkering with less of a headache. I use it for VM gaming and other PCI/LiveCD/PXE/VM/RawImage testing given the script's accessibility.
 - [doomedraven/Tools](https://github.com/doomedraven/Tools) - Combination of different utilities, have fun!
 - [kaorimatz/packer-templates](https://github.com/kaorimatz/packer-templates) - Packer templates for Vagrant base boxes
-- [fsquillace/junest](https://github.com/fsquillace/junest) - The lightweight Arch Linux based distro that runs upon any Linux distros without root access
+- [fsquillace/junest](https://github.com/fsquillace/junest) - The lightweight Arch Linux based distro that runs, without root privileges, upon any Linux distro
 - [quickemu-project/quickemu](https://github.com/quickemu-project/quickemu) - Quickly create and run optimised Windows, macOS and Linux desktop virtual machines.
 - [foxlet/macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM) - Tools to set up a quick macOS VM in QEMU, accelerated by KVM.
 - [pigmonkey/firewarden](https://github.com/pigmonkey/firewarden) - Open a file via the specified application within a private Firejail sandbox.
@@ -1092,6 +1513,10 @@
 
 - [itm4n/VBA-RunPE](https://github.com/itm4n/VBA-RunPE) - A VBA implementation of the RunPE technique or how to bypass application whitelisting.
 
+## VBScript 
+
+- [Da2dalus/The-MALWARE-Repo](https://github.com/Da2dalus/The-MALWARE-Repo) - A repository full of malware samples.
+
 ## VHDL 
 
 - [cassuto/SM4-FPGA](https://github.com/cassuto/SM4-FPGA) - SM4 is a block encryption algorithm
@@ -1104,6 +1529,8 @@
 
 ## Verilog 
 
+- [YosysHQ/picorv32](https://github.com/YosysHQ/picorv32) - PicoRV32 - A Size-Optimized RISC-V CPU
+- [SI-RISCV/e200_opensource](https://github.com/SI-RISCV/e200_opensource) - Deprecated, please go to next generation Ultra-Low Power RISC-V Core https://github.com/riscv-mcu/e203_hbirdv2
 - [cassuto/nano-cpu32k](https://github.com/cassuto/nano-cpu32k) - Superscalar out-of-order RISC core (with Cache& MMU) and SoC, supporting GNU toolchain & Linux 4.20 kernel, having been verified on Xilinx Kintex-7 FPGA.
 - [secworks/trng](https://github.com/secworks/trng) - True Random Number Generator core implemented in Verilog.
 - [secworks/aes](https://github.com/secworks/aes) - Verilog implementation of the symmetric block cipher AES (Advanced Encryption Standard) as specified in NIST FIPS 197. This implementation supports 128 and 256 bit keys.
@@ -1130,6 +1557,10 @@
 - [kgpai94/ECC-Encryption-System](https://github.com/kgpai94/ECC-Encryption-System) - This is a Verilog algorithm which takes 8bits and encrypts the data for the purpose of secure communication based on the concept of Elliptic Curve Cryptography. This project was implemented using a spartan 3 FPGA kit.
 - [myriadrf/LimeSDR-USB_GW](https://github.com/myriadrf/LimeSDR-USB_GW) - Altera Cyclone IV FPGA project for the USB 3.0 LimeSDR board
 
+## Visual Basic 
+
+- [NYAN-x-CAT/Lime-RAT](https://github.com/NYAN-x-CAT/Lime-RAT) - LimeRAT | Simple, yet powerful remote administration tool for Windows (RAT)
+
 ## Vue 
 
 - [harvester/dashboard](https://github.com/harvester/dashboard) - Rancher new Dashboard UI
@@ -1142,6 +1573,15 @@
 
 ## YARA 
 
+- [citizenlab/malware-indicators](https://github.com/citizenlab/malware-indicators) - Citizen Lab Malware Reports
+- [CYB3RMX/Qu1cksc0pe](https://github.com/CYB3RMX/Qu1cksc0pe) - All-in-One malware analysis tool.
+- [crhenr/freki](https://github.com/crhenr/freki) - :wolf: Malware analysis platform
+- [JusticeRage/Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer for PE executables.
+- [eset/malware-ioc](https://github.com/eset/malware-ioc) - Indicators of Compromises (IOC) of our various investigations
+- [urwithajit9/ClaMP](https://github.com/urwithajit9/ClaMP) - A Malware classifier dataset built with header fields’ values of Portable Executable files
+- [Yara-Rules/rules](https://github.com/Yara-Rules/rules) - Repository of yara rules
+- [blackeko/PEpper](https://github.com/blackeko/PEpper) - An open source script to perform malware static analysis on Portable Executable
+- [guelfoweb/peframe](https://github.com/guelfoweb/peframe) - PEframe is a open source tool to perform static analysis on Portable Executable malware and malicious MS Office documents.
 - [CyberMonitor/APT_CyberCriminal_Campagin_Collections](https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections) - APT & CyberCriminal Campaign Collection
 
 
