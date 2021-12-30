@@ -7,6 +7,7 @@
   - [ActionScript](#actionscript)
   - [AppleScript](#applescript)
   - [Assembly](#assembly)
+  - [AutoIt](#autoit)
   - [Batchfile](#batchfile)
   - [C](#c)
   - [C#](#c#)
@@ -79,6 +80,13 @@
 - [Ko-/riscvcrypto](https://github.com/Ko-/riscvcrypto) - Optimized assembly implementations of crypto for the RV32I (RISC-V) architecture
 - [SpinalHDL/VexRiscv](https://github.com/SpinalHDL/VexRiscv) - A FPGA friendly 32 bit RISC-V CPU implementation
 
+## AutoIt 
+
+- [jschicht/SetRegTime](https://github.com/jschicht/SetRegTime) - Registry timestamp manipulation
+- [jschicht/UsnJrnl2Csv](https://github.com/jschicht/UsnJrnl2Csv) - Parser for $UsnJrnl on NTFS
+- [jschicht/ExtractUsnJrnl](https://github.com/jschicht/ExtractUsnJrnl) - Tool to extract the $UsnJrnl from an NTFS volume
+- [jschicht/LogFileParser](https://github.com/jschicht/LogFileParser) - Parser for $LogFile on NTFS
+
 ## Batchfile 
 
 - [ion-storm/sysmon-config](https://github.com/ion-storm/sysmon-config) - Advanced Sysmon configuration, Installer & Auto Updater with high-quality event tracing
@@ -92,6 +100,20 @@
 
 ## C 
 
+- [yuchdev/NtfsFileEraser](https://github.com/yuchdev/NtfsFileEraser) - NTFS file eraser. Support of encrypted and compressed file systems
+- [ewedominic/FLock](https://github.com/ewedominic/FLock) - File system lock driver - hides, locks files and folders using extended-attributes on NTFS
+- [hkscy/RawNTFSFileExtraction](https://github.com/hkscy/RawNTFSFileExtraction) - A tool that extracts files from NTFS filesystems based on the file offest and block device label.
+- [DeDf/ParseNTFS](https://github.com/DeDf/ParseNTFS) - 
+- [makitos666/MFT_Fast_Transcoder](https://github.com/makitos666/MFT_Fast_Transcoder) - MFT Fast Transcoder is a fast forensic tool to analyze MFT of NTFS partitions.
+- [whu-enjoy/NTFSDirectoryBrowser](https://github.com/whu-enjoy/NTFSDirectoryBrowser) - This code is used to learn NTFS File System . It's like a directory browser
+- [dr-anoroc/rawccopy](https://github.com/dr-anoroc/rawccopy) - Command line utility for copying files on NTFS using low level disk access
+- [DougRogers/NTFSDirectorySystem](https://github.com/DougRogers/NTFSDirectorySystem) - Fast NTFS Directory Scan and Search
+- [limbenjamin/nTimetools](https://github.com/limbenjamin/nTimetools) - Timestomper and Timestamp checker with nanosecond accuracy for NTFS volumes
+- [tuxera/ntfs-3g](https://github.com/tuxera/ntfs-3g) - NTFS-3G Safe Read/Write NTFS Driver
+- [mgeeky/ntfs-journal-viewer](https://github.com/mgeeky/ntfs-journal-viewer) - Utterly simple NTFS Journal dumping utility. Handy when it comes to Computer Forensics and Malware Forensics Ops.
+- [LGA1150/ntfs3-oot](https://github.com/LGA1150/ntfs3-oot) - Cherry-picked from https://aur.archlinux.org/packages/ntfs3-dkms/
+- [sleuthkit/sleuthkit](https://github.com/sleuthkit/sleuthkit) - The Sleuth Kit® (TSK) is a library and collection of command line digital forensics tools that allow you to investigate volume and file system data. The library can be incorporated into larger digital forensics tools and the command line tools can be directly used to find evidence.
+- [nmap/npcap](https://github.com/nmap/npcap) - Nmap Project's Windows packet capture and transmission library
 - [tekwizz123/demos](https://github.com/tekwizz123/demos) - Forked from Akayan. Windows Kernel Exploitation. Static & dynamic analysis, exploits & vuln reasearch. Mitigations bypass's, genric bug-class's.
 - [flxflx/weasel](https://github.com/flxflx/weasel) - Public repository of the dynamic binary analysis framework WEASEL. WEASEL's main purpose is the identification and elimination of backdoors in server applications.
 - [LouisBrunner/valgrind-macos](https://github.com/LouisBrunner/valgrind-macos) - A valgrind mirror with latest macOS support
@@ -329,7 +351,6 @@
 - [jidongxiao/suse](https://github.com/jidongxiao/suse) - Secure User Space Encryption (SUSE)
 - [mjosaarinen/lwaes_isa](https://github.com/mjosaarinen/lwaes_isa) - [HISTORICAL] A Lightweight (RISC-V) ISA Extension for AES and SM4
 - [T-head-Semi/riscv-aosp](https://github.com/T-head-Semi/riscv-aosp) - Patches & Script for AOSP to run on Xuantie RISC-V CPU
-- [BrunoLevy/learn-fpga](https://github.com/BrunoLevy/learn-fpga) - Learning FPGA, yosys, nextpnr, and RISC-V
 - [openwall/john](https://github.com/openwall/john) - John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs
 - [raymondrc/riscv-isa-extension-for-SM4](https://github.com/raymondrc/riscv-isa-extension-for-SM4) - RISC-V instruction set extensions for SM4 block cipher
 - [linux-sunxi/linux-sunxi](https://github.com/linux-sunxi/linux-sunxi) - Linux source for Allwinner/Boxchip F20 (sun3i), A10 (sun4i), A12/A13/A10S (sun5i) and A20 (sun7i) SoCs
@@ -400,6 +421,13 @@
 
 ## C# # 
 
+- [yuanrui/EverythingSZ](https://github.com/yuanrui/EverythingSZ) - EverythingSZ is a learning project to research Everything background technology. original source code stored in CodePlex, this branch support .net core.
+- [Lazuplis-Mei/ADSTool](https://github.com/Lazuplis-Mei/ADSTool) - 提供操作NTFS文件的AlternateDataStream可选数据流的工具，可以用于文件的隐藏
+- [bsonnino/ADSViewer](https://github.com/bsonnino/ADSViewer) - Tool to list, show contents or delete Alternate Data Streams (ADS) from NTFS. This tool is handy to unblock files that come from the internet. For more details, take a look at my blog post at http://blogs.msmvps.com/bsonnino/2016/11/24/alternate-data-streams-in-c/
+- [TalAloni/MD5Stream](https://github.com/TalAloni/MD5Stream) - Store MD5 hash in NTFS Alternate Data Stream
+- [yesan/EverythingCSharp](https://github.com/yesan/EverythingCSharp) - Use NTFS Change Journal to make your EveryThing by CSharp 。Repo from https://archive.codeplex.com/?p=everythingsz
+- [raandree/NTFSSecurity](https://github.com/raandree/NTFSSecurity) - Managing permissions with PowerShell is only a bit easier than in VBS or the command line as there are no cmdlets for most day-to-day tasks like getting a permission report or adding permission to an item. PowerShell only offers Get-Acl and Set-Acl but everything in between getting and setting the ACL is missing. This module closes the gap.
+- [DiscUtils/DiscUtils](https://github.com/DiscUtils/DiscUtils) - Utility libraries to interact with discs, filesystem formats and more
 - [ncatlin/rgat](https://github.com/ncatlin/rgat) - An instruction trace visualisation tool for dynamic program analysis
 - [n0dec/MalwLess](https://github.com/n0dec/MalwLess) - Test Blue Team detections without running any attack.
 - [aaaddress1/my-Little-Ransomware](https://github.com/aaaddress1/my-Little-Ransomware) - easy ransomware module base on csharp.
@@ -445,6 +473,24 @@
 
 ## C++ 
 
+- [guy-eisenberg/adslibs](https://github.com/guy-eisenberg/adslibs) - C++ library that contains methods, to interact with NTFS "Alternate Data Streams" (ADS) directly.
+- [shtirlitz-dev/ntfs_file_streams](https://github.com/shtirlitz-dev/ntfs_file_streams) - A tool to manage NTFS additional streams
+- [RuneN007/NTFSObjectIDParser](https://github.com/RuneN007/NTFSObjectIDParser) - Digital Forensic tool parsing the $ObjID index file and correlating it with the $MFT
+- [FarGroup/FarManager](https://github.com/FarGroup/FarManager) - File and Archive Manager
+- [TakayukiTomatsuri/NTFS-EA-operation-library](https://github.com/TakayukiTomatsuri/NTFS-EA-operation-library) - 
+- [kirankumarcelestial/NTFSChangeJournalUserMode](https://github.com/kirankumarcelestial/NTFSChangeJournalUserMode) - Reference Implementation for NTFS Change Journal on user mode
+- [czm23333/NTFSDisk](https://github.com/czm23333/NTFSDisk) - NTFS volume analyzing API
+- [Jichao/ntfs-search](https://github.com/Jichao/ntfs-search) - mirror from https://sourceforge.net/projects/ntfs-search/
+- [aliakseis/NTFS-Search](https://github.com/aliakseis/NTFS-Search) - Taken from https://sourceforge.net/projects/ntfs-search/
+- [ambray/Ntfs](https://github.com/ambray/Ntfs) - Various libraries focused on examining/parsing NTFS-specific structures
+- [grimm-co/SetRegTime](https://github.com/grimm-co/SetRegTime) - Registry timestamp manipulation. A C-rewrite of https://github.com/jschicht/SetRegTime
+- [orkblutt/NTFS-Parser-Lib](https://github.com/orkblutt/NTFS-Parser-Lib) - From https://www.codeproject.com/Articles/81456/An-NTFS-Parser-Lib by cyb70289
+- [kusano/ntfsdump](https://github.com/kusano/ntfsdump) - Extract files from NTFS Volume
+- [mxway/FileRecovery](https://github.com/mxway/FileRecovery) - windows系统下fat32及ntfs删除文件恢复
+- [NoMoreFood/Repacls](https://github.com/NoMoreFood/Repacls) - Windows File Security Utility (replacement for xcacls, icacls,  setacl, and subinacl)
+- [strozfriedberg/ntfs-linker](https://github.com/strozfriedberg/ntfs-linker) - An NTFS journal parser
+- [wheres-crypto/wheres-crypto](https://github.com/wheres-crypto/wheres-crypto) - 
+- [seladb/PcapPlusPlus](https://github.com/seladb/PcapPlusPlus) - PcapPlusPlus is a multiplatform C++ library for capturing, parsing and crafting of network packets. It is designed to be efficient, powerful and easy to use. It provides C++ wrappers for the most popular packet processing engines such as libpcap, WinPcap, DPDK and PF_RING.
 - [atxsinn3r/amsiscanner](https://github.com/atxsinn3r/amsiscanner) - A C/C++ implementation of Microsoft's Antimalware Scan Interface
 - [forrest-orr/moneta](https://github.com/forrest-orr/moneta) - Moneta is a live usermode memory analysis tool for Windows with the capability to detect malware IOCs
 - [NtRaiseHardError/Antimalware-Research](https://github.com/NtRaiseHardError/Antimalware-Research) - Research on Anti-malware and other related security solutions
@@ -630,6 +676,7 @@
 - [Xilinx/HLS](https://github.com/Xilinx/HLS) - Vitis HLS LLVM source code and examples
 - [OAID/Tengine](https://github.com/OAID/Tengine) - Tengine is a lite, high performance, modular inference engine for embedded device
 - [fpgasystems/fpga-network-stack](https://github.com/fpgasystems/fpga-network-stack) - Scalable Network Stack for FPGAs (TCP/IP, RoCEv2)
+- [BrunoLevy/learn-fpga](https://github.com/BrunoLevy/learn-fpga) - Learning FPGA, yosys, nextpnr, and RISC-V
 - [sylefeb/Silice](https://github.com/sylefeb/Silice) - Silice is an open source language that simplifies prototyping and writing algorithms on FPGA architectures.
 - [sony/flutter-embedded-linux](https://github.com/sony/flutter-embedded-linux) - Embedded Linux embedding for Flutter
 - [zaphoyd/websocketpp](https://github.com/zaphoyd/websocketpp) - C++ websocket client/server library
@@ -805,6 +852,7 @@
 
 ## Java 
 
+- [sleuthkit/autopsy](https://github.com/sleuthkit/autopsy) - Autopsy® is a digital forensics platform and graphical interface to The Sleuth Kit® and other digital forensics tools. It can be used by law enforcement, military, and corporate examiners to investigate what happened on a computer. You can even use it to recover photos from your camera's memory card.
 - [ac-pm/Inspeckage](https://github.com/ac-pm/Inspeckage) - Android Package Inspector - dynamic analysis with api hooks, start unexported activities and more. (Xposed Module)
 - [ahlashkari/CICFlowMeter](https://github.com/ahlashkari/CICFlowMeter) - CICFlowmeter-V4.0 (formerly known as ISCXFlowMeter) is an Ethernet traffic Bi-flow generator and analyzer for anomaly detection that has been used in many Cybersecurity datsets such as Android Adware-General Malware dataset (CICAAGM2017), IPS/IDS dataset (CICIDS2017), Android Malware dataset (CICAndMal2017) and Distributed Denial of Service (CICDDoS2019).
 - [D4stiny/jWARE](https://github.com/D4stiny/jWARE) - Ransomware base in Java for all operating systems
@@ -844,6 +892,7 @@
 
 ## JavaScript 
 
+- [ntfstool/ntfstool](https://github.com/ntfstool/ntfstool) - A ntfs tool for mac
 - [JPCERTCC/SysmonSearch](https://github.com/JPCERTCC/SysmonSearch) - Investigate suspicious activity by visualizing Sysmon's event log
 - [hasherezade/passcrambler](https://github.com/hasherezade/passcrambler) - https://hasherezade.github.io/passcrambler/
 - [vatesfr/xen-orchestra](https://github.com/vatesfr/xen-orchestra) - The complete web solution to manage and backup XCP-ng and Citrix Hypervisor.
@@ -1011,6 +1060,7 @@
 
 ## Others 
 
+- [msuhanov/ntfs-samples](https://github.com/msuhanov/ntfs-samples) - NTFS samples
 - [alphaSeclab/DBI-Stuff](https://github.com/alphaSeclab/DBI-Stuff) - Resources About Dynamic Binary Instrumentation and Dynamic Binary Analysis
 - [cyber-research/APTMalware](https://github.com/cyber-research/APTMalware) - APT Malware Dataset Containing over 3,500 State-Sponsored Malware Samples
 - [mgeeky/procmon-filters](https://github.com/mgeeky/procmon-filters) - SysInternals' Process Monitor filters repository - collected from various places and made up by myself. To be used for quick Behavioral analysis of testing specimens. Inspired and based on Lenny Zeltser's collection.
@@ -1115,6 +1165,10 @@
 
 ## Pascal 
 
+- [yegor-mialyk/far-plugins](https://github.com/yegor-mialyk/far-plugins) - Far Manager Plugins and Libraries
+- [benjamimgois/ntfix](https://github.com/benjamimgois/ntfix) - NTfix is a small program to fix the problem of proton Games won't running on NTFS partitions
+- [diversenok/TransactionMaster](https://github.com/diversenok/TransactionMaster) - A tool for Windows that can make any program work within file-system transactions.
+- [miracle2k/ntfslink](https://github.com/miracle2k/ntfslink) - A set of Windows Shell Extensions, providing extended functionality for creating and using hard links and junction points on NTFS file systems.
 - [NeftaliDelphi/GLibWMI](https://github.com/NeftaliDelphi/GLibWMI) - GLibWMI is a Delphi library of components, focused on the Administration of Windows Systems. They are based on Windows WMI (Windows Management Instrumentation). GLibWMI es una librería/biblioteca de componentes para Delphi, enfocados a la Administración de Sistemas Windows. Están basados en la WMI de Windows (Windows Management Instrumentation).
 - [Coldzer0/Cmulator](https://github.com/Coldzer0/Cmulator) - Cmulator  is ( x86 - x64 ) Scriptable Reverse Engineering Sandbox Emulator for shellcode and PE binaries . Based on Unicorn & Zydis Engine & javascript
 - [neslib/Chet](https://github.com/neslib/Chet) - C Header Translator for Delphi
@@ -1134,6 +1188,9 @@
 
 ## PowerShell 
 
+- [cryps1s/DARKSURGEON](https://github.com/cryps1s/DARKSURGEON) - DARKSURGEON is a Windows packer project to empower incident response, digital forensics, malware analysis, and network defense.
+- [itglueguy/NTFS-Security-Auditing-with-Powershell](https://github.com/itglueguy/NTFS-Security-Auditing-with-Powershell) - ntfs security auditing with powershell
+- [ToddMaxey/Measure-NTFS-USN-consumption](https://github.com/ToddMaxey/Measure-NTFS-USN-consumption) - Powershell script to query the NTFS USN journal to determine if you have a high USN consumption rate.
 - [peasead/windows-10-sandbox-to-elastic](https://github.com/peasead/windows-10-sandbox-to-elastic) - Rapidly building a Windows 10 system to use for dynamic malware analysis (sandbox), sending data to Elastic Cloud.
 - [mgeeky/cobalt-arsenal](https://github.com/mgeeky/cobalt-arsenal) - My collection of battle-tested Aggressor Scripts for Cobalt Strike 4.0+
 - [mgeeky/Penetration-Testing-Tools](https://github.com/mgeeky/Penetration-Testing-Tools) - A collection of more than 160+ tools, scripts, cheatsheets and other loots that I have developed over years for Red Teaming/Pentesting/IT Security audits purposes. Most of them came handy on at least one of my real-world engagements.
@@ -1159,6 +1216,9 @@
 
 ## Python 
 
+- [yampelo/beagle](https://github.com/yampelo/beagle) - Beagle is an incident response and digital forensics tool which transforms security logs and data into graphs.
+- [harelsegev/INDXRipper](https://github.com/harelsegev/INDXRipper) - Carve file metadata from NTFS index ($I30) attributes
+- [msuhanov/dfir_ntfs](https://github.com/msuhanov/dfir_ntfs) - An NTFS/FAT parser for digital forensics & incident response
 - [evilsocket/opensnitch](https://github.com/evilsocket/opensnitch) - OpenSnitch is a GNU/Linux port of the Little Snitch application firewall
 - [evilsocket/ergo-pe-av](https://github.com/evilsocket/ergo-pe-av) - 🧠 🦠 An artificial neural network and API to detect Windows malware, based on Ergo and LIEF.
 - [CERT-Polska/karton](https://github.com/CERT-Polska/karton) - Distributed malware processing framework based on Python, Redis and MinIO.
@@ -1297,7 +1357,6 @@
 - [GoSecure/malboxes](https://github.com/GoSecure/malboxes) - Builds malware analysis Windows VMs so that you don't have to.
 - [volatilityfoundation/volatility](https://github.com/volatilityfoundation/volatility) - An advanced memory forensics framework
 - [mandiant/flare-floss](https://github.com/mandiant/flare-floss) - FLARE Obfuscated String Solver - Automatically extract obfuscated strings from malware.
-- [META-HYDRA/Pancakeswap-BSC-Sniper-Bot-web3-ANDROID-WINDOWS-MAC-LINUX-V2](https://github.com/META-HYDRA/Pancakeswap-BSC-Sniper-Bot-web3-ANDROID-WINDOWS-MAC-LINUX-V2) - Web3 Pancakeswap Sniper & honeypot detector Take Profit/StopLose bot written in python3, For  WINDOWS & ANDROID & MAC & LINUX
 - [mitre/caldera](https://github.com/mitre/caldera) - Automated Adversary Emulation Platform
 - [NHPT/FireEyeGoldCrystal](https://github.com/NHPT/FireEyeGoldCrystal) - 一个GitHub监控和信息收集工具，支持监控和收集CVE、免杀、漏洞利用等内置关键字和自定义关键字。
 - [riga/law](https://github.com/riga/law) - Build large-scale task workflows: luigi + job submission + remote targets + environment sandboxing using Docker/Singularity
@@ -1411,6 +1470,7 @@
 
 ## Shell 
 
+- [msuhanov/Linux-write-blocker](https://github.com/msuhanov/Linux-write-blocker) - The kernel patch and userspace tools to enable Linux software write blocking
 - [firmadyne/firmadyne](https://github.com/firmadyne/firmadyne) - Platform for emulation and dynamic analysis of Linux-based firmware
 - [AdroitAdorKhan/EnergizedProtection](https://github.com/AdroitAdorKhan/EnergizedProtection) - A merged collection of hosts from reputable sources. #StayEnergized!
 - [activecm/BeaKer](https://github.com/activecm/BeaKer) - Beacon Kibana Executable Report. Aggregates Sysmon Network Events With Elasticsearch and Kibana
