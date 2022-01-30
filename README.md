@@ -27,13 +27,13 @@
   - [Jupyter Notebook](#jupyter-notebook)
   - [Kotlin](#kotlin)
   - [LLVM](#llvm)
+  - [LiveScript](#livescript)
   - [Lua](#lua)
   - [Makefile](#makefile)
   - [OCaml](#ocaml)
   - [Objective-C](#objective-c)
   - [Others](#others)
   - [PHP](#php)
-  - [POV-Ray SDL](#pov-ray-sdl)
   - [Pascal](#pascal)
   - [Perl](#perl)
   - [PowerShell](#powershell)
@@ -71,11 +71,12 @@
 
 ## Assembly 
 
+- [jthuraisamy/SysWhispers2](https://github.com/jthuraisamy/SysWhispers2) - AV/EDR evasion via direct system calls.
+- [klezVirus/inceptor](https://github.com/klezVirus/inceptor) - Template-Driven AV/EDR Evasion Framework
 - [corkami/pics](https://github.com/corkami/pics) - Posters, drawings...
 - [hasherezade/bearparser_tests](https://github.com/hasherezade/bearparser_tests) - External tests for bearparser
 - [vxunderground/MalwareSourceCode](https://github.com/vxunderground/MalwareSourceCode) - Collection of malware source code for a variety of platforms in an array of different programming languages.
 - [Cpasjuste/pemu](https://github.com/Cpasjuste/pemu) - 
-- [mytechnotalent/Reverse-Engineering](https://github.com/mytechnotalent/Reverse-Engineering) - A FREE comprehensive reverse engineering tutorial covering x86, x64, 32-bit ARM & 64-bit ARM architectures.
 - [hasherezade/pe_to_shellcode](https://github.com/hasherezade/pe_to_shellcode) - Converts PE into a shellcode
 - [hasherezade/malware_training_vol1](https://github.com/hasherezade/malware_training_vol1) - Materials for Windows Malware Analysis training (volume 1)
 - [aadomn/aes](https://github.com/aadomn/aes) - Fast constant-time AES implementations on 32-bit architectures
@@ -104,6 +105,10 @@
 
 ## C 
 
+- [trickster0/TartarusGate](https://github.com/trickster0/TartarusGate) - TartarusGate, Bypassing EDRs
+- [am0nsec/HellsGate](https://github.com/am0nsec/HellsGate) - Original C Implementation of the Hell's Gate VX Technique
+- [ScarredMonk/SysmonSimulator](https://github.com/ScarredMonk/SysmonSimulator) - Sysmon event simulation utility which can be used to simulate the attacks to generate the Sysmon Event logs for testing the EDR detections and correlation rules by Blue teams.
+- [hfiref0x/SyscallTables](https://github.com/hfiref0x/SyscallTables) - Windows NT x64 Syscall tables
 - [greendow/A-variant-of-NIST-SP-800-22-test-suit](https://github.com/greendow/A-variant-of-NIST-SP-800-22-test-suit) - A variant of NIST SP 800-22 revison.1a test suit
 - [jgamblin/Mirai-Source-Code](https://github.com/jgamblin/Mirai-Source-Code) - Leaked Mirai Source Code for Research/IoC Development Purposes
 - [hkx3upper/FOKS-TROT](https://github.com/hkx3upper/FOKS-TROT) - minifilter双缓冲透明加解密过滤驱动
@@ -125,7 +130,7 @@
 - [wooorm/levenshtein.c](https://github.com/wooorm/levenshtein.c) - Levenshtein algorithm in C
 - [rieck/harry](https://github.com/rieck/harry) - A Tool for Measuring String Similarity
 - [miohtama/python-Levenshtein](https://github.com/miohtama/python-Levenshtein) - The Levenshtein Python C extension module contains functions for fast computation of Levenshtein distance and string similarity
-- [ankane/pgvector](https://github.com/ankane/pgvector) - Open-source vector similarity search for Postgres
+- [pgvector/pgvector](https://github.com/pgvector/pgvector) - Open-source vector similarity search for Postgres
 - [eulerto/pg_similarity](https://github.com/eulerto/pg_similarity) - set of functions and operators for executing similarity queries
 - [ofercas/ransomware_begone](https://github.com/ofercas/ransomware_begone) - ransomware_begone
 - [DecryptoniteTeam/Decryptonite](https://github.com/DecryptoniteTeam/Decryptonite) - Ransomware Detection and Mitigation Software
@@ -278,6 +283,7 @@
 - [ikantech/gm](https://github.com/ikantech/gm) - 不依赖第三方库实现国密SM2、SM3、SM4算法
 - [guanzhi/GmSSL](https://github.com/guanzhi/GmSSL) - 支持国密SM2/SM3/SM4/SM9/ZUC/SSL的OpenSSL分支
 - [sebastien-riou/masked-bit-sliced-aes-128](https://github.com/sebastien-riou/masked-bit-sliced-aes-128) - masked, bit-sliced AES-128 demo code
+- [ntop/nDPI](https://github.com/ntop/nDPI) - Open Source Deep Packet Inspection Software Toolkit
 - [ntop/PF_RING](https://github.com/ntop/PF_RING) - High-speed packet processing framework
 - [emscripten-core/emscripten](https://github.com/emscripten-core/emscripten) - Emscripten: An LLVM-to-WebAssembly Compiler
 - [xen-project/xen](https://github.com/xen-project/xen) - Mirror of the Xen Repository (PRs not accepted see: http://wiki.xenproject.org/wiki/Submitting_Xen_Project_Patches)
@@ -312,6 +318,7 @@
 - [intel/kernel-fuzzer-for-xen-project](https://github.com/intel/kernel-fuzzer-for-xen-project) - Kernel Fuzzer for Xen Project (KF/x) - Hypervisor-based fuzzing using Xen VM forking, VMI & AFL
 - [ispras/swat](https://github.com/ispras/swat) - SWAT - System-Wide Analysis Toolkit
 - [lgeek/dynamorio_pin_escape](https://github.com/lgeek/dynamorio_pin_escape) - 
+- [mytechnotalent/Reverse-Engineering](https://github.com/mytechnotalent/Reverse-Engineering) - A FREE comprehensive reverse engineering tutorial covering x86, x64, 32-bit ARM & 64-bit ARM architectures.
 - [wargio/r2dec-js](https://github.com/wargio/r2dec-js) - radare2 plugin - converts asm to pseudo-C code.
 - [radareorg/radare2-book](https://github.com/radareorg/radare2-book) - Radare2 official book
 - [radareorg/radare2](https://github.com/radareorg/radare2) - UNIX-like reverse engineering framework and command-line toolset
@@ -388,7 +395,7 @@
 - [mtth-bfft/ntsec](https://github.com/mtth-bfft/ntsec) - Standalone tool to explore the security model of Windows and its NT kernel. Use it to introspect privilege assignments and access right assignments, enumerate attack surfaces from the point of view of a sandboxed process, etc.
 - [lnslbrty/potd](https://github.com/lnslbrty/potd) - A high scalable low to medium interactive SSH/TCP honeypot using Linux Namespaces, capabilities, seccomp, cgroups designed for OpenWrt and IoT devices.
 - [CoolerVoid/0d1n](https://github.com/CoolerVoid/0d1n) - Tool for automating customized attacks against web applications. Fully made in C language with pthreads, it has fast performance.
-- [CoolerVoid/HiddenWall](https://github.com/CoolerVoid/HiddenWall) - Tool to generate a Linux kernel module for custom rules with Netfilter hooking. (block ports, Hidden mode, firewall functionst)
+- [CoolerVoid/HiddenWall](https://github.com/CoolerVoid/HiddenWall) - Tool to generate a Linux kernel module for custom rules with Netfilter hooking. (block ports, Hidden mode, firewall functions)
 - [netblue30/firetunnel](https://github.com/netblue30/firetunnel) - Tunneling program for Firejail sandboxes
 - [LloydLabs/wsb-detect](https://github.com/LloydLabs/wsb-detect) - wsb-detect enables you to detect if you are running in Windows Sandbox ("WSB")
 - [cloudflare/sandbox](https://github.com/cloudflare/sandbox) - Simple Linux seccomp rules without writing any code
@@ -489,6 +496,12 @@
 
 ## C# # 
 
+- [lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer) - Driver Store Explorer [RAPR]
+- [PwnDexter/SharpEDRChecker](https://github.com/PwnDexter/SharpEDRChecker) - Checks running processes, process metadata, Dlls loaded into your current process and the each DLLs metadata, common install directories, installed services and each service binaries metadata, installed drivers and each drivers metadata, all for the presence of known defensive products such as AV's, EDR's and logging tools.
+- [UnamSanctam/UnamDownloader](https://github.com/UnamSanctam/UnamDownloader) - A Free Silent (Hidden) Open Source Downloader (Binder) - Includes Windows Defender Bypass - Build Native - Unam Downloader
+- [mindcollapse/MalwareMultiScan](https://github.com/mindcollapse/MalwareMultiScan) - Self-hosted VirusTotal / MetaDefender wannabe with API, demo UI and Scanners running in Docker.
+- [dev-2null/ADCollector](https://github.com/dev-2null/ADCollector) - A lightweight tool to quickly extract valuable information from the Active Directory environment for both attacking and defending.
+- [matterpreter/DefenderCheck](https://github.com/matterpreter/DefenderCheck) - Identifies the bytes that Microsoft Defender flags on.
 - [lckt0/DotKill-Unpacker](https://github.com/lckt0/DotKill-Unpacker) - This program can remove Anti De4Dot, Junk Types, Math Protection, Anti Decompiler, Control Flow protections from a .NET assembly.
 - [de4dot/de4dot](https://github.com/de4dot/de4dot) - .NET deobfuscator and unpacker.
 - [XenocodeRCE/neo-ConfuserEx](https://github.com/XenocodeRCE/neo-ConfuserEx) - Updated ConfuserEX, an open-source, free obfuscator for .NET applications
@@ -586,6 +599,21 @@
 
 ## C++ 
 
+- [OSRDrivers/WDF-I](https://github.com/OSRDrivers/WDF-I) - Writing WDF Drivers I: Core Concepts Lab Material
+- [OSRDrivers/kmexts](https://github.com/OSRDrivers/kmexts) - Simple driver to register all available process, thread, image, Registry, and Object callbacks
+- [zodiacon/windowskernelprogrammingbook](https://github.com/zodiacon/windowskernelprogrammingbook) - The Windows Kernel Programming book samples
+- [xuanxuan0/DripLoader](https://github.com/xuanxuan0/DripLoader) - Evasive shellcode loader for bypassing event-based injection detection (PoC)
+- [SHA-MRIZ/FsMinfilterHooking](https://github.com/SHA-MRIZ/FsMinfilterHooking) - 
+- [uf0o/windows-ps-callbacks-experiments](https://github.com/uf0o/windows-ps-callbacks-experiments) - Files for http://deniable.org/windows/windows-callbacks
+- [Rostelecom-Red-Team/GoodbyeEDR](https://github.com/Rostelecom-Red-Team/GoodbyeEDR) - 
+- [zeroperil/HookDump](https://github.com/zeroperil/HookDump) - Security product hook detection
+- [asaurusrex/Probatorum-EDR-Userland-Hook-Checker](https://github.com/asaurusrex/Probatorum-EDR-Userland-Hook-Checker) - Project to check which Nt/Zw functions your local EDR is hooking
+- [qtkite/defender-control](https://github.com/qtkite/defender-control) - An open-source windows defender manager. Now you can disable windows defender permanently.
+- [phackt/stager.dll](https://github.com/phackt/stager.dll) - Code from this article: https://blog.rapid7.com/2018/05/03/hiding-metasploit-shellcode-to-evade-windows-defender/
+- [APTortellini/unDefender](https://github.com/APTortellini/unDefender) - Killing your preferred antimalware by abusing native symbolic links and NT paths.
+- [last-byte/unDefender](https://github.com/last-byte/unDefender) - Killing your preferred antimalware by abusing native symbolic links and NT paths.
+- [Zhuagenborn/Plants-vs.-Zombies-Online-Battle](https://github.com/Zhuagenborn/Plants-vs.-Zombies-Online-Battle) - 🎮 Plants vs. Zombies multiplayer battle, developed via reverse engineering, inline hook and dynamic-link library injection. Two online players defend and attack as the plant and zombie respectively.
+- [lab52io/StopDefender](https://github.com/lab52io/StopDefender) - Stop Windows Defender programmatically
 - [zodiacon/DeviceExplorer](https://github.com/zodiacon/DeviceExplorer) - 
 - [MountCloud/FireDog](https://github.com/MountCloud/FireDog) - 开源跨平台轻量级病毒特征检测引擎。Open source cross-platform lightweight virus signature detection engine.
 - [yuanhui-yang/LeetCode](https://github.com/yuanhui-yang/LeetCode) - LeetCode
@@ -833,7 +861,7 @@
 - [falcosecurity/falco](https://github.com/falcosecurity/falco) - Cloud Native Runtime Security
 - [iovisor/bpftrace](https://github.com/iovisor/bpftrace) - High-level tracing language for Linux eBPF
 - [SpiderLabs/ModSecurity](https://github.com/SpiderLabs/ModSecurity) - ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx that is developed by Trustwave's SpiderLabs. It has a robust event-based programming language which provides protection from a range of attacks against web applications and allows for HTTP traffic monitoring, logging and real-time analysis. With over 10,000 deployments world-wide, ModSecurity is the most widely deployed WAF in existence.
-- [JonathanSalwan/Triton](https://github.com/JonathanSalwan/Triton) - Triton is a Dynamic Binary Analysis (DBA) framework. It provides internal components like a Dynamic Symbolic Execution (DSE) engine, a dynamic taint engine, AST representations of the x86, x86-64, ARM32 and AArch64 Instructions Set Architecture (ISA), SMT simplification passes, an SMT solver interface and, the last but not least, Python bindings.
+- [JonathanSalwan/Triton](https://github.com/JonathanSalwan/Triton) - Triton is a dynamic binary analysis framework: build your program analysis tools, automate your reverse engineering, perform software verification or just emulate code.
 - [QBDI/QBDI](https://github.com/QBDI/QBDI) - A Dynamic Binary Instrumentation framework based on LLVM.
 - [google/fuzzing](https://github.com/google/fuzzing) - Tutorials, examples, discussions, research proposals, and other resources related to fuzzing
 - [GJDuck/e9patch](https://github.com/GJDuck/e9patch) - A powerful static binary rewriting tool
@@ -947,6 +975,7 @@
 
 ## Go 
 
+- [EgeBalci/sgn](https://github.com/EgeBalci/sgn) - Shikata ga nai (仕方がない) encoder ported into go with several improvements
 - [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
 - [j3ssie/osmedeus](https://github.com/j3ssie/osmedeus) - A Workflow Engine for Offensive Security
 - [hbollon/go-edlib](https://github.com/hbollon/go-edlib) - 📚 String comparison and edit distance algorithms library, featuring : Levenshtein, LCS, Hamming, Damerau levenshtein (OSA and Adjacent transpositions algorithms), Jaro-Winkler, Cosine, etc...
@@ -981,7 +1010,7 @@
 - [aquasecurity/trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues
 - [vmware-tanzu/community-edition](https://github.com/vmware-tanzu/community-edition) - VMware Tanzu Community Edition is a full-featured, easy to manage Kubernetes platform for learners and users on your local workstation or your favorite cloud. Tanzu Community Edition enables the creation of application platforms: infrastructure, tooling, and services providing location to run applications and enable positive developer experiences.
 - [cilium/hubble](https://github.com/cilium/hubble) - Hubble - Network, Service & Security Observability for Kubernetes using eBPF
-- [cilium/ebpf](https://github.com/cilium/ebpf) - eBPF Library for Go
+- [cilium/ebpf](https://github.com/cilium/ebpf) - Pure-Go library to read, modify and load eBPF programs and attach them to various hooks in the Linux kernel.
 - [l3af-project/l3afd](https://github.com/l3af-project/l3afd) - L3AFD kernel function control plane
 - [deepfence/SecretScanner](https://github.com/deepfence/SecretScanner) - Find secrets and passwords in container images and file systems
 - [deepfence/ThreatMapper](https://github.com/deepfence/ThreatMapper) - 🔥 🔥   Open source cloud native security observability platform. Linux, K8s, AWS Fargate and more. 🔥 🔥
@@ -1037,9 +1066,10 @@
 
 ## HTML 
 
+- [sans-blue-team/blue-team-wiki](https://github.com/sans-blue-team/blue-team-wiki) - Tools, techniques, cheat sheets, and other resources to assist those defending organizations and detecting adversaries
+- [AndyFul/Hard_Configurator](https://github.com/AndyFul/Hard_Configurator) - GUI to Manage Software Restriction Policies and harden Windows Home OS
 - [xazlsec/APT_Sample-Weapoon](https://github.com/xazlsec/APT_Sample-Weapoon) - Pull some collected APT group related samples, ransomware, remote control and other malicious programs for security researchers to use.
 - [openraven/docs](https://github.com/openraven/docs) - @WIP The main repo for technical documentation for all projects. This repo is used to build the documentation site https://opensource.openraven.com
-- [badmojr/1Hosts](https://github.com/badmojr/1Hosts) - DNS filter-/blocklists for privacy. security. & clean browsing!
 - [ckane/CS7038-Malware-Analysis](https://github.com/ckane/CS7038-Malware-Analysis) - Course Repository for University of Cincinnati Malware Analysis Class (CS[567]038)
 - [jstrosch/malware-samples](https://github.com/jstrosch/malware-samples) - Malware samples, analysis exercises and other interesting resources.
 - [OpenRCE/Malware-Analysis-Training](https://github.com/OpenRCE/Malware-Analysis-Training) - Retired beginner/intermediate malware analysis training materials from @pedramamini and @erocarrera.
@@ -1120,6 +1150,7 @@
 - [ntfstool/ntfstool](https://github.com/ntfstool/ntfstool) - A ntfs tool for mac
 - [JPCERTCC/SysmonSearch](https://github.com/JPCERTCC/SysmonSearch) - Investigate suspicious activity by visualizing Sysmon's event log
 - [hasherezade/passcrambler](https://github.com/hasherezade/passcrambler) - https://hasherezade.github.io/passcrambler/
+- [MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) - Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.
 - [vatesfr/xen-orchestra](https://github.com/vatesfr/xen-orchestra) - The complete web solution to manage and backup XCP-ng and Citrix Hypervisor.
 - [nowsecure/r2frida](https://github.com/nowsecure/r2frida) - Radare2 and Frida better together.
 - [horsicq/Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) - Program for determining types of files for Windows, Linux and MacOS.
@@ -1256,6 +1287,10 @@
 
 - [JonathanSalwan/Tigress_protection](https://github.com/JonathanSalwan/Tigress_protection) - Playing with the Tigress binary protection. Break some of its protections and solve some of its challenges. Automatic deobfuscation using symbolic execution, taint analysis and LLVM.
 
+## LiveScript 
+
+- [badmojr/1Hosts](https://github.com/badmojr/1Hosts) - DNS filter-/blocklists for privacy. security. & clean browsing!
+
 ## Lua 
 
 - [udbg/udbg](https://github.com/udbg/udbg) - dynamic binary analysis tools
@@ -1283,6 +1318,10 @@
 
 ## Others 
 
+- [shadawck/awesome-endpoint-detection-and-response](https://github.com/shadawck/awesome-endpoint-detection-and-response) - Collection of tool you need to have in your Endpoint Detection and Response arsenal
+- [mstxq17/CVE-2021-1675_RDL_LPE](https://github.com/mstxq17/CVE-2021-1675_RDL_LPE) - PrintNightMare LPE提权漏洞的CS 反射加载插件。开箱即用、通过内存加载、混淆加载的驱动名称来ByPass Defender/EDR。
+- [AndyFul/ConfigureDefender](https://github.com/AndyFul/ConfigureDefender) - Utility for configuring Windows 10 built-in Defender antivirus settings.
+- [infosecn1nja/AD-Attack-Defense](https://github.com/infosecn1nja/AD-Attack-Defense) - Attack and defend active directory using modern post exploitation adversary tradecraft activity
 - [ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors) - An office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit local documents
 - [Tencent/secguide](https://github.com/Tencent/secguide) - 面向开发人员梳理的代码安全指南
 - [FirmWire/FirmWire](https://github.com/FirmWire/FirmWire) - FirmWire is a full-system baseband firmware emulation platform for fuzzing, debugging, and root-cause analysis of smartphone baseband firmwares
@@ -1410,10 +1449,6 @@
 - [poona/APIMiner](https://github.com/poona/APIMiner) - API Logger for Windows Executables
 - [fuzzdb-project/fuzzdb](https://github.com/fuzzdb-project/fuzzdb) - Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery.
 
-## POV-Ray SDL 
-
-- [ntop/nDPI](https://github.com/ntop/nDPI) - Open Source Deep Packet Inspection Software Toolkit
-
 ## Pascal 
 
 - [0xsp-SRD/mortar](https://github.com/0xsp-SRD/mortar) - evasion technique to defeat and divert detection and prevention of security products (AV/EDR/XDR)
@@ -1447,6 +1482,11 @@
 
 ## PowerShell 
 
+- [PwnDexter/Invoke-EDRChecker](https://github.com/PwnDexter/Invoke-EDRChecker) - Checks running processes, process metadata, Dlls loaded into your current process and the each DLLs metadata, common install directories, installed services, the registry and running drivers for the presence of known defensive products such as AV's, EDR's and logging tools.
+- [urbanware-org/wideredist](https://github.com/urbanware-org/wideredist) - Windows Defender definition update tool for local network clients without internet access
+- [alexverboon/PSMDATP](https://github.com/alexverboon/PSMDATP) - PowerShell Module for managing Microsoft Defender Advanced Threat Protection
+- [alexverboon/MDATP](https://github.com/alexverboon/MDATP) - Microsoft 365 Defender - Resource Hub
+- [Azure/Microsoft-Defender-for-Cloud](https://github.com/Azure/Microsoft-Defender-for-Cloud) - Welcome to the Microsoft Defender for Cloud community repository
 - [mandiant/flare-vm](https://github.com/mandiant/flare-vm) - 
 - [netsecninja/DFIR-Lab](https://github.com/netsecninja/DFIR-Lab) - PowerShell script to automate most of the install of my DFIR lab VM
 - [SentineLabs/SentinelLabs_RevCore_Tools](https://github.com/SentineLabs/SentinelLabs_RevCore_Tools) - The Windows Malware Analysis Reversing Core Tools
@@ -1480,6 +1520,11 @@
 
 ## Python 
 
+- [softsys4ai/athena](https://github.com/softsys4ai/athena) - Athena: A Framework for Defending Machine Learning Systems Against Adversarial Attacks
+- [jklepsercyber/defender-detectionhistory-parser](https://github.com/jklepsercyber/defender-detectionhistory-parser) - A parser of Windows Defender's DetectionHistory forensic artifact, containing substantial info about quarantined files and executables.
+- [fierceoj/ShonyDanza](https://github.com/fierceoj/ShonyDanza) - A customizable, easy-to-navigate tool for researching, pen testing, and defending with the power of Shodan.
+- [mvelazc0/Oriana](https://github.com/mvelazc0/Oriana) - Oriana is a threat hunting tool that leverages a subset of Windows events to build relationships, calculate totals and run analytics. The results are presented in a Web layer to help defenders identify outliers and suspicious behavior on corporate environments.
+- [ethanmoyer/SubseqML](https://github.com/ethanmoyer/SubseqML) - 
 - [jonaslejon/malicious-pdf](https://github.com/jonaslejon/malicious-pdf) - Generate a bunch of malicious pdf files with phone-home functionality. Can be used with Burp Collaborator or Interact.sh
 - [Mr-xn/BurpSuite-collections](https://github.com/Mr-xn/BurpSuite-collections) - 有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提供burpsuite破解文件,如需要请在博客mrxn.net下载)---Collection of burpsuite plugins (non-stores), articles and tips for using Burpsuite, no crack version file
 - [mandiant/flare-emu](https://github.com/mandiant/flare-emu) - 
@@ -1589,7 +1634,6 @@
 - [qilingframework/qiling](https://github.com/qilingframework/qiling) - Qiling Advanced Binary Emulation Framework
 - [androguard/androguard](https://github.com/androguard/androguard) - Reverse engineering, Malware and goodware analysis of Android applications ... and more (ninja !)
 - [bee-san/pyWhat](https://github.com/bee-san/pyWhat) - 🐸   Identify anything. pyWhat easily lets you identify emails, IP addresses, and more. Feed it a .pcap file or some text and it'll tell you what it is! 🧙‍♀️
-- [MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) - Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.
 - [wifiphisher/wifiphisher](https://github.com/wifiphisher/wifiphisher) - The Rogue Access Point Framework
 - [StevenBlack/hosts](https://github.com/StevenBlack/hosts) - 🔒 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.
 - [Tina-Rezaei/A-learning-model-to-detect-maliciousness-of-portable-executable-using-integrated-feature-set](https://github.com/Tina-Rezaei/A-learning-model-to-detect-maliciousness-of-portable-executable-using-integrated-feature-set) - 
@@ -1627,7 +1671,6 @@
 - [GNS3/gns3-server](https://github.com/GNS3/gns3-server) - GNS3 server
 - [GNS3/gns3-gui](https://github.com/GNS3/gns3-gui) - GNS3 Graphical Network Simulator
 - [openbmc/openbmc](https://github.com/openbmc/openbmc) - OpenBMC Distribution
-- [grapl-security/grapl](https://github.com/grapl-security/grapl) - Graph platform for Detection and Response
 - [google/nogotofail](https://github.com/google/nogotofail) - An on-path blackbox network traffic security testing tool
 - [sqlmapproject/sqlmap](https://github.com/sqlmapproject/sqlmap) - Automatic SQL injection and database takeover tool
 - [stamparm/maltrail](https://github.com/stamparm/maltrail) - Malicious traffic detection system
@@ -1696,7 +1739,7 @@
 - [frappe/erpnext](https://github.com/frappe/erpnext) - Free and Open Source Enterprise Resource Planning (ERP)
 - [frappe/frappe](https://github.com/frappe/frappe) - Low code web framework for real world applications, in Python and Javascript
 - [multiparty/conclave](https://github.com/multiparty/conclave) - Query compiler for secure multi-party computation.
-- [lschoe/mpyc](https://github.com/lschoe/mpyc) - MPyC for Secure Multiparty Computation in Python
+- [lschoe/mpyc](https://github.com/lschoe/mpyc) - MPyC: Multiparty Computation in Python
 - [jbittel/django-mama-cas](https://github.com/jbittel/django-mama-cas) - A Django Central Authentication Service (CAS) single sign-on server
 - [simple-login/app](https://github.com/simple-login/app) - The SimpleLogin back-end
 - [ivre/ivre](https://github.com/ivre/ivre) - Network recon framework, published by @cea-sec & @ANSSI-FR. Build your own, self-hosted and fully-controlled alternatives to Shodan / ZoomEye / Censys and GreyNoise, run your Passive DNS service, collect and analyse network intelligence from your sensors, and much more!
@@ -1746,9 +1789,11 @@
 
 ## Rust 
 
+- [WhiteBeamSec/WhiteBeam](https://github.com/WhiteBeamSec/WhiteBeam) - WhiteBeam: Transparent endpoint security
 - [evilsocket/medusa](https://github.com/evilsocket/medusa) - A fast and secure multi protocol honeypot.
 - [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - Yet another remote desktop software
 - [Wenzel/libmicrovmi](https://github.com/Wenzel/libmicrovmi) - A cross-platform unified Virtual Machine Introspection API library
+- [grapl-security/grapl](https://github.com/grapl-security/grapl) - Graph platform for Detection and Response
 - [analysis-tools-dev/dynamic-analysis](https://github.com/analysis-tools-dev/dynamic-analysis) - ⚙️ A curated list of dynamic analysis tools for all programming languages, binaries, and more.
 - [cloud-hypervisor/cloud-hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor) - A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.
 - [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) - Secure and fast microVMs for serverless computing.
@@ -1949,7 +1994,7 @@
 
 - [citizenlab/malware-indicators](https://github.com/citizenlab/malware-indicators) - Citizen Lab Malware Reports
 - [CYB3RMX/Qu1cksc0pe](https://github.com/CYB3RMX/Qu1cksc0pe) - All-in-One malware analysis tool.
-- [crhenr/freki](https://github.com/crhenr/freki) - :wolf: Malware analysis platform
+- [cristianzsh/freki](https://github.com/cristianzsh/freki) - :wolf: Malware analysis platform
 - [JusticeRage/Manalyze](https://github.com/JusticeRage/Manalyze) - A static analyzer for PE executables.
 - [eset/malware-ioc](https://github.com/eset/malware-ioc) - Indicators of Compromises (IOC) of our various investigations
 - [urwithajit9/ClaMP](https://github.com/urwithajit9/ClaMP) - A Malware classifier dataset built with header fields’ values of Portable Executable files
