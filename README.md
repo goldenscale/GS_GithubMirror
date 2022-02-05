@@ -3,7 +3,7 @@
 
 
 ## Contents
- 
+
   - [ActionScript](#actionscript)
   - [AppleScript](#applescript)
   - [Assembly](#assembly)
@@ -105,6 +105,41 @@
 
 ## C 
 
+- [anthemtotheego/InlineExecute-Assembly](https://github.com/anthemtotheego/InlineExecute-Assembly) - InlineExecute-Assembly is a proof of concept Beacon Object File (BOF) that allows security professionals to perform in process .NET assembly execution as an alternative to Cobalt Strikes traditional fork and run execute-assembly module
+- [ireader/sdk](https://github.com/ireader/sdk) - portable system call(aio/socket/thread/process/lock/event/pipe)
+- [bperez77/xilinx_axidma](https://github.com/bperez77/xilinx_axidma) - A zero-copy Linux driver and a userspace interface library for Xilinx's AXI DMA and VDMA IP blocks. These serve as bridges for communication between the processing system and FPGA programmable logic fabric, through one of the DMA ports on the Zynq processing system. Distributed under the MIT License.
+- [outflanknl/Ps-Tools](https://github.com/outflanknl/Ps-Tools) - Ps-Tools, an advanced process monitoring toolkit for offensive operations
+- [goldsborough/ipc-bench](https://github.com/goldsborough/ipc-bench) - :racehorse: Benchmarks for Inter-Process-Communication Techniques
+- [landhb/HideProcess](https://github.com/landhb/HideProcess) - A basic Direct Kernel Object Manipulation rootkit that removes a process from the EPROCESS list, hiding it from the Task Manager
+- [DaanDeMeyer/reproc](https://github.com/DaanDeMeyer/reproc) - A cross-platform (C99/C++11) process library
+- [simonhf/sharedhashfile](https://github.com/simonhf/sharedhashfile) - Share Hash Tables With Stable Key Hints Stored In Memory Mapped Files Between Arbitrary Processes
+- [phaag/nfdump](https://github.com/phaag/nfdump) - Netflow processing tools
+- [WuBingzheng/libleak](https://github.com/WuBingzheng/libleak) - detect memory leak by LD_PRELOAD, without changing the target program
+- [Yaxser/Backstab](https://github.com/Yaxser/Backstab) - A tool to kill antimalware protected processes
+- [pingostack/pingos](https://github.com/pingostack/pingos) - Based on the NGINX/RTMP/HTTP-FLV/HTTP-TS/HLS/HLS+/DASH/H.264/H.265/AAC/MP3/Live/Record/VOD/Push/Pull/Multiple Processes/Dynamic Configuration/Configuration Variables/Console Interface/Notify
+- [JuliaStrings/utf8proc](https://github.com/JuliaStrings/utf8proc) - a clean C library for processing UTF-8 Unicode data
+- [unpaper/unpaper](https://github.com/unpaper/unpaper) - A post-processing tool for scanned sheets of paper.
+- [hyperrealm/libconfig](https://github.com/hyperrealm/libconfig) - C/C++ library for processing configuration files
+- [shadow/shadow](https://github.com/shadow/shadow) - Shadow is a discrete-event network simulator that directly executes real application code, enabling you to simulate distributed systems with thousands of network-connected processes in realistic and scalable private network experiments using your laptop, desktop, or server running Linux.
+- [cyring/CoreFreq](https://github.com/cyring/CoreFreq) - CoreFreq is a CPU monitoring software designed for the 64-bits Processors.
+- [ufrisk/LeechCore](https://github.com/ufrisk/LeechCore) - LeechCore - Physical Memory Acquisition Library & The LeechAgent Remote Memory Acquisition Agent
+- [ufrisk/pcileech](https://github.com/ufrisk/pcileech) - Direct Memory Access (DMA) Attack Software
+- [ufrisk/MemProcFS](https://github.com/ufrisk/MemProcFS) - The Memory Process File System
+- [504ensicsLabs/LiME](https://github.com/504ensicsLabs/LiME) - LiME (formerly DMD) is a Loadable Kernel Module (LKM), which allows the acquisition of volatile memory from Linux and Linux-based devices, such as those powered by Android. The tool supports acquiring memory either to the file system of the device or over the network. LiME is unique in that it is the first tool that allows full memory captures from Android devices. It also minimizes its interaction between user and kernel space processes during acquisition, which allows it to produce memory captures that ar
+- [dav/word2vec](https://github.com/dav/word2vec) - This tool provides an efficient implementation of the continuous bag-of-words and skip-gram architectures for computing vector representations of words. These representations can be subsequently used in many natural language processing applications and for further research.
+- [rsyslog/rsyslog](https://github.com/rsyslog/rsyslog) - a Rocket-fast SYStem for LOG processing
+- [stephenfewer/ReflectiveDLLInjection](https://github.com/stephenfewer/ReflectiveDLLInjection) - Reflective DLL injection is a library injection technique in which the concept of reflective programming is employed to perform the loading of a library from memory into a host process.
+- [htop-dev/htop](https://github.com/htop-dev/htop) - htop - an interactive process viewer
+- [fluent/fluent-bit](https://github.com/fluent/fluent-bit) - Fast and Lightweight Logs and Metrics processor for Linux, BSD, OSX and Windows
+- [hishamhm/htop](https://github.com/hishamhm/htop) - htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top'.
+- [minglinchen/WinKernelDev](https://github.com/minglinchen/WinKernelDev) - 
+- [egione/Agnentro](https://github.com/egione/Agnentro) - Agnentro is an approximate binary search tool and entropy scanner.
+- [CMU-SAFARI/GenASM](https://github.com/CMU-SAFARI/GenASM) - Source code for the software implementations of the GenASM algorithms proposed in our MICRO 2020 paper: Senol Cali et. al., "GenASM: A High-Performance, Low-Power Approximate String Matching Acceleration Framework for Genome Sequence Analysis" at https://people.inf.ethz.ch/omutlu/pub/GenASM-approximate-string-matching-framework-for-genome-analysis_micro20.pdf
+- [flori/amatch](https://github.com/flori/amatch) - Approximate String Matching library
+- [locasto/libdisorder](https://github.com/locasto/libdisorder) - A simple C library for entropy measurement of byte streams and other data.
+- [comotion/edd](https://github.com/comotion/edd) - Entropy DDoS Detection
+- [circulosmeos/circle](https://github.com/circulosmeos/circle) - statistics ASCII circle for analysing byte entropy in files
+- [libfuse/libfuse](https://github.com/libfuse/libfuse) - The reference implementation of the Linux FUSE (Filesystem in Userspace) interface
 - [trickster0/TartarusGate](https://github.com/trickster0/TartarusGate) - TartarusGate, Bypassing EDRs
 - [am0nsec/HellsGate](https://github.com/am0nsec/HellsGate) - Original C Implementation of the Hell's Gate VX Technique
 - [ScarredMonk/SysmonSimulator](https://github.com/ScarredMonk/SysmonSimulator) - Sysmon event simulation utility which can be used to simulate the attacks to generate the Sysmon Event logs for testing the EDR detections and correlation rules by Blue teams.
@@ -599,6 +634,12 @@
 
 ## C++ 
 
+- [intelpt/WindowsIntelPT](https://github.com/intelpt/WindowsIntelPT) - This driver implements the Intel Processor Trace functionality in Intel Skylake architecture for Microsoft Windows
+- [Velocidex/c-aff4](https://github.com/Velocidex/c-aff4) - An AFF4 C++ implementation.
+- [DiceLock/DiceChecker](https://github.com/DiceLock/DiceChecker) - DiceChecker is a C++ dynamic-link library (.dll) for Windows environments implementing NIST Frequency, Block Frequency, Cumulative Sum Forward, Cumulative Sum Reverse, Runs, Longest Run Of Ones, Rank, Universal, Approximate Entropy, Serial and Discrete Fourier Transform random number tests. DiceChecker allows to work with physical memory kept in RAM.
+- [dorcoh/EntropyApproximator](https://github.com/dorcoh/EntropyApproximator) - Experimental tool for approximating high dimensional combinatorics
+- [marbl/MashMap](https://github.com/marbl/MashMap) - A fast approximate aligner for long DNA sequences
+- [Azure/azure-storage-fuse](https://github.com/Azure/azure-storage-fuse) - A virtual file system adapter for Azure Blob storage
 - [OSRDrivers/WDF-I](https://github.com/OSRDrivers/WDF-I) - Writing WDF Drivers I: Core Concepts Lab Material
 - [OSRDrivers/kmexts](https://github.com/OSRDrivers/kmexts) - Simple driver to register all available process, thread, image, Registry, and Object callbacks
 - [zodiacon/windowskernelprogrammingbook](https://github.com/zodiacon/windowskernelprogrammingbook) - The Windows Kernel Programming book samples
@@ -1185,7 +1226,6 @@
 - [arkime/arkime](https://github.com/arkime/arkime) - Arkime (formerly Moloch) is an open source, large scale, full packet capturing, indexing, and database system.
 - [jackspirou/clientjs](https://github.com/jackspirou/clientjs) - Device information and digital fingerprinting written in pure JavaScript.
 - [bigbluebutton/bigbluebutton](https://github.com/bigbluebutton/bigbluebutton) - Complete open source web conferencing system.
-- [serialport/node-serialport](https://github.com/serialport/node-serialport) - Access serial ports with JavaScript. Linux, OSX and Windows. Welcome your robotic JavaScript overlords. Better yet, program them!
 - [SpiderOak/Encryptr](https://github.com/SpiderOak/Encryptr) - Encryptr is a zero-knowledge cloud-based password manager / e-wallet powered by Crypton
 - [samyk/poisontap](https://github.com/samyk/poisontap) - Exploits locked/password protected computers over USB, drops persistent WebSocket-based backdoor, exposes internal router, and siphons cookies using Raspberry Pi Zero & Node.js.
 - [andrewngu/sound-redux](https://github.com/andrewngu/sound-redux) - A Soundcloud client built with React / Redux
@@ -1274,6 +1314,7 @@
 
 ## Jupyter Notebook 
 
+- [Azure/Azure-Sentinel](https://github.com/Azure/Azure-Sentinel) - Cloud-native SIEM for intelligent security analytics for your entire enterprise.
 - [dchad/malware-detection](https://github.com/dchad/malware-detection) - Malware Detection and Classification Using Machine Learning
 - [Xilinx/PYNQ](https://github.com/Xilinx/PYNQ) - Python Productivity for ZYNQ
 - [xupsh/pp4fpgas-cn-hls](https://github.com/xupsh/pp4fpgas-cn-hls) - HLS Project of pp4fpgas - https://github.com/xupsh/pp4fpgas-cn
@@ -1318,6 +1359,9 @@
 
 ## Others 
 
+- [ionescu007/Blackwood-4NT](https://github.com/ionescu007/Blackwood-4NT) - Blackwood 4NT -- Grand Slam Authentication for Windows NT (10)
+- [minglinchen/Win-Drv](https://github.com/minglinchen/Win-Drv) - windows内核安全与驱动开发代码
+- [egione/Documents](https://github.com/egione/Documents) - 
 - [shadawck/awesome-endpoint-detection-and-response](https://github.com/shadawck/awesome-endpoint-detection-and-response) - Collection of tool you need to have in your Endpoint Detection and Response arsenal
 - [mstxq17/CVE-2021-1675_RDL_LPE](https://github.com/mstxq17/CVE-2021-1675_RDL_LPE) - PrintNightMare LPE提权漏洞的CS 反射加载插件。开箱即用、通过内存加载、混淆加载的驱动名称来ByPass Defender/EDR。
 - [AndyFul/ConfigureDefender](https://github.com/AndyFul/ConfigureDefender) - Utility for configuring Windows 10 built-in Defender antivirus settings.
@@ -1442,7 +1486,7 @@
 ## PHP 
 
 - [gr33ntii/malware-collection](https://github.com/gr33ntii/malware-collection) - 
-- [wpengine/themes](https://github.com/wpengine/themes) - A collection of experimental block-based WordPress themes by WP Engine.
+- [wpengine/frost](https://github.com/wpengine/frost) - An experimental block-based WordPress theme for designers, developers, and creators. Brought to you by WP Engine Developer Relations.
 - [opnsense/core](https://github.com/opnsense/core) - OPNsense GUI, API and systems backend
 - [pfsense/pfsense](https://github.com/pfsense/pfsense) - Main repository for pfSense
 - [zabbix/zabbix](https://github.com/zabbix/zabbix) - Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.
@@ -1566,7 +1610,7 @@
 - [joxeankoret/cosa-nostra](https://github.com/joxeankoret/cosa-nostra) - Cosa Nostra, a FOSS graph based malware clusterization toolkit.
 - [mkorman90/VolatilityBot](https://github.com/mkorman90/VolatilityBot) - VolatilityBot – An automated memory analyzer for malware samples and memory dumps
 - [pylyf/NetWorm](https://github.com/pylyf/NetWorm) - Python network worm that spreads on the local network and gives the attacker control of these machines.
-- [A3sal0n/FalconGate](https://github.com/A3sal0n/FalconGate) - A smart gateway to stop hackers and Malware attacks
+- [A3sal0n/FalconGate](https://github.com/A3sal0n/FalconGate) - A smart gateway to stop cyber criminals - Sponsored by Falcon Guard
 - [Dump-GUY/Malware-analysis-and-Reverse-engineering](https://github.com/Dump-GUY/Malware-analysis-and-Reverse-engineering) - Some of my publicly available Malware analysis and Reverse engineering.
 - [jymcheong/SysmonResources](https://github.com/jymcheong/SysmonResources) - Consolidation of various resources related to Microsoft Sysmon & sample data/log
 - [mkorman90/sysmon-config-bypass-finder](https://github.com/mkorman90/sysmon-config-bypass-finder) - Detect possible sysmon logging bypasses given a specific configuration
@@ -1766,7 +1810,7 @@
 - [aboul3la/Sublist3r](https://github.com/aboul3la/Sublist3r) - Fast subdomains enumeration tool for penetration testers
 - [Manisso/fsociety](https://github.com/Manisso/fsociety) - fsociety Hacking Tools Pack – A Penetration Testing Framework
 - [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) - An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
-- [usb-tools/Facedancer](https://github.com/usb-tools/Facedancer) - modern FaceDancer core for multiple devices-- including GreatFET
+- [greatscottgadgets/Facedancer](https://github.com/greatscottgadgets/Facedancer) - modern FaceDancer core for multiple devices-- including GreatFET
 - [novnc/websockify](https://github.com/novnc/websockify) - Websockify is a WebSocket to TCP proxy/bridge. This allows a browser to connect  to any application/server/service.
 - [restran/web-proxy](https://github.com/restran/web-proxy) - ⛺️ A reverse proxy for web site based on Tornado
 - [aploium/zmirror](https://github.com/aploium/zmirror) - The next-gen reverse proxy for full site mirroring
@@ -1873,6 +1917,7 @@
 
 ## SystemVerilog 
 
+- [ufrisk/pcileech-fpga](https://github.com/ufrisk/pcileech-fpga) - FPGA modules used together with the PCILeech Direct Memory Access (DMA) Attack Software
 - [ljhsiun2/EllipticCurves_SystemVerilog](https://github.com/ljhsiun2/EllipticCurves_SystemVerilog) - Elgamal's over Elliptic Curves
 - [hdl-util/hdmi](https://github.com/hdl-util/hdmi) - Send video/audio over HDMI on an FPGA
 - [syntacore/scr1](https://github.com/syntacore/scr1) - SCR1 is a high-quality open-source RISC-V MCU core in Verilog
@@ -1900,6 +1945,7 @@
 - [graphql-editor/graphql-editor](https://github.com/graphql-editor/graphql-editor) - 📺 Visual Editor & GraphQL IDE. Draw GraphQL schemas using visual 🔷 nodes and explore GraphQL API with beautiful UI. Even 🐒 can do that!
 - [fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) - Browser fingerprinting library with the highest accuracy and stability.
 - [threema-ch/threema-web](https://github.com/threema-ch/threema-web) - The Threema Web application.
+- [serialport/node-serialport](https://github.com/serialport/node-serialport) - Access serial ports with JavaScript. Linux, OSX and Windows. Welcome your robotic JavaScript overlords. Better yet, program them!
 - [ProtonMail/WebClients](https://github.com/ProtonMail/WebClients) - Monorepo hosting the proton web clients
 - [TankerHQ/sdk-js](https://github.com/TankerHQ/sdk-js) - Tanker client-side encryption SDK for JavaScript
 - [tutao/tutanota](https://github.com/tutao/tutanota) - Tutanota is an email service with a strong focus on security and privacy that lets you encrypt emails, contacts and calendar entries on all your devices.
