@@ -3,7 +3,7 @@
 
 
 ## Contents
-
+ 
   - [ActionScript](#actionscript)
   - [AppleScript](#applescript)
   - [Assembly](#assembly)
@@ -105,6 +105,7 @@
 
 ## C 
 
+- [SweetIceLolly/Prevent_Process_Creation](https://github.com/SweetIceLolly/Prevent_Process_Creation) - Record & prevent process creation in kernel mode
 - [anthemtotheego/InlineExecute-Assembly](https://github.com/anthemtotheego/InlineExecute-Assembly) - InlineExecute-Assembly is a proof of concept Beacon Object File (BOF) that allows security professionals to perform in process .NET assembly execution as an alternative to Cobalt Strikes traditional fork and run execute-assembly module
 - [ireader/sdk](https://github.com/ireader/sdk) - portable system call(aio/socket/thread/process/lock/event/pipe)
 - [bperez77/xilinx_axidma](https://github.com/bperez77/xilinx_axidma) - A zero-copy Linux driver and a userspace interface library for Xilinx's AXI DMA and VDMA IP blocks. These serve as bridges for communication between the processing system and FPGA programmable logic fabric, through one of the DMA ports on the Zynq processing system. Distributed under the MIT License.
@@ -184,6 +185,7 @@
 - [microsoft/Windows-driver-samples](https://github.com/microsoft/Windows-driver-samples) - This repo contains driver samples prepared for use with Microsoft Visual Studio and the Windows Driver Kit (WDK). It contains both Universal Windows Driver and desktop-only driver samples.
 - [tpn/windows-nt-file-system-internals-book](https://github.com/tpn/windows-nt-file-system-internals-book) - Source code on the 1.44MB 3.5 floppy accompanying the Windows NT File System Internals book.
 - [psankar/simplefs](https://github.com/psankar/simplefs) - A simple, kernel-space, on-disk filesystem from the scratch
+- [taosdata/TDengine](https://github.com/taosdata/TDengine) - An open-source big data platform designed and optimized for the Internet of Things (IoT).
 - [timescale/timescaledb](https://github.com/timescale/timescaledb) - An open-source time-series SQL database optimized for fast ingest and complex queries.  Packaged as a PostgreSQL extension.
 - [armink/FlashDB](https://github.com/armink/FlashDB) - An ultra-lightweight database that supports key-value and time series data |  一款支持 KV 数据和时序数据的超轻量级数据库
 - [wavestone-cdt/EDRSandblast](https://github.com/wavestone-cdt/EDRSandblast) - 
@@ -372,7 +374,6 @@
 - [flatpak/flatpak](https://github.com/flatpak/flatpak) - Linux application sandboxing and distribution framework
 - [nevermosby/linux-bpf-learning](https://github.com/nevermosby/linux-bpf-learning) - learn how to use BPF/eBPF
 - [Orange-OpenSource/bmc-cache](https://github.com/Orange-OpenSource/bmc-cache) - In-kernel cache based on eBPF.
-- [microsoft/ebpf-for-windows](https://github.com/microsoft/ebpf-for-windows) - eBPF implementation that runs on top of Windows
 - [chompie1337/Linux_LPE_eBPF_CVE-2021-3490](https://github.com/chompie1337/Linux_LPE_eBPF_CVE-2021-3490) - 
 - [DPDK/dpdk](https://github.com/DPDK/dpdk) - Data Plane Development Kit
 - [Sysinternals/SysmonForLinux](https://github.com/Sysinternals/SysmonForLinux) - 
@@ -634,6 +635,8 @@
 
 ## C++ 
 
+- [zodiacon/PoolMonX](https://github.com/zodiacon/PoolMonX) - A GUI version of the classic PoolMon tool
+- [zodiacon/PoolMonXv2](https://github.com/zodiacon/PoolMonXv2) - Kernel Pool Monitor
 - [intelpt/WindowsIntelPT](https://github.com/intelpt/WindowsIntelPT) - This driver implements the Intel Processor Trace functionality in Intel Skylake architecture for Microsoft Windows
 - [Velocidex/c-aff4](https://github.com/Velocidex/c-aff4) - An AFF4 C++ implementation.
 - [DiceLock/DiceChecker](https://github.com/DiceLock/DiceChecker) - DiceChecker is a C++ dynamic-link library (.dll) for Windows environments implementing NIST Frequency, Block Frequency, Cumulative Sum Forward, Cumulative Sum Reverse, Runs, Longest Run Of Ones, Rank, Universal, Approximate Entropy, Serial and Discrete Fourier Transform random number tests. DiceChecker allows to work with physical memory kept in RAM.
@@ -656,7 +659,7 @@
 - [Zhuagenborn/Plants-vs.-Zombies-Online-Battle](https://github.com/Zhuagenborn/Plants-vs.-Zombies-Online-Battle) - 🎮 Plants vs. Zombies multiplayer battle, developed via reverse engineering, inline hook and dynamic-link library injection. Two online players defend and attack as the plant and zombie respectively.
 - [lab52io/StopDefender](https://github.com/lab52io/StopDefender) - Stop Windows Defender programmatically
 - [zodiacon/DeviceExplorer](https://github.com/zodiacon/DeviceExplorer) - 
-- [MountCloud/FireDog](https://github.com/MountCloud/FireDog) - 开源跨平台轻量级病毒特征检测引擎。Open source cross-platform lightweight virus signature detection engine.
+- [MountCloud/FireDog](https://github.com/MountCloud/FireDog) - 🔥开源跨平台轻量级病毒特征检测引擎。Open source cross-platform lightweight virus signature detection engine.
 - [yuanhui-yang/LeetCode](https://github.com/yuanhui-yang/LeetCode) - LeetCode
 - [NabilTheNoise/LCS](https://github.com/NabilTheNoise/LCS) - LCS is an algorithm to find the Longest Common Subsequence between two Strings.
 - [fpavetic/lcskpp](https://github.com/fpavetic/lcskpp) - LCSk++: Practical similarity metric for long strings
@@ -692,7 +695,7 @@
 - [Hildaboo/BabukRansomwareSourceCode](https://github.com/Hildaboo/BabukRansomwareSourceCode) - Leaked source code of the babuk ransomware by VXUG
 - [HIBC2017/WANNAFIX](https://github.com/HIBC2017/WANNAFIX) - WANNAFIX is a mitigation script for the recent WANNACRY Ransomware attack
 - [Mahmoud7Osman/CVenom](https://github.com/Mahmoud7Osman/CVenom) - CVenom is An Ultra Easy-To-Use Cross-Platform C++ Library For Advanced Malware Development
-- [Mahmoud7Osman/Digle](https://github.com/Mahmoud7Osman/Digle) - AI Powered Hacking Environment, A Software For Hackers, Social Engineers, Penetration Testers, Shell Programmers.
+- [Mahmoud7Osman/Digle](https://github.com/Mahmoud7Osman/Digle) - AI Powered Hacking Environment, A Software For Hackers, Social Engineers, Command Line Script Developers.
 - [graniet/fsociety-ransomware-MrRobot](https://github.com/graniet/fsociety-ransomware-MrRobot) - This is Jester ransomware like, in Mr Robot movie (coded by Darlene S1E2,3), Please beware warning, after start you can't recover the files (In movie, the private key is not shared). IMPORTANT NOT FULLY STEP COMPLETED
 - [Neo23x0/Raccine](https://github.com/Neo23x0/Raccine) - A Simple Ransomware Vaccine
 - [tsdgeos/poppler_mirror](https://github.com/tsdgeos/poppler_mirror) - mirror of https://cgit.freedesktop.org/poppler/poppler/ + .travis.yml file
@@ -898,11 +901,12 @@
 - [Oneflow-Inc/oneflow](https://github.com/Oneflow-Inc/oneflow) - OneFlow is a performance-centered and open-source deep learning framework.
 - [subsurface/subsurface](https://github.com/subsurface/subsurface) - This is the official upstream of the Subsurface divelog program
 - [harporoeder/ebpfsnitch](https://github.com/harporoeder/ebpfsnitch) - Linux Application Level Firewall based on eBPF and NFQUEUE.
+- [microsoft/ebpf-for-windows](https://github.com/microsoft/ebpf-for-windows) - eBPF implementation that runs on top of Windows
 - [pixie-io/pixie](https://github.com/pixie-io/pixie) - Instant Kubernetes-Native Application Observability
 - [falcosecurity/falco](https://github.com/falcosecurity/falco) - Cloud Native Runtime Security
 - [iovisor/bpftrace](https://github.com/iovisor/bpftrace) - High-level tracing language for Linux eBPF
 - [SpiderLabs/ModSecurity](https://github.com/SpiderLabs/ModSecurity) - ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx that is developed by Trustwave's SpiderLabs. It has a robust event-based programming language which provides protection from a range of attacks against web applications and allows for HTTP traffic monitoring, logging and real-time analysis. With over 10,000 deployments world-wide, ModSecurity is the most widely deployed WAF in existence.
-- [JonathanSalwan/Triton](https://github.com/JonathanSalwan/Triton) - Triton is a dynamic binary analysis framework: build your program analysis tools, automate your reverse engineering, perform software verification or just emulate code.
+- [JonathanSalwan/Triton](https://github.com/JonathanSalwan/Triton) - Triton is a dynamic binary analysis framework. Build your own program analysis tools, automate your reverse engineering, perform software verification or just emulate code.
 - [QBDI/QBDI](https://github.com/QBDI/QBDI) - A Dynamic Binary Instrumentation framework based on LLVM.
 - [google/fuzzing](https://github.com/google/fuzzing) - Tutorials, examples, discussions, research proposals, and other resources related to fuzzing
 - [GJDuck/e9patch](https://github.com/GJDuck/e9patch) - A powerful static binary rewriting tool
@@ -937,7 +941,7 @@
 - [secrary/DrSemu](https://github.com/secrary/DrSemu) - DrSemu - Sandboxed Malware Detection and Classification Tool Based on Dynamic Behavior
 - [wbenny/DetoursNT](https://github.com/wbenny/DetoursNT) - Detours with just single dependency - NTDLL
 - [wbenny/hvpp](https://github.com/wbenny/hvpp) - hvpp is a lightweight Intel x64/VT-x hypervisor written in C++ focused primarily on virtualization of already running operating system
-- [KomputeProject/kompute](https://github.com/KomputeProject/kompute) - General purpose GPU compute framework for cross vendor graphics cards (AMD, Qualcomm, NVIDIA & friends). Blazing fast, mobile-enabled, asynchronous and optimized for advanced GPU data processing usecases based on Vulkan compute. Backed by the Linux Foundation.
+- [KomputeProject/kompute](https://github.com/KomputeProject/kompute) - General purpose GPU compute framework built on Vulkan to support 1000s of cross vendor graphics cards (AMD, Qualcomm, NVIDIA & friends). Blazing fast, mobile-enabled, asynchronous and optimized for advanced GPU data processing usecases. Backed by the Linux Foundation.
 - [Xilinx/HLS](https://github.com/Xilinx/HLS) - Vitis HLS LLVM source code and examples
 - [OAID/Tengine](https://github.com/OAID/Tengine) - Tengine is a lite, high performance, modular inference engine for embedded device
 - [fpgasystems/fpga-network-stack](https://github.com/fpgasystems/fpga-network-stack) - Scalable Network Stack for FPGAs (TCP/IP, RoCEv2)
@@ -1149,7 +1153,7 @@
 - [strazzere/anti-emulator](https://github.com/strazzere/anti-emulator) - Android Anti-Emulator
 - [hiparker/opsli-boot](https://github.com/hiparker/opsli-boot) - OPSLI 快速开发平台基于springboot、vue、element-ui ，项目采用前后端分离架构，热插拔式业务模块与插件扩展性高 ,代码简洁，功能丰富，开箱即用
 - [SJBSoft/Hospital-Management-System](https://github.com/SJBSoft/Hospital-Management-System) - Java mini project Hospital Management System with sql database
-- [SteveGan/NeusoftCloudHospital](https://github.com/SteveGan/NeusoftCloudHospital) - 东软云医院。爱与健康，连接你我。🏥
+- [RavenLite/NeusoftCloudHospital](https://github.com/RavenLite/NeusoftCloudHospital) - 东软云医院。爱与健康，连接你我。🏥
 - [niujt/Hospital](https://github.com/niujt/Hospital) - 医疗信息管理系统（ssm+layui+freemaker）
 - [YuJian95/hospital](https://github.com/YuJian95/hospital) - 医院预约挂号微信小程序（Spring Boot、Vue、Uni-app）
 - [openmrs/openmrs-core](https://github.com/openmrs/openmrs-core) - OpenMRS API and web application code
@@ -1203,6 +1207,7 @@
 - [VMDashboard/vmdashboard](https://github.com/VMDashboard/vmdashboard) - web-based open source virtualization management interface for QEMU and KVM virtual machines
 - [beepnl/BEEP](https://github.com/beepnl/BEEP) - BEEP - Open source bee monitoring - App/API/Measurement system
 - [FrenchYeti/dexcalibur](https://github.com/FrenchYeti/dexcalibur) - [Official] Android reverse engineering tool focused on dynamic instrumentation automation leveraging Frida. It disassembles dex, analyzes it statically, generates hooks, discovers reflected methods, stores intercepted data and does new things from it. Its aim is to be an all-in-one Android reverse engineering platform.
+- [BloodHoundAD/BloodHound](https://github.com/BloodHoundAD/BloodHound) - Six Degrees of Domain Admin
 - [StrangerealIntel/CyberThreatIntel](https://github.com/StrangerealIntel/CyberThreatIntel) - Analysis of malware and Cyber Threat Intel of APT and cybercriminals groups
 - [v8-riscv/node](https://github.com/v8-riscv/node) - Node.js on RISC-V! See the link below to learn more and try it out.
 - [mynane/PDF](https://github.com/mynane/PDF) - 收集的各种资源
@@ -1280,7 +1285,7 @@
 - [coryhouse/react-slingshot](https://github.com/coryhouse/react-slingshot) - React + Redux starter kit / boilerplate with Babel, hot reloading, testing, linting and a working example app built in
 - [infernojs/inferno](https://github.com/infernojs/inferno) - :fire: An extremely fast, React-like JavaScript library for building modern user interfaces
 - [segmentio/evergreen](https://github.com/segmentio/evergreen) - 🌲 Evergreen React UI Framework by Segment
-- [mui-org/material-ui](https://github.com/mui-org/material-ui) - MUI (formerly Material-UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.
+- [mui/material-ui](https://github.com/mui/material-ui) - MUI Core (formerly Material UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.
 - [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) - Build blazing fast, modern apps and websites with React
 - [netlify/netlify-cms](https://github.com/netlify/netlify-cms) - A Git-based CMS for Static Site Generators
 - [atlassian/react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) - Beautiful and accessible drag and drop for lists with React
@@ -1326,7 +1331,7 @@
 
 ## LLVM 
 
-- [JonathanSalwan/Tigress_protection](https://github.com/JonathanSalwan/Tigress_protection) - Playing with the Tigress binary protection. Break some of its protections and solve some of its challenges. Automatic deobfuscation using symbolic execution, taint analysis and LLVM.
+- [JonathanSalwan/Tigress_protection](https://github.com/JonathanSalwan/Tigress_protection) - Playing with the Tigress software protection. Break some of its protections and solve their reverse engineering challenges. Automatic deobfuscation using symbolic execution, taint analysis and LLVM.
 
 ## LiveScript 
 
@@ -1359,6 +1364,8 @@
 
 ## Others 
 
+- [Virus-Samples/Malware-Sample-Sources](https://github.com/Virus-Samples/Malware-Sample-Sources) - Malware Sample Sources
+- [MalwareSamples/Ransomware-Malware-Samples](https://github.com/MalwareSamples/Ransomware-Malware-Samples) - 
 - [ionescu007/Blackwood-4NT](https://github.com/ionescu007/Blackwood-4NT) - Blackwood 4NT -- Grand Slam Authentication for Windows NT (10)
 - [minglinchen/Win-Drv](https://github.com/minglinchen/Win-Drv) - windows内核安全与驱动开发代码
 - [egione/Documents](https://github.com/egione/Documents) - 
@@ -1369,7 +1376,7 @@
 - [ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors) - An office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit local documents
 - [Tencent/secguide](https://github.com/Tencent/secguide) - 面向开发人员梳理的代码安全指南
 - [FirmWire/FirmWire](https://github.com/FirmWire/FirmWire) - FirmWire is a full-system baseband firmware emulation platform for fuzzing, debugging, and root-cause analysis of smartphone baseband firmwares
-- [MountCloud/FireKylin](https://github.com/MountCloud/FireKylin) - 火麒麟-网络安全应急响应工具(系统痕迹采集)Cybersecurity emergency response tool.
+- [MountCloud/FireKylin](https://github.com/MountCloud/FireKylin) - 🔥火麒麟-网络安全应急响应工具(系统痕迹采集)Cybersecurity emergency response tool.
 - [wwh1004/blog](https://github.com/wwh1004/blog) - Wwh的个人博客
 - [ribthegreat99OrN0P/Agile.NET-Deobfuscator-MOVED](https://github.com/ribthegreat99OrN0P/Agile.NET-Deobfuscator-MOVED) - 
 - [NotPrab/.NET-Deobfuscator](https://github.com/NotPrab/.NET-Deobfuscator) - Lists of .NET Deobfuscator and Unpacker (Open Source)
@@ -1509,7 +1516,7 @@
 - [NeftaliDelphi/GLibWMI](https://github.com/NeftaliDelphi/GLibWMI) - GLibWMI is a Delphi library of components, focused on the Administration of Windows Systems. They are based on Windows WMI (Windows Management Instrumentation). GLibWMI es una librería/biblioteca de componentes para Delphi, enfocados a la Administración de Sistemas Windows. Están basados en la WMI de Windows (Windows Management Instrumentation).
 - [Coldzer0/Cmulator](https://github.com/Coldzer0/Cmulator) - Cmulator  is ( x86 - x64 ) Scriptable Reverse Engineering Sandbox Emulator for shellcode and PE binaries . Based on Unicorn & Zydis Engine & javascript
 - [neslib/Chet](https://github.com/neslib/Chet) - C Header Translator for Delphi
-- [EtheaDev/SVGIconImageList](https://github.com/EtheaDev/SVGIconImageList) - Four advanced components to simplify use of SVG images and SVG icons into ImageList: TSVGIconImage, TSVGIconImageCollection, TSVGIconVirtualImageList, TSVGIconImageList (for VCL and FMX). Choose the preferred engine to render SVG (Delphi Image32, Delphi TSVG, Direct2D or Cairo);
+- [EtheaDev/SVGIconImageList](https://github.com/EtheaDev/SVGIconImageList) - Four advanced components to simplify use of SVG images and SVG icons into ImageList: TSVGIconImage, TSVGIconImageCollection, TSVGIconVirtualImageList, TSVGIconImageList (for VCL and FMX). Choose the preferred engine to render SVG (Delphi Image32, Delphi TSVG, SKIA4Delphi, Direct2D or Cairo);
 - [BoscoBecker/Delphi-and-Google-Authenticator](https://github.com/BoscoBecker/Delphi-and-Google-Authenticator) - 2-step verification greatly increases the security of your account, especially if your password is stolen. But how about adding this functionality to your Delphi application?
 - [wendelb/DelphiOTP](https://github.com/wendelb/DelphiOTP) - OTP (RFC 4226, same as Google is using) for Delphi
 - [FMXExpress/Cross-Platform-Samples](https://github.com/FMXExpress/Cross-Platform-Samples) - Delphi FireMonkey demos and examples for Android, IOS, MacOS, Windows, Linux, HTML5
@@ -1541,7 +1548,7 @@
 - [ToddMaxey/Measure-NTFS-USN-consumption](https://github.com/ToddMaxey/Measure-NTFS-USN-consumption) - Powershell script to query the NTFS USN journal to determine if you have a high USN consumption rate.
 - [peasead/windows-10-sandbox-to-elastic](https://github.com/peasead/windows-10-sandbox-to-elastic) - Rapidly building a Windows 10 system to use for dynamic malware analysis (sandbox), sending data to Elastic Cloud.
 - [mgeeky/cobalt-arsenal](https://github.com/mgeeky/cobalt-arsenal) - My collection of battle-tested Aggressor Scripts for Cobalt Strike 4.0+
-- [mgeeky/Penetration-Testing-Tools](https://github.com/mgeeky/Penetration-Testing-Tools) - A collection of more than 160+ tools, scripts, cheatsheets and other loots that I have developed over years for Red Teaming/Pentesting/IT Security audits purposes. Most of them came handy on at least one of my real-world engagements.
+- [mgeeky/Penetration-Testing-Tools](https://github.com/mgeeky/Penetration-Testing-Tools) - A collection of more than 170+ tools, scripts, cheatsheets and other loots that I have developed over years for Red Teaming/Pentesting/IT Security audits purposes. Most of them came handy on at least one of my real-world engagements.
 - [microsoft/MSTIC-Sysmon](https://github.com/microsoft/MSTIC-Sysmon) - Anything Sysmon related from the MSTIC R&D team
 - [mattifestation/BHUSA2018_Sysmon](https://github.com/mattifestation/BHUSA2018_Sysmon) - All materials from our Black Hat 2018 "Subverting Sysmon" talk
 - [AustralianCyberSecurityCentre/windows_event_logging](https://github.com/AustralianCyberSecurityCentre/windows_event_logging) - Windows Event Forwarding subscriptions, configuration files and scripts that assist with implementing ACSC's protect publication, Technical Guidance for Windows Event Logging.
@@ -1551,7 +1558,6 @@
 - [itm4n/PrivescCheck](https://github.com/itm4n/PrivescCheck) - Privilege Escalation Enumeration Script for Windows
 - [k8gege/K8tools](https://github.com/k8gege/K8tools) - K8工具合集(内网渗透/提权工具/远程溢出/漏洞利用/扫描工具/密码破解/免杀工具/Exploit/APT/0day/Shellcode/Payload/priviledge/BypassUAC/OverFlow/WebShell/PenTest) Web GetShell Exploit(Struts2/Zimbra/Weblogic/Tomcat/Apache/Jboss/DotNetNuke/zabbix)
 - [microsoft/winget-pkgs](https://github.com/microsoft/winget-pkgs) - The Microsoft community Windows Package Manager manifest repository
-- [BloodHoundAD/BloodHound](https://github.com/BloodHoundAD/BloodHound) - Six Degrees of Domain Admin
 - [mandiant/ThreatPursuit-VM](https://github.com/mandiant/ThreatPursuit-VM) - Threat Pursuit Virtual Machine (VM): A fully customizable, open-sourced Windows-based distribution focused on threat intelligence analysis and hunting designed for intel and malware analysts as well as threat hunters to get up and running quickly.
 - [mandiant/commando-vm](https://github.com/mandiant/commando-vm) - Complete Mandiant Offensive VM (Commando VM), a fully customizable Windows-based pentesting virtual machine distribution. commandovm@fireeye.com
 - [damienvanrobaeys/Run-in-Sandbox](https://github.com/damienvanrobaeys/Run-in-Sandbox) - Run PS1, VBS, EXE, MSI in Windows Sandbox very quickly just from a right-click
@@ -1594,7 +1600,6 @@
 - [termuxhackers-id/SARA](https://github.com/termuxhackers-id/SARA) - SARA - Simple Android Ransomware Attack
 - [leonv024/RAASNet](https://github.com/leonv024/RAASNet) - Open-Source Ransomware As A Service for Linux, MacOS and Windows
 - [utkusen/jeopardize](https://github.com/utkusen/jeopardize) - a low(zero) cost threat intelligence&response tool against phishing domains
-- [taosdata/TDengine](https://github.com/taosdata/TDengine) - An open-source big data platform designed and optimized for the Internet of Things (IoT).
 - [sebmarchand/pyetw](https://github.com/sebmarchand/pyetw) - 
 - [JPCERTCC/LogonTracer](https://github.com/JPCERTCC/LogonTracer) - Investigate malicious Windows logon by visualizing and analyzing Windows event log
 - [fireeye/pywintrace](https://github.com/fireeye/pywintrace) - ETW Python Library
@@ -1910,6 +1915,7 @@
 
 ## Swift 
 
+- [exelban/stats](https://github.com/exelban/stats) - macOS system monitor in your menu bar
 - [Frugghi/SwiftLCS](https://github.com/Frugghi/SwiftLCS) - Swift implementation of the longest common subsequence (LCS) algorithm.
 - [PraneetNeuro/Project-Mendacius](https://github.com/PraneetNeuro/Project-Mendacius) - A GUI based virtualisation tool for running Linux on macOS Big Sur (x86 or arm64)
 - [wireapp/wire-ios](https://github.com/wireapp/wire-ios) - 📱 Wire for iOS (iPhone and iPad)
